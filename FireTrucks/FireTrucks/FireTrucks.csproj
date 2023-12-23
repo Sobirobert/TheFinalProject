@@ -13,9 +13,4 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="1_DataAccess\" />
-    <Folder Include="2_ApplicationServices\" />
-  </ItemGroup>
-
 </Project>
