@@ -29,31 +29,31 @@ public class EventHandlerServices : IEventHandlerServices
 
     public void EmergencyVehicleRepositoryOnItemAdded(object? sender, EmergencyVehicle e)
     {
-        throw new NotImplementedException();
+        Console.WriteLine($"Emergency Vehicle: {e.Id} {e.Manufacturer} added");
     }
 
     public void EmergencyVehicleRepositoryOnItemRemove(object? sender, EmergencyVehicle e)
     {
-        throw new NotImplementedException();
+        Console.WriteLine($"Emergency Vehicle: {e.Id} {e.Manufacturer} deleted");
     }
 
     public void FirefightingVehicleRepositoryOnItemAdded(object? sender, FirefightingVehicle e)
     {
-        throw new NotImplementedException();
+        Console.WriteLine($"Firefighting Vehicle: {e.Id} {e.Manufacturer} added");
     }
 
     public void FirefightingVehicleRepositoryOnItemRemove(object? sender, FirefightingVehicle e)
     {
-        throw new NotImplementedException();
+        Console.WriteLine($"Firefighting Vehicle:{e.Id} {e.Manufacturer} deleted");
     }
 
     public void TrailerRepositoryOnItemAdded(object? sender, Trailer e)
     {
-        throw new NotImplementedException();
+        Console.WriteLine($"Trailer: {e.Id} {e.Manufacturer} added");
     }
 
     public void TrailerRepositoryOnItemRemove(object? sender, Trailer e)
     {
-        throw new NotImplementedException();
+        Console.WriteLine($"Trailer: {e.Id} {e.Manufacturer} deleted");
     }
 }

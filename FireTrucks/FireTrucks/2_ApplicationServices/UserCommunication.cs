@@ -23,9 +23,9 @@ public class UserCommunication : UserCommunicationBase, IUserCommunication
             var userInPut = GetInputFromUserAndReturnString("Hello User.\n" +
                                                             "Choose option\n" +
                                                             "Press 1 to Add new car or trailer\n" +
-                                                            "Press 2 to show all products from file\n" +
-                                                            "Press 3 to find product by ID\n" +
-                                                            "Press 4 to clear products from file by ID\n" +
+                                                            "Press 2 to show all cars and trailers\n" +
+                                                            "Press 3 to find car or trailer by ID\n" +
+                                                            "Press 4 to clear car or trailer from file by ID\n" +
                                                             "Press 5 to use additional option\n" +
                                                             "To exit insert 'x'\n").ToUpper();
 
@@ -95,7 +95,7 @@ public class UserCommunication : UserCommunicationBase, IUserCommunication
                     break;
 
                 case "5":
-                    _additionalOption.Menu();
+                    //_additionalOption.Menu();
                     break;
 
                 case "X":
@@ -169,17 +169,6 @@ public class UserCommunication : UserCommunicationBase, IUserCommunication
 
         var tonnage = GetInputFromUserAndReturnDouble("Insert tonnage trailer.");
 
-        var equipment = GetValueFromUserAndReturnCorrectIntEquipment("Insert number : TruckPump = 1," +
-                                                     "\r\n MotorPump = 2,\r\n Reservoir = 3," +
-                                                     "\r\n WithCO2Cylinders = 4,\r\n FireExtinguishingPowderTank = 5," +
-                                                     "\r\n FireHoses = 6,\r\n WithLadder = 7," +
-                                                     "\r\n WithHydraulicLift = 8,\r\n Crane  = 9," +
-                                                     "\r\n CommandAndCommunications = 10,\r\n Operating = 11," +
-                                                     "\r\n Pgaz = 12,\r\n Lighting = 13," +
-                                                     "\r\n Quartermaster = 14,\r\n WaterRescue = 15," +
-                                                     "\r\n ChemicalRescue = 16,\r\n TechnicalRescue = 17," +
-                                                     "\r\n HighAltitudeRescue = 18,\r\n Container = 19,");
-
         Trailer trailer = new Trailer
         {
             Manufacturer = manufacturer,
@@ -187,8 +176,12 @@ public class UserCommunication : UserCommunicationBase, IUserCommunication
             DateTimeChanges = DateTime.Now,
             Tonnage = tonnage
         };
-        AddOtherEquipment(trailer.OtherEquipment);
+        trailer.Equipment = new List<Equipment>();
         AddEquipment(trailer.Equipment);
+
+        trailer.OtherEquipment = new List<string>();
+        AddOtherEquipment(trailer.OtherEquipment);
+        
         trailerRepository.Add(trailer);
         Console.WriteLine("New trailer added");
     }
@@ -204,17 +197,6 @@ public class UserCommunication : UserCommunicationBase, IUserCommunication
         var numbersOfSeats = GetInputFromUserAndReturnInt("Insert numbers of seats");
 
         var weight = GetValueFromUserAndReturnCorrectInt("Insert vehicle category: 1 - Light, 2 - Mediocre, 3 - Heavy");
-
-        var equipment = GetValueFromUserAndReturnCorrectIntEquipment("Insert number : TruckPump = 1," +
-                                                     "\r\n MotorPump = 2,\r\n Reservoir = 3," +
-                                                     "\r\n WithCO2Cylinders = 4,\r\n FireExtinguishingPowderTank = 5," +
-                                                     "\r\n FireHoses = 6,\r\n WithLadder = 7," +
-                                                     "\r\n WithHydraulicLift = 8,\r\n Crane  = 9," +
-                                                     "\r\n CommandAndCommunications = 10,\r\n Operating = 11," +
-                                                     "\r\n Pgaz = 12,\r\n Lighting = 13," +
-                                                     "\r\n Quartermaster = 14,\r\n WaterRescue = 15," +
-                                                     "\r\n ChemicalRescue = 16,\r\n TechnicalRescue = 17," +
-                                                     "\r\n HighAltitudeRescue = 18,\r\n Container = 19,");
 
         var sizeOfWaterReservoir = GetInputFromUserAndReturnDouble("Insert size of water reservoir");
 
@@ -238,8 +220,12 @@ public class UserCommunication : UserCommunicationBase, IUserCommunication
             WaterCannonEfficiency = carPumpEfficiency,
             NumbersOfFireHoses = numbersOfFireHoses,
         };
-        AddOtherEquipment(firefightingVehicle.OtherEquipment);
+        firefightingVehicle.Equipment = new List<Equipment>();
         AddEquipment(firefightingVehicle.Equipment);
+
+        firefightingVehicle.OtherEquipment = new List<string>();
+        AddOtherEquipment(firefightingVehicle.OtherEquipment);
+       
         firefightingVehicleRepository.Add(firefightingVehicle);
 
         Console.WriteLine("New firefighting vehicle added");
@@ -247,7 +233,7 @@ public class UserCommunication : UserCommunicationBase, IUserCommunication
 
     private void AddNewEmergencyVehicle(IRepository<EmergencyVehicle> emergencyVehicleRepository)
     {
-        var manufacturer = GetInputFromUserAndReturnString("Insert Location");
+        var manufacturer = GetInputFromUserAndReturnString("Insert Producer");
 
         var year = GetInputFromUserAndReturnInt("Insert year of production");
 
@@ -257,16 +243,6 @@ public class UserCommunication : UserCommunicationBase, IUserCommunication
 
         var weight = GetValueFromUserAndReturnCorrectInt("Insert vehicle category: 1 - Light, 2 - Mediocre, 3 - Heavy");
 
-        var equipment = GetValueFromUserAndReturnCorrectIntEquipment("Insert number : TruckPump = 1," +
-                                                     "\r\n MotorPump = 2,\r\n Reservoir = 3," +
-                                                     "\r\n WithCO2Cylinders = 4,\r\n FireExtinguishingPowderTank = 5," +
-                                                     "\r\n FireHoses = 6,\r\n WithLadder = 7," +
-                                                     "\r\n WithHydraulicLift = 8,\r\n Crane  = 9," +
-                                                     "\r\n CommandAndCommunications = 10,\r\n Operating = 11," +
-                                                     "\r\n Pgaz = 12,\r\n Lighting = 13," +
-                                                     "\r\n Quartermaster = 14,\r\n WaterRescue = 15," +
-                                                     "\r\n ChemicalRescue = 16,\r\n TechnicalRescue = 17," +
-                                                     "\r\n HighAltitudeRescue = 18,\r\n Container = 19,");
         EmergencyVehicle emergencyVehicle = new EmergencyVehicle
         {
             Manufacturer = manufacturer,
@@ -276,23 +252,39 @@ public class UserCommunication : UserCommunicationBase, IUserCommunication
             Weight = (Weight)weight,
             DateTimeChanges = DateTime.Now
         };
+        emergencyVehicle.Equipment = new List<Equipment>();
         AddEquipment(emergencyVehicle.Equipment);
+        emergencyVehicle.OtherEquipment = new List<string>();
         AddOtherEquipment(emergencyVehicle.OtherEquipment);
         emergencyVehicleRepository.Add(emergencyVehicle);
 
         Console.WriteLine("New emergency vehicle added");
     }
 
-    private void AddEquipment(List<Equipment> equipmentList)
+    private void AddEquipment(List<Equipment> equipmentAdded) 
     {
         var otherEquipment = GetInputFromUserAndReturnString("Do you want add equipment to car\n Pres Y - yes, N - no")
                                                              .ToUpper();
+        
         while (true)
         {
             if (otherEquipment == "Y")
             {
-                var userInPut = GetValueFromUserAndReturnCorrectIntEquipment("Insert other equipment");
-                equipmentList.Add((Equipment)userInPut);
+                var userInPut = GetValueFromUserAndReturnCorrectIntEquipment("Insert number : TruckPump = 1," +
+                                                     "\r\n MotorPump = 2,\r\n Reservoir = 3," +
+                                                     "\r\n WithCO2Cylinders = 4,\r\n FireExtinguishingPowderTank = 5," +
+                                                     "\r\n FireHoses = 6,\r\n WithLadder = 7," +
+                                                     "\r\n WithHydraulicLift = 8,\r\n Crane  = 9," +
+                                                     "\r\n CommandAndCommunications = 10,\r\n Operating = 11," +
+                                                     "\r\n Pgaz = 12,\r\n Lighting = 13," +
+                                                     "\r\n Quartermaster = 14,\r\n WaterRescue = 15," +
+                                                     "\r\n ChemicalRescue = 16,\r\n TechnicalRescue = 17," +
+                                                     "\r\n HighAltitudeRescue = 18,\r\n Container = 19,\r\n to exit insert 20");
+                equipmentAdded.Add((Equipment)userInPut);
+                if (userInPut == 20)
+                {
+                    break;
+                }
             }
             else if (otherEquipment == "N")
             {
@@ -307,14 +299,18 @@ public class UserCommunication : UserCommunicationBase, IUserCommunication
 
     private void AddOtherEquipment(List<string> stringList)
     {
-        var otherEquipment = GetInputFromUserAndReturnString("Do you want add equipment to car\n Pres Y - yes, N - no")
+        var otherEquipment = GetInputFromUserAndReturnString("Do you want add other equipment to car\n Pres Y - yes, N - no")
                                                              .ToUpper();
         while (true)
         {
             if (otherEquipment == "Y")
             {
-                var userInPut = GetInputFromUserAndReturnString("Insert other equipment");
+                var userInPut = GetInputFromUserAndReturnString("Insert other equipment, to exit insert 'x'");
                 stringList.Add(userInPut);
+                if (userInPut == "x")
+                {
+                    break;
+                }
             }
             else if (otherEquipment == "N")
             {
@@ -324,6 +320,7 @@ public class UserCommunication : UserCommunicationBase, IUserCommunication
             {
                 Console.WriteLine("Please choose Yes or No.");
             }
+
         }
     }
     protected static int GetValueFromUserAndReturnCorrectIntEquipment(string comment)
@@ -333,7 +330,7 @@ public class UserCommunication : UserCommunicationBase, IUserCommunication
         var intValue = AddStringConversionToInt(userInput);
         while (true)
         {
-            if (intValue >= 1 && intValue <= 19)
+            if (intValue >= 1 && intValue <= 20)
             {
                 return intValue;
             }
