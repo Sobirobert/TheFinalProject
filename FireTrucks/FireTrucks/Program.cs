@@ -5,6 +5,7 @@ using FireTrucks._2_ApplicationServices;
 using FireTrucks._3_UI;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using FireTrucks._5_Components.CsvReader;
 
 var services = new ServiceCollection();
 services.AddSingleton<IApp, App>();
@@ -13,6 +14,7 @@ services.AddSingleton<IRepository<FirefightingVehicle>, SqlRepository<Firefighti
 services.AddSingleton<IRepository<Trailer>, SqlRepository<Trailer>>();
 services.AddSingleton<IUserCommunication, UserCommunication>();
 services.AddSingleton<IEventHandlerServices, EventHandlerServices>();
+services.AddSingleton<ICsvReader, CsvReader>();
 services.AddDbContext<FireTrucksDbContext>(options => options
 .UseSqlServer("Data Source=DESKTOP-7S5NEGF\\SQLEXPRESS;Initial Catalog=FireTrucks;Integrated Security=True;Trust Server Certificate=True"));
 var serviceProvider = services.BuildServiceProvider();

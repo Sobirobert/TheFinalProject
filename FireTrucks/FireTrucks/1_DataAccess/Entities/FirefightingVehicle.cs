@@ -18,8 +18,7 @@ public class FirefightingVehicle : EntityBase
 
     public override string ToString() => $"Id: {Id}\n, Manufacturer: {Manufacturer}\n, Year Of Production: {YearOfProduction}\n, " +
                                          $"Type of Car: {VehicleCategory}\n, Weight: {Weight}\n, Numbers of seats: {NumbersOfSeats}\n," +
-                                         $" Date time of changes: {DateTimeChanges}\n, Size of water reservoir: {SizeOfWaterReservoir}\n, " +
-                                         $"Size of foam concentrate tank: {SizeOfFoamConcentrateTank}\n, Car pump efficiency: {CarPumpEfficiency}\n, " +
+                                         $"Size of water reservoir: {SizeOfWaterReservoir}\n, Size of foam concentrate tank: {SizeOfFoamConcentrateTank}\n, Car pump efficiency: {CarPumpEfficiency}\n, " +
                                          $"Water cannon efficiency: {WaterCannonEfficiency}\n, Equipment: {ShowAllEquipment}\n, " +
-                                         $"Other Equipment: {ShowAllOtherEquipment}\n, Numbers of fire hoses: {NumbersOfFireHoses}";
+                                         $"Other Equipment: {ShowAllOtherEquipment}\n, Numbers of fire hoses: {NumbersOfFireHoses}\n, Date time of changes: {DateTimeChanges}\n,";
 }
