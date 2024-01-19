@@ -3,8 +3,12 @@
 public interface IXmlCreator
 {
     void CreateXmlEmergencyVehicle();
+
     void CreateXmlFirefightingVehicle();
+
     void QueryXmlEmergencyVehicle();
+
     void QueryXmlFirefightingVehicle();
+
     void CreateXmlJoined();
 }

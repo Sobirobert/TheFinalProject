@@ -1,5 +1,4 @@
-﻿
-namespace FireTrucks._3_UI;
+﻿namespace FireTrucks._3_UI;
 
 public interface IApp
 {

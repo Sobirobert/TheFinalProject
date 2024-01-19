@@ -16,7 +16,6 @@ public class EventHandlerServices : IEventHandlerServices
         _trailerRepository = trailerRepository;
     }
 
-
     public void SubscribeToEvents()
     {
         _emergencyVehicleRepository.ItemAdded += EmergencyVehicleRepositoryOnItemAdded;

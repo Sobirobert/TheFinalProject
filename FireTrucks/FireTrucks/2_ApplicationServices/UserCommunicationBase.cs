@@ -10,12 +10,36 @@ public abstract class UserCommunicationBase
         return userInPutInt;
     }
 
+    protected static int GetInputFromUserAndReturnIntNoGreaterThan3(string comment)
+    {
+        Console.WriteLine(comment);
+        var userInput = Console.ReadLine();
+        while (true)
+        {
+            if (userInput == "1" || userInput == "2" || userInput == "3")
+            {
+                Console.WriteLine("Correct value.");
+                break;
+            }
+            else
+            {
+                Console.WriteLine("Wrong number! Insert correct value.");
+                userInput = Console.ReadLine();
+                break;
+            }
+            
+        }
+        var userInPutInt = AddStringConversionToInt(userInput);
+        return userInPutInt;
+    }
+
     protected static string GetInputFromUserAndReturnString(string comment)
     {
         Console.WriteLine(comment);
         var userInput = Console.ReadLine();
         return userInput;
     }
+
     protected static double GetInputFromUserAndReturnDouble(string comment)
     {
         Console.WriteLine(comment);
@@ -36,6 +60,7 @@ public abstract class UserCommunicationBase
         }
         return number;
     }
+
     protected static double AddStringConversionToDouble(string value)
     {
         if (int.TryParse(value, out int number))

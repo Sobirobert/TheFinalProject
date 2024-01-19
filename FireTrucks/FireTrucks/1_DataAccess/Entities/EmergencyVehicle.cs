@@ -1,5 +1,4 @@
-﻿
-using FireTrucks._1_DataAccess.Entities.Extensions;
+﻿using FireTrucks._1_DataAccess.Entities.Extensions;
 
 namespace FireTrucks._1_DataAccess.Entities;
 
@@ -10,7 +9,7 @@ public class EmergencyVehicle : EntityBase
     public int NumbersOfSeats { get; set; }
     public Weight Weight { get; set; }
 
-    public override string ToString() => $"Id: {Id}\n, Manufacturer: {Manufacturer}\n, Year Of Production: {YearOfProduction}\n, Type of Car: {VehicleCategory}\n, " +
-                                         $"Weight: {Weight}\n, Numbers of seats: {NumbersOfSeats}\n, Equipment: {ShowAllEquipment}\n, " +
+    public override string ToString() => $"Manufacturer: {Manufacturer}\n, Year Of Production: {YearOfProduction}\n, Type of Car: {VehicleCategory}\n, " +
+                                         $"Weight: {Weight}\n, Numbers of seats: {NumbersOfSeats}\n, Equipment: {Equipment}\n, " +
                                          $"Other Equipment: {ShowAllOtherEquipment}\n, Date time of changes: {DateTimeChanges}\n,";
 }

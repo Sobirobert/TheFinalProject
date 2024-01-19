@@ -1,4 +1,6 @@
-﻿
+﻿using FireTrucks._1_DataAccess.Entities;
+using FireTrucks._5_Components.CsvReader;
+
 namespace FireTrucks._5_Components.DataProviders;
 
 public class DataProvider : IDataProvider
@@ -10,103 +12,105 @@ public class DataProvider : IDataProvider
         _csvReader = csvReader;
     }
 
-    public void GenerateDataFromCsvFile()
+    public void AdditionalVehicleInfoProvider()
     {
-        var cars = _csvReader.ProcessCars(@"D:\repos4\TheFinalProject\FireTrucks\FireTrucks\4_Resources\Files.csv");
-        var manufacturers = _csvReader.ProcessManufacturesrs(@"D:\repos4\TheFinalProject\FireTrucks\FireTrucks\4_Resources\Files.csv");
+        var emergencyVehicles = _csvReader.ProcessEmergencyVehicles(@"D:\repos4\TheFinalProject\FireTrucks\FireTrucks\4_Resources\Files\EmergencyVehicle.csv");
+        var firefightingVehicles = _csvReader.ProcessFirefightingVehicles(@"D:\repos4\TheFinalProject\FireTrucks\FireTrucks\4_Resources\Files\FirefightingVehicle.csv");
 
-        GroupManufacturersByDisplacement(cars);
+        GroupManufacturersByDisplacement(emergencyVehicles);
 
-        GroupManufacturersByName(cars);
+        GroupManufacturersByName(firefightingVehicles);
 
-        JoinManufacturersAndCars(cars, manufacturers);
+        JoinManufacturersAndCars(emergencyVehicles, firefightingVehicles);
 
-        JoinManufacturersAndCarsGroupByManufacturer(cars, manufacturers);
+        //JoinManufacturersAndCarsGroupByManufacturer(emergencyVehicles, firefightingVehicles);
     }
 
-    private void GroupManufacturersByDisplacement(List<Car> cars)
+    private void GroupManufacturersByDisplacement(List<EmergencyVehicle> emergencyVehicles)
     {
-        var groups = cars.GroupBy(x => x.Manufacturer)
+        var groups = emergencyVehicles.GroupBy(x => x.Manufacturer)
           .Select(g => new
           {
-              Name = g.Key,
-              Displacement = g.Max(x => x.Displacement),
+              Manufacturer = g.Key,
+              YearOfProduction = g.Max(x => x.YearOfProduction),
           })
-          .OrderByDescending(x => x.Displacement);
+          .OrderByDescending(x => x.YearOfProduction);
 
         foreach (var group in groups)
         {
-            Console.WriteLine($"{group.Name}\n" +
-                $"\tcombined max: {group.Displacement}\n");
+            Console.WriteLine($"{group.Manufacturer}\n" +
+                $"\tcombined max: {group.YearOfProduction}\n");
         }
     }
 
-    private void JoinManufacturersAndCarsGroupByManufacturer(List<Car> cars, List<Manufacture> manufacturers)
-    {
-        var groupsJoined = manufacturers.GroupJoin(
-            cars,
-            m => new { Manufacturer = m.Name, m.Year },
-            c => new { c.Manufacturer, c.Year },
-            (m, c) =>
-                new
-                {
-                    Manufacturer = m,
-                    Cars = c
-                }
-            )
-            .OrderBy(x => x.Manufacturer.Name);
+    //private void JoinManufacturersAndCarsGroupByManufacturer(List<EmergencyVehicle> emergencyVehicles, List<FirefightingVehicle> firefightingVehicles)
+    //{
+    //    var groupsJoined = firefightingVehicles.GroupJoin(
+    //        emergencyVehicles,
+    //        f => new { FirefightingVehicle = f.Manufacturer , f.CarPumpEfficiency },
+    //        e => new { EmergencyVehicles = e.YearOfProduction, e.Manufacturer},
+    //        (f, e) =>
+    //            new
+    //            {
+    //                FirefightingVehicle = f,
+    //                EmergencyVehicles = e
+    //            }
+    //        )
+    //        .OrderBy(x => x.FirefightingVehicle.Manufacturer);
 
-        foreach (var car in groupsJoined)
-        {
-            Console.WriteLine($" {car.Manufacturer.Name}");
-            Console.WriteLine($"\t Cars: {car.Cars.Count()}");
-            Console.WriteLine($"\t Max: {car.Cars.Max(x => x.Combined)}");
-            Console.WriteLine($"\t Min: {car.Cars.Min(x => x.Combined)}");
-            Console.WriteLine($"\t Avg: {car.Cars.Average(x => x.Combined)}");
-            Console.WriteLine();
-        }
-    }
+    //    foreach (var car in groupsJoined)
+    //    {
+    //        Console.WriteLine($" {car.Manufacturer.Name}");
+    //        Console.WriteLine($"\t Cars: {car.Cars.Count()}");
+    //        Console.WriteLine($"\t Max: {car.Cars.Max(x => x.Combined)}");
+    //        Console.WriteLine($"\t Min: {car.Cars.Min(x => x.Combined)}");
+    //        Console.WriteLine($"\t Avg: {car.Cars.Average(x => x.Combined)}");
+    //        Console.WriteLine();
+    //    }
+    //}
 
-    private static void JoinManufacturersAndCars(List<Car> cars, List<Manufacture> manufacturers)
+    private static void JoinManufacturersAndCars(List<EmergencyVehicle> emergencyVehicles, List<FirefightingVehicle> firefightingVehicles)
     {
-        var carsInCountry = cars.Join(
-            manufacturers,
+        var carsInCountry = emergencyVehicles.Join(
+            firefightingVehicles,
             c => c.Manufacturer,
-            m => m.Name,
-            (car, manufacturer) => new
+            m => m.Manufacturer,
+            (emergencyVehicles, firefightingVehicles) => new
             {
-                manufacturer.Country,
-                car.Manufacturer,
-                car.Name,
-                car.Combined,
-                car.Cylinders
+                firefightingVehicles.NumbersOfFireHoses,
+                emergencyVehicles.Manufacturer,
+                emergencyVehicles.YearOfProduction,
+                firefightingVehicles.CarPumpEfficiency,
+                firefightingVehicles.NumbersOfSeats
             })
-            .OrderByDescending(x => x.Name)
-            .ThenBy(x => x.Name);
+            .OrderByDescending(x => x.Manufacturer)
+            .ThenBy(x => x.YearOfProduction);
 
         foreach (var car in carsInCountry)
         {
-            Console.WriteLine($"Country: {car.Country}");
-            Console.WriteLine($"\t Name: {car.Manufacturer} {car.Name}");
-            Console.WriteLine($"\t Combined: {car.Combined}");
+            Console.WriteLine($"Manufacturer: {car.Manufacturer}");
+            Console.WriteLine($"\t CarPumpEfficiency: {car.CarPumpEfficiency}");
+            Console.WriteLine($"\t NumbersOfSeats: {car.NumbersOfSeats}");
+            Console.WriteLine($"\t YearOfProduction: {car.YearOfProduction}");
+            Console.WriteLine($"\t NumbersOfFireHoses: {car.NumbersOfFireHoses}");
         }
     }
 
-    private void GroupManufacturersByName(List<Car> cars)
+    private void GroupManufacturersByName(List<FirefightingVehicle> firefightingVehicle)
     {
-        var groups = cars.GroupBy(x => x.Manufacturer)
+        var groups = firefightingVehicle.GroupBy(x => x.Manufacturer)
             .Select(g => new
             {
-                Name = g.Key,
-                Max = g.Max(c => c.Combined),
-                Min = g.Min(c => c.Combined),
-                Average = Math.Round(g.Average(c => c.Combined), 2)
+                Manufacturer = g.Key,
+                Max = g.Max(c => c.NumbersOfSeats),
+                Min = g.Min(c => c.YearOfProduction),
+                Average = Math.Round(g.Average(c => c.NumbersOfFireHoses), 2)
             })
-            .OrderBy(x => x.Name);
+            .OrderBy(x => x.Manufacturer);
 
         foreach (var group in groups)
         {
-            Console.WriteLine($"{group.Name}\n" +
+            Console.WriteLine($"{group.Manufacturer}\n" +
                 $"\tcombined max: {group.Max}\n" +
                 $"\tcombined min: {group.Min}\n" +
                 $"\tcombined avr: {group.Average}\n");

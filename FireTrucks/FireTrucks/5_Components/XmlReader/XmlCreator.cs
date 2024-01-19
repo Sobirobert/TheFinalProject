@@ -1,5 +1,4 @@
 ﻿using FireTrucks._5_Components.CsvReader;
-using System.Resources;
 using System.Xml.Linq;
 
 namespace WhatWhere1.Components.XmlReader;

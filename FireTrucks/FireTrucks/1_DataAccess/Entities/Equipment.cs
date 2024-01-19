@@ -1,6 +1,6 @@
 ﻿namespace FireTrucks._1_DataAccess.Entities;
 
-public enum Equipment 
+public enum Equipment
 {
     TruckPump = 1,
     MotorPump = 2,
@@ -10,7 +10,7 @@ public enum Equipment
     FireHoses = 6,
     WithLadder = 7,
     WithHydraulicLift = 8,
-    Crane  = 9,
+    Crane = 9,
     CommandAndCommunications = 10,
     Operating = 11,
     Pgaz = 12,

@@ -17,9 +17,7 @@ public static class EmergencyVehicleExtensions
                 YearOfProduction = int.Parse(columns[1]),
                 VehicleCategory = Enum.Parse<VehicleCategory>(columns[2]),
                 Weight = Enum.Parse<Weight>(columns[3]),
-                NumbersOfSeats = int.Parse(columns[4]),
-                Equipment = List<Equipment>(columns[5]),
-                OtherEquipment = columns[11].Split(',').ToList(),
+                NumbersOfSeats = int.Parse(columns[4])
             };
         }
     }

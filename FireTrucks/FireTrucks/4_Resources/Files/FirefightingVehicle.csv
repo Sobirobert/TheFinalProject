@@ -1,1201 +1,601 @@
-Manufacturer, YearOfProduction, VehicleCategory, Weight, NumbersOfSeats, SizeOfWaterReservoir, SizeOfFoamConcentrateTank, CarPumpEfficiency, WaterCannonEfficiency, Equipment, OtherEquipment, NumbersOfFireHoses
-SCANIA,2015,Urban,Light,3,(5,5),(2,7),(26,9),(18,3),Crane,Petrol Saw,15
-SCANIA,2021,OffRoad,Heavy,3,(2,1),(2,5),(16,4),(20,4),TechnicalRescue,Petrol Saw,11
-SCANIA,2012,Urban,Heavy,4,(7,5),(1,8),(20,7),(29,2),Lighting,Petrol Saw,24
-IVECO,2014,MediumOffRoad,Heavy,4,(6,8),(1,7),(20,8),(26,5),TechnicalRescue,Petrol Saw,11
-MERCEDES BENZ,2010,MediumOffRoad,Mediocre,4,(6,1),(2,3),(28,3),(26),CommandAndCommunications,Petrol Saw,13
-MAN,2015,MediumOffRoad,Mediocre,3,(2,7),(2),(30,2),(18,7),FireHoses,Petrol Saw,3
-RENAULT,2012,OffRoad,Heavy,5,(5,7),(2,4),(24,8),(27,4),FireHoses,hydraulic equipment,6
-VOLVO,2022,MediumOffRoad,Mediocre,5,(2,3),(1,6),(17,7),(29,4),WithLadder,Petrol Saw,27
-VOLVO,2009,OffRoad,Mediocre,4,(6,2),(1,9),(31,4),(32),WithLadder,Oxygen tank,15
-IVECO,2007,MediumOffRoad,Heavy,3,(2,2),(2,3),(18,8),(29,4),HighAltitudeRescue,Petrol Saw,14
-RENAULT,2022,MediumOffRoad,Heavy,5,(6,1),(2,2),(16,9),(21,5),MotorPump,Oxygen tank,17
-MERCEDES BENZ,2016,MediumOffRoad,Mediocre,3,(4,7),(1,5),(23,5),(27),MotorPump,Petrol Saw,27
-SCANIA,2007,OffRoad,Light,4,(6,5),(1,6),(24,7),(19,7),Reservoir,Oxygen tank,13
-MERCEDES BENZ,2021,MediumOffRoad,Heavy,3,(2,4),(2,7),(28),(25,6),MotorPump,Petrol Saw,25
-MERCEDES BENZ,2012,MediumOffRoad,Light,4,(4,1),(2,3),(26,6),(23,5),CommandAndCommunications,Petrol Saw,20
-IVECO,2020,MediumOffRoad,Light,4,(7,2),(2,2),(23,6),(18,8),Lighting,Oxygen tank,14
-MAN,2011,MediumOffRoad,Heavy,3,(2,1),(1,3),(21,9),(22,8),Lighting,hydraulic equipment,8
-MAN,2017,OffRoad,Heavy,4,(3,2),(2,7),(20,6),(28,9),Pgaz,Petrol Saw,3
-MAN,2020,OffRoad,Mediocre,5,(6,2),(1,3),(18,3),(16,9),FireHoses,Oxygen tank,25
-MERCEDES BENZ,2011,MediumOffRoad,Mediocre,4,(4,2),(1,1),(21,9),(30,5),WaterRescue,hydraulic equipment,20
-VOLVO,2006,OffRoad,Mediocre,5,(2,7),(2,6),(23,6),(26,6),FireExtinguishingPowderTank,hydraulic equipment,22
-MERCEDES BENZ,2023,OffRoad,Mediocre,4,(3,9),(2,3),(17,4),(26,9),Lighting,Petrol Saw,10
-MAN,2014,OffRoad,Light,3,(4),(1,4),(31,2),(23),WaterRescue,Oxygen tank,19
-RENAULT,2017,OffRoad,Mediocre,5,(4,4),(2,9),(19,6),(29,9),FireHoses,Petrol Saw,26
-RENAULT,2019,Urban,Mediocre,3,(4,4),(2,6),(21,4),(22,9),TruckPump,Petrol Saw,28
-MAN,2016,MediumOffRoad,Heavy,5,(4,3),(1,5),(29,1),(31),Pgaz,Petrol Saw,18
-SCANIA,2020,MediumOffRoad,Heavy,5,(3,7),(2,2),(28,4),(20,4),Quartermaster,hydraulic equipment,10
-IVECO,2022,Urban,Heavy,5,(7,3),(2,1),(21,8),(23,8),WithHydraulicLift,hydraulic equipment,11
-VOLVO,2017,OffRoad,Light,5,(5),(2,8),(25,1),(24,2),Quartermaster,hydraulic equipment,25
-VOLVO,2007,OffRoad,Mediocre,3,(4,5),(1,3),(22,4),(28,8),HighAltitudeRescue,Petrol Saw,29
-MERCEDES BENZ,2012,OffRoad,Mediocre,5,(5,4),(1,6),(29,4),(18,9),FireHoses,hydraulic equipment,10
-MERCEDES BENZ,2012,Urban,Heavy,5,(2,8),(2,6),(27,8),(31,3),MotorPump,hydraulic equipment,14
-MERCEDES BENZ,2006,Urban,Light,3,(3,3),(1,9),(18,1),(27,4),HighAltitudeRescue,hydraulic equipment,3
-MERCEDES BENZ,2010,OffRoad,Heavy,4,(8),(2,5),(22,4),(28,1),WithHydraulicLift,Oxygen tank,2
-VOLVO,2017,OffRoad,Mediocre,5,(6,2),(2,5),(25,8),(31,1),Operating,Petrol Saw,3
-MAN,2019,OffRoad,Mediocre,5,(7,7),(1,8),(30,2),(31,5),Pgaz,Petrol Saw,25
-RENAULT,2006,MediumOffRoad,Mediocre,3,(6,2),(2,8),(19,2),(27,3),FireHoses,Oxygen tank,5
-RENAULT,2020,OffRoad,Mediocre,4,(2,7),(1,2),(29,6),(20,5),FireExtinguishingPowderTank,hydraulic equipment,3
-MERCEDES BENZ,2018,Urban,Light,4,(4),(1,8),(19,2),(29,9),WaterRescue,hydraulic equipment,26
-VOLVO,2012,Urban,Heavy,4,(5,6),(3),(22,6),(28,3),FireExtinguishingPowderTank,Petrol Saw,19
-MAN,2022,Urban,Mediocre,5,(7,6),(2,8),(21,7),(21,2),Reservoir,Petrol Saw,28
-MAN,2012,OffRoad,Mediocre,4,(3),(2,8),(27,2),(22,8),WithCO2Cylinders,Petrol Saw,25
-SCANIA,2017,Urban,Heavy,3,(7,5),(1,7),(27,3),(25,7),WithHydraulicLift,hydraulic equipment,27
-SCANIA,2008,OffRoad,Heavy,5,(3,4),(1,3),(29,5),(27,2),WithLadder,Oxygen tank,3
-SCANIA,2007,OffRoad,Heavy,4,(7,4),(2,2),(30,7),(26,1),MotorPump,Petrol Saw,14
-SCANIA,2013,OffRoad,Mediocre,4,(8),(1,6),(16,3),(26,6),HighAltitudeRescue,Oxygen tank,6
-MAN,2010,Urban,Mediocre,5,(2,8),(2,6),(20,4),(18,7),WithCO2Cylinders,hydraulic equipment,9
-IVECO,2018,MediumOffRoad,Heavy,4,(7,9),(1,5),(23,9),(16,2),Lighting,Oxygen tank,2
-MERCEDES BENZ,2009,MediumOffRoad,Heavy,4,(6,6),(2),(23,6),(17,5),WithLadder,hydraulic equipment,22
-MERCEDES BENZ,2023,Urban,Light,5,(7,5),(2,2),(21,8),(31,2),WithLadder,Petrol Saw,13
-RENAULT,2023,Urban,Light,5,(2,2),(1,7),(29,7),(20,6),Reservoir,Petrol Saw,18
-RENAULT,2016,Urban,Heavy,5,(2,8),(2,1),(25,4),(22,8),Lighting,Petrol Saw,15
-SCANIA,2022,OffRoad,Mediocre,5,(3),(2),(19,2),(22,9),Reservoir,hydraulic equipment,4
-MERCEDES BENZ,2013,OffRoad,Light,3,(7,8),(2,7),(16,4),(16),FireExtinguishingPowderTank,Oxygen tank,6
-SCANIA,2017,Urban,Mediocre,4,(3,7),(1,2),(28,2),(21,4),WaterRescue,Oxygen tank,24
-SCANIA,2007,Urban,Light,3,(3),(2,1),(30,5),(28,5),HighAltitudeRescue,Petrol Saw,11
-MAN,2015,MediumOffRoad,Mediocre,4,(4,3),(1,1),(26,2),(16,2),TruckPump,hydraulic equipment,7
-VOLVO,2008,MediumOffRoad,Light,5,(2,5),(2,3),(24,8),(21,3),WithLadder,Oxygen tank,15
-IVECO,2015,OffRoad,Light,4,(6),(1,4),(26,3),(25,7),WaterRescue,Petrol Saw,19
-VOLVO,2018,OffRoad,Light,5,(4,4),(1,9),(24,5),(17,5),Operating,Petrol Saw,4
-VOLVO,2009,Urban,Mediocre,4,(7,9),(2,4),(29,8),(18,8),WithLadder,hydraulic equipment,26
-SCANIA,2020,MediumOffRoad,Heavy,4,(4,7),(3),(20,5),(17,7),Lighting,hydraulic equipment,13
-SCANIA,2014,OffRoad,Light,5,(4),(1,1),(16),(31,4),FireHoses,Petrol Saw,26
-MERCEDES BENZ,2009,OffRoad,Light,5,(5,6),(1,2),(27,8),(31,6),Crane,hydraulic equipment,16
-MAN,2021,Urban,Light,3,(3,9),(2,1),(27,8),(16,9),HighAltitudeRescue,Oxygen tank,23
-SCANIA,2007,Urban,Light,4,(3,1),(1,7),(17,1),(17,3),Operating,Oxygen tank,8
-MERCEDES BENZ,2016,MediumOffRoad,Light,5,(4,4),(1,8),(29,7),(29,3),HighAltitudeRescue,hydraulic equipment,10
-VOLVO,2013,OffRoad,Light,5,(3,2),(2,5),(25),(19,7),WithCO2Cylinders,Petrol Saw,17
-MAN,2013,MediumOffRoad,Light,3,(7,5),(2,8),(20,5),(19,7),HighAltitudeRescue,hydraulic equipment,20
-SCANIA,2010,OffRoad,Heavy,5,(4),(1,3),(20,1),(31,1),WithCO2Cylinders,hydraulic equipment,25
-MERCEDES BENZ,2017,Urban,Light,5,(3,7),(2,2),(22),(16,5),Pgaz,Petrol Saw,9
-IVECO,2008,OffRoad,Light,5,(7,6),(2,1),(27,3),(21,2),TruckPump,hydraulic equipment,22
-RENAULT,2011,Urban,Mediocre,5,(7,7),(2,5),(17,3),(30,3),WaterRescue,hydraulic equipment,6
-VOLVO,2009,MediumOffRoad,Mediocre,5,(3,3),(2,3),(28,6),(16),WithCO2Cylinders,Petrol Saw,10
-RENAULT,2007,Urban,Mediocre,5,(5,8),(1,7),(30,5),(23,6),TruckPump,hydraulic equipment,7
-SCANIA,2019,OffRoad,Mediocre,3,(6,4),(1,4),(22,4),(25,5),ChemicalRescue,Petrol Saw,5
-VOLVO,2013,Urban,Heavy,5,(6,2),(2,5),(18,3),(22),FireHoses,Petrol Saw,25
-SCANIA,2023,OffRoad,Mediocre,3,(5,4),(2,8),(22,1),(21,8),TruckPump,Oxygen tank,19
-VOLVO,2021,Urban,Light,3,(4,7),(2),(31,3),(20,4),CommandAndCommunications,Petrol Saw,5
-MAN,2012,Urban,Light,3,(3,9),(1,8),(20,4),(25,6),HighAltitudeRescue,Oxygen tank,20
-SCANIA,2021,Urban,Heavy,4,(4,2),(1,2),(25,9),(18,4),Container,hydraulic equipment,21
-IVECO,2016,MediumOffRoad,Mediocre,3,(4,7),(2,9),(30,3),(18,2),TechnicalRescue,hydraulic equipment,28
-SCANIA,2015,Urban,Heavy,4,(5,4),(2,1),(25,1),(27,5),Crane,Oxygen tank,5
-RENAULT,2021,Urban,Heavy,4,(4,4),(2,5),(20,3),(16,1),WithCO2Cylinders,Petrol Saw,28
-RENAULT,2012,OffRoad,Mediocre,5,(2,7),(1,3),(16,9),(22),Lighting,hydraulic equipment,27
-IVECO,2009,MediumOffRoad,Mediocre,3,(3,9),(1,7),(25,1),(19,8),WithHydraulicLift,hydraulic equipment,24
-MERCEDES BENZ,2020,OffRoad,Light,3,(6,1),(2,9),(29),(20,6),Container,Petrol Saw,4
-MAN,2006,OffRoad,Light,4,(2,9),(1,7),(22,3),(29,6),Pgaz,Oxygen tank,2
-RENAULT,2006,OffRoad,Light,4,(4,6),(1,1),(30,5),(28,7),WithCO2Cylinders,Petrol Saw,17
-MERCEDES BENZ,2019,MediumOffRoad,Mediocre,3,(5,7),(2,8),(23,3),(26,1),Lighting,hydraulic equipment,4
-RENAULT,2023,Urban,Heavy,3,(7),(2,9),(17,5),(18,9),CommandAndCommunications,Petrol Saw,19
-SCANIA,2017,OffRoad,Light,3,(3,3),(1,3),(25,6),(25,9),WithCO2Cylinders,Oxygen tank,13
-SCANIA,2010,MediumOffRoad,Heavy,5,(3,6),(1,3),(23,1),(27,9),Lighting,Oxygen tank,22
-RENAULT,2015,OffRoad,Light,5,(4,5),(2,3),(28,2),(22),WaterRescue,Oxygen tank,15
-RENAULT,2022,OffRoad,Light,3,(2,1),(1,2),(27),(18,1),FireHoses,hydraulic equipment,23
-IVECO,2019,OffRoad,Heavy,5,(5,9),(1,4),(17,1),(19,4),CommandAndCommunications,Oxygen tank,22
-RENAULT,2016,OffRoad,Mediocre,5,(3,6),(2,8),(18,2),(29,9),TechnicalRescue,hydraulic equipment,14
-SCANIA,2011,OffRoad,Mediocre,3,(2,6),(3),(21),(26,4),Crane,Oxygen tank,6
-SCANIA,2010,Urban,Light,3,(5,8),(2,2),(25,6),(23,2),Pgaz,Oxygen tank,4
-MAN,2021,OffRoad,Heavy,3,(5,7),(2,2),(23,7),(27,1),Operating,Petrol Saw,3
-SCANIA,2013,Urban,Heavy,4,(6,5),(1,1),(20,6),(28,4),Reservoir,hydraulic equipment,8
-IVECO,2016,Urban,Mediocre,3,(7,3),(2,9),(28,5),(25,7),FireExtinguishingPowderTank,Petrol Saw,7
-MAN,2010,MediumOffRoad,Light,4,(3,2),(1,9),(24,8),(22,3),TruckPump,Oxygen tank,5
-RENAULT,2023,OffRoad,Light,4,(6,1),(2,3),(20,2),(26,2),Quartermaster,Petrol Saw,27
-SCANIA,2010,MediumOffRoad,Mediocre,3,(4,7),(1,1),(17,2),(30,9),TechnicalRescue,Petrol Saw,16
-IVECO,2013,Urban,Mediocre,4,(3,4),(1,1),(25,6),(28,4),Reservoir,Oxygen tank,2
-VOLVO,2010,MediumOffRoad,Mediocre,5,(6,7),(2,4),(26,6),(16,8),TechnicalRescue,Petrol Saw,8
-SCANIA,2022,OffRoad,Heavy,4,(7,8),(1,6),(23,3),(27,9),TruckPump,Petrol Saw,10
-RENAULT,2016,OffRoad,Mediocre,4,(2,9),(2,9),(26,2),(31,4),Crane,Oxygen tank,5
-RENAULT,2020,MediumOffRoad,Mediocre,4,(7,8),(1,1),(30,2),(23,4),Reservoir,Oxygen tank,8
-MERCEDES BENZ,2021,MediumOffRoad,Heavy,4,(4,5),(1,3),(21,8),(25,3),HighAltitudeRescue,Petrol Saw,28
-MAN,2021,Urban,Mediocre,4,(7,5),(2,8),(31,7),(16,5),FireHoses,Petrol Saw,20
-VOLVO,2012,OffRoad,Light,3,(4),(1),(22,3),(26),Lighting,Oxygen tank,3
-MERCEDES BENZ,2023,Urban,Light,4,(3,4),(1,3),(25,3),(25,5),MotorPump,Petrol Saw,24
-MERCEDES BENZ,2023,MediumOffRoad,Mediocre,5,(5,1),(1,5),(30,2),(17,4),Quartermaster,Oxygen tank,27
-RENAULT,2009,OffRoad,Light,5,(4,6),(1,8),(22,7),(25,6),CommandAndCommunications,hydraulic equipment,8
-MAN,2016,MediumOffRoad,Heavy,5,(6,6),(1,5),(30,6),(21,7),WithLadder,Petrol Saw,17
-MAN,2023,MediumOffRoad,Light,3,(6,8),(1,3),(29,2),(23,1),Quartermaster,Oxygen tank,24
-VOLVO,2016,Urban,Mediocre,3,(2,4),(2,6),(27,9),(16,7),Crane,hydraulic equipment,25
-IVECO,2016,Urban,Light,4,(2,5),(1,2),(27),(24,8),FireExtinguishingPowderTank,hydraulic equipment,4
-MERCEDES BENZ,2022,Urban,Heavy,4,(4,6),(1,3),(21,9),(30,3),Crane,Oxygen tank,2
-SCANIA,2023,Urban,Heavy,3,(3,6),(1,4),(24,6),(19,8),Quartermaster,Petrol Saw,5
-RENAULT,2022,Urban,Mediocre,3,(2,7),(3),(24),(17),WithCO2Cylinders,Oxygen tank,2
-RENAULT,2021,OffRoad,Light,3,(2,2),(1,2),(25,9),(26,1),FireHoses,hydraulic equipment,14
-VOLVO,2014,Urban,Heavy,4,(4,1),(1,4),(29,2),(22,3),ChemicalRescue,Petrol Saw,22
-RENAULT,2009,OffRoad,Heavy,4,(4),(1,1),(27),(19,4),TruckPump,hydraulic equipment,28
-VOLVO,2010,MediumOffRoad,Heavy,5,(2,1),(1,7),(24,6),(19,8),Container,Oxygen tank,14
-SCANIA,2014,MediumOffRoad,Heavy,4,(3,6),(1,8),(19,7),(29,8),Operating,Petrol Saw,27
-IVECO,2019,OffRoad,Heavy,5,(3),(1,8),(21,6),(24,3),Reservoir,hydraulic equipment,25
-MERCEDES BENZ,2013,MediumOffRoad,Mediocre,4,(7,6),(3),(24,4),(26,8),Operating,hydraulic equipment,27
-SCANIA,2006,OffRoad,Heavy,3,(7,9),(1),(28,5),(19,2),WithLadder,Oxygen tank,23
-MAN,2013,Urban,Light,5,(7,3),(2,5),(31,5),(26),Lighting,hydraulic equipment,15
-VOLVO,2009,MediumOffRoad,Heavy,5,(7),(1,9),(29),(22,7),FireHoses,Petrol Saw,2
-VOLVO,2013,MediumOffRoad,Light,4,(4,6),(2,5),(28,2),(17,8),WaterRescue,hydraulic equipment,17
-SCANIA,2018,MediumOffRoad,Heavy,4,(2,2),(2,1),(30,6),(25,2),MotorPump,hydraulic equipment,14
-RENAULT,2008,OffRoad,Light,4,(7,1),(1,5),(25,3),(18),HighAltitudeRescue,hydraulic equipment,11
-IVECO,2008,Urban,Light,5,(4,9),(2,5),(28),(31,5),TechnicalRescue,hydraulic equipment,16
-IVECO,2009,OffRoad,Mediocre,5,(7,1),(2,3),(23),(16,7),HighAltitudeRescue,Oxygen tank,3
-RENAULT,2012,MediumOffRoad,Mediocre,5,(5,1),(2,5),(19,3),(19),TruckPump,hydraulic equipment,28
-SCANIA,2013,OffRoad,Mediocre,4,(6,2),(1,7),(23,8),(27,7),Quartermaster,hydraulic equipment,5
-RENAULT,2010,MediumOffRoad,Light,3,(2,3),(2,3),(30,5),(28,5),Reservoir,hydraulic equipment,21
-MERCEDES BENZ,2013,Urban,Light,3,(7,6),(2,8),(17,1),(19,8),HighAltitudeRescue,Petrol Saw,21
-MERCEDES BENZ,2021,OffRoad,Light,3,(5,4),(1,8),(26,4),(28,5),Lighting,Oxygen tank,14
-VOLVO,2019,OffRoad,Light,3,(2,6),(2,6),(24,1),(25,5),HighAltitudeRescue,hydraulic equipment,22
-IVECO,2007,OffRoad,Heavy,3,(4,7),(1,5),(23),(16,2),MotorPump,hydraulic equipment,16
-MERCEDES BENZ,2011,OffRoad,Light,4,(2,7),(1,6),(23),(29,3),Pgaz,hydraulic equipment,17
-RENAULT,2008,MediumOffRoad,Light,5,(4,7),(2,3),(24,1),(19),WaterRescue,Petrol Saw,6
-RENAULT,2007,OffRoad,Light,4,(5,9),(1,6),(17,7),(20,2),Quartermaster,Petrol Saw,15
-MERCEDES BENZ,2023,Urban,Mediocre,4,(3,6),(2,5),(18,1),(18,9),Operating,hydraulic equipment,20
-VOLVO,2021,Urban,Light,4,(5,3),(2,5),(25,8),(27,2),WithLadder,Oxygen tank,6
-IVECO,2013,OffRoad,Mediocre,4,(2,2),(2,7),(31,5),(26,8),FireHoses,Petrol Saw,8
-MERCEDES BENZ,2012,MediumOffRoad,Heavy,5,(6,8),(2,6),(30,7),(16),Pgaz,hydraulic equipment,22
-IVECO,2019,Urban,Heavy,5,(2),(1,3),(20,2),(27,5),Crane,Petrol Saw,23
-MERCEDES BENZ,2022,MediumOffRoad,Mediocre,5,(4,7),(1,5),(27,1),(17,3),Crane,Petrol Saw,21
-MAN,2017,MediumOffRoad,Heavy,4,(2,1),(2,5),(31,6),(22,7),MotorPump,Petrol Saw,8
-SCANIA,2012,Urban,Heavy,3,(7,2),(1,6),(23,7),(25,6),TruckPump,Oxygen tank,19
-VOLVO,2019,Urban,Heavy,3,(2,4),(2,1),(21,5),(16,2),WaterRescue,Oxygen tank,27
-MAN,2008,Urban,Light,3,(6),(1,3),(27,9),(24,3),Lighting,hydraulic equipment,23
-SCANIA,2011,MediumOffRoad,Mediocre,5,(2,6),(2,8),(19,4),(16,9),Reservoir,Petrol Saw,25
-MERCEDES BENZ,2019,OffRoad,Heavy,3,(2,3),(2,9),(18,9),(27,4),MotorPump,Petrol Saw,4
-IVECO,2021,Urban,Mediocre,4,(6,1),(1,3),(19,7),(27,9),TechnicalRescue,hydraulic equipment,29
-MAN,2011,MediumOffRoad,Mediocre,3,(6,6),(2,2),(20,4),(16,2),TruckPump,Petrol Saw,4
-SCANIA,2015,Urban,Light,3,(7,9),(1,2),(21,1),(29,1),Crane,Petrol Saw,11
-MERCEDES BENZ,2010,OffRoad,Heavy,5,(7,3),(1,9),(28,2),(28),WithLadder,Oxygen tank,15
-SCANIA,2019,MediumOffRoad,Heavy,5,(5,2),(1,6),(23,5),(21,5),FireHoses,Oxygen tank,24
-VOLVO,2014,MediumOffRoad,Light,5,(2,1),(2,6),(19,6),(22,2),WithLadder,Petrol Saw,8
-SCANIA,2008,MediumOffRoad,Heavy,4,(4,3),(2,4),(22,2),(17),FireExtinguishingPowderTank,Petrol Saw,27
-IVECO,2019,Urban,Mediocre,5,(4,7),(1,7),(17,1),(26,8),Operating,Petrol Saw,20
-VOLVO,2019,OffRoad,Heavy,3,(2,8),(1,3),(21,7),(23,2),WithHydraulicLift,hydraulic equipment,2
-MERCEDES BENZ,2017,OffRoad,Mediocre,4,(5,2),(2,8),(24,8),(19,5),WithHydraulicLift,hydraulic equipment,3
-IVECO,2017,Urban,Heavy,3,(3,6),(2,7),(28,1),(23,6),Quartermaster,Petrol Saw,10
-SCANIA,2012,Urban,Mediocre,3,(7,8),(1,3),(28,7),(30,8),Reservoir,hydraulic equipment,21
-RENAULT,2014,OffRoad,Mediocre,3,(7,7),(2,1),(29,3),(16,4),ChemicalRescue,Oxygen tank,26
-VOLVO,2018,Urban,Light,3,(4,3),(1,3),(16,3),(28,4),TechnicalRescue,Petrol Saw,26
-SCANIA,2016,Urban,Light,3,(7,5),(2,1),(28,9),(24,2),MotorPump,Oxygen tank,12
-MAN,2011,MediumOffRoad,Light,5,(6,1),(2,1),(26,3),(28,4),TechnicalRescue,hydraulic equipment,20
-IVECO,2014,Urban,Heavy,3,(4,2),(1,8),(28,2),(23,6),Lighting,Oxygen tank,3
-VOLVO,2008,MediumOffRoad,Heavy,4,(4,3),(1,5),(29,8),(25,9),TruckPump,Petrol Saw,15
-IVECO,2009,MediumOffRoad,Light,5,(4,8),(1,4),(18,3),(23,7),TruckPump,hydraulic equipment,28
-MAN,2007,Urban,Light,3,(2),(2,3),(21,2),(18,1),HighAltitudeRescue,hydraulic equipment,15
-SCANIA,2010,Urban,Heavy,5,(5,4),(2,7),(17,7),(26,4),HighAltitudeRescue,Oxygen tank,15
-VOLVO,2007,Urban,Heavy,4,(3,3),(2,3),(22,2),(28,9),Quartermaster,Oxygen tank,27
-MERCEDES BENZ,2022,Urban,Heavy,3,(2,3),(1,2),(23,4),(16),CommandAndCommunications,hydraulic equipment,9
-MERCEDES BENZ,2023,OffRoad,Heavy,3,(4),(1),(27,8),(22,2),Crane,hydraulic equipment,7
-MAN,2015,OffRoad,Heavy,4,(2,5),(2,7),(22),(21,9),FireExtinguishingPowderTank,Petrol Saw,7
-MAN,2020,MediumOffRoad,Heavy,5,(6,2),(2,4),(30,4),(25,9),WaterRescue,Oxygen tank,27
-VOLVO,2006,MediumOffRoad,Mediocre,5,(6,7),(2,6),(22,1),(30,7),Quartermaster,Oxygen tank,7
-VOLVO,2006,OffRoad,Heavy,5,(7,5),(2,3),(26,5),(19,6),Reservoir,Petrol Saw,3
-MERCEDES BENZ,2010,OffRoad,Mediocre,5,(3,7),(2,4),(30),(28),Reservoir,Oxygen tank,13
-VOLVO,2009,Urban,Mediocre,5,(6,5),(1,5),(19,3),(29),ChemicalRescue,Oxygen tank,10
-MERCEDES BENZ,2006,MediumOffRoad,Heavy,3,(2,2),(1,9),(24,1),(23,4),Lighting,Oxygen tank,29
-RENAULT,2016,OffRoad,Light,4,(5,6),(2,2),(29,9),(17,1),HighAltitudeRescue,hydraulic equipment,2
-RENAULT,2015,Urban,Heavy,5,(3,2),(1),(24,2),(22,9),MotorPump,hydraulic equipment,22
-VOLVO,2011,OffRoad,Mediocre,5,(7),(2,9),(26,9),(16,9),ChemicalRescue,Oxygen tank,27
-RENAULT,2010,MediumOffRoad,Heavy,4,(5,6),(2,5),(17,9),(27,8),FireExtinguishingPowderTank,hydraulic equipment,15
-RENAULT,2023,MediumOffRoad,Mediocre,5,(4,9),(2,7),(29,1),(19),Operating,hydraulic equipment,19
-IVECO,2007,OffRoad,Mediocre,5,(6,7),(3),(23,3),(30,3),Lighting,Oxygen tank,13
-MAN,2007,OffRoad,Mediocre,3,(2,7),(2,4),(25,2),(21),ChemicalRescue,Oxygen tank,24
-VOLVO,2008,Urban,Mediocre,3,(3,4),(1,8),(21,5),(24,4),MotorPump,hydraulic equipment,16
-MAN,2017,MediumOffRoad,Mediocre,4,(3,3),(2,6),(25,7),(17,9),WithCO2Cylinders,Petrol Saw,13
-SCANIA,2019,MediumOffRoad,Light,5,(7,5),(2),(29),(25,4),Reservoir,Petrol Saw,11
-RENAULT,2012,OffRoad,Light,5,(6,8),(1,3),(23,3),(24,6),Crane,Petrol Saw,16
-VOLVO,2017,OffRoad,Light,3,(3,8),(2,5),(22,9),(22,8),TechnicalRescue,Oxygen tank,2
-MAN,2019,Urban,Light,5,(2,4),(1,3),(23,7),(18,9),FireHoses,Petrol Saw,25
-SCANIA,2014,MediumOffRoad,Light,3,(4,9),(2,5),(26,9),(17,4),Crane,Petrol Saw,2
-RENAULT,2017,Urban,Mediocre,3,(2,9),(2,5),(19,3),(17,4),WaterRescue,hydraulic equipment,8
-SCANIA,2022,MediumOffRoad,Heavy,3,(2,5),(2,4),(16,3),(20,9),CommandAndCommunications,Oxygen tank,15
-RENAULT,2021,Urban,Light,4,(2,5),(1,7),(28,4),(32),TechnicalRescue,hydraulic equipment,15
-IVECO,2011,MediumOffRoad,Heavy,3,(5,5),(1,8),(24,3),(21,9),HighAltitudeRescue,hydraulic equipment,18
-VOLVO,2017,Urban,Mediocre,3,(3,3),(1,7),(26,7),(18,2),Pgaz,Oxygen tank,28
-IVECO,2022,OffRoad,Mediocre,5,(6,6),(1,7),(22,3),(30,8),FireExtinguishingPowderTank,Oxygen tank,11
-MAN,2013,Urban,Light,4,(7,1),(1),(28,5),(29,4),Lighting,Oxygen tank,25
-RENAULT,2008,OffRoad,Heavy,3,(7,6),(2,1),(26,5),(23,3),Reservoir,hydraulic equipment,18
-SCANIA,2012,Urban,Mediocre,4,(6,8),(2,2),(26,5),(17,3),TruckPump,hydraulic equipment,10
-MERCEDES BENZ,2008,MediumOffRoad,Mediocre,4,(7,2),(2),(29,9),(31),ChemicalRescue,hydraulic equipment,2
-MAN,2013,OffRoad,Heavy,5,(4,6),(2,8),(22,1),(25,4),FireHoses,Petrol Saw,5
-MAN,2017,MediumOffRoad,Light,3,(3,7),(1,4),(17,6),(30,3),Crane,Oxygen tank,18
-SCANIA,2019,OffRoad,Heavy,5,(5,4),(1,9),(20,2),(18,8),WaterRescue,hydraulic equipment,24
-IVECO,2012,Urban,Light,4,(5,3),(1,1),(29,5),(27,4),FireHoses,hydraulic equipment,16
-VOLVO,2020,MediumOffRoad,Heavy,4,(6,6),(2,1),(27,4),(22,6),Pgaz,Petrol Saw,10
-MERCEDES BENZ,2011,OffRoad,Light,5,(4,9),(2,9),(30,4),(21,3),TechnicalRescue,hydraulic equipment,10
-MERCEDES BENZ,2019,OffRoad,Light,4,(4,3),(1,5),(28,5),(21,8),WithHydraulicLift,Petrol Saw,23
-SCANIA,2019,OffRoad,Mediocre,4,(6,7),(2,7),(18,8),(31,7),MotorPump,hydraulic equipment,6
-VOLVO,2016,Urban,Heavy,5,(3,7),(2,8),(30,4),(16,1),FireExtinguishingPowderTank,Petrol Saw,17
-MAN,2021,MediumOffRoad,Light,3,(4,1),(1,8),(19,8),(19,8),Lighting,Petrol Saw,17
-IVECO,2011,MediumOffRoad,Light,3,(2,3),(2,6),(19,7),(28,3),WithCO2Cylinders,Oxygen tank,23
-RENAULT,2007,OffRoad,Light,5,(3,8),(1,9),(23,7),(20),MotorPump,Oxygen tank,15
-VOLVO,2007,Urban,Light,4,(3,2),(1,8),(30,1),(24,2),TruckPump,hydraulic equipment,19
-VOLVO,2019,Urban,Mediocre,5,(7),(1,1),(25,4),(26,3),Lighting,Petrol Saw,5
-MERCEDES BENZ,2008,OffRoad,Mediocre,3,(7,2),(2,3),(21),(29,9),Crane,hydraulic equipment,29
-SCANIA,2010,Urban,Heavy,3,(4,9),(1,8),(27,6),(24,1),ChemicalRescue,Petrol Saw,22
-VOLVO,2007,MediumOffRoad,Light,4,(3),(2,1),(18,1),(19,4),WithCO2Cylinders,hydraulic equipment,19
-SCANIA,2007,MediumOffRoad,Mediocre,3,(7,8),(2,7),(17,2),(30,4),Pgaz,hydraulic equipment,18
-VOLVO,2018,OffRoad,Heavy,4,(2,8),(2,4),(31,8),(20,1),TruckPump,Oxygen tank,8
-IVECO,2012,MediumOffRoad,Mediocre,3,(3,3),(3),(25,3),(29,8),HighAltitudeRescue,hydraulic equipment,18
-VOLVO,2016,MediumOffRoad,Mediocre,4,(2,7),(2,8),(30,9),(24,6),FireHoses,Oxygen tank,8
-RENAULT,2020,OffRoad,Light,3,(3,7),(2,2),(29,4),(30,3),CommandAndCommunications,Oxygen tank,28
-IVECO,2018,MediumOffRoad,Mediocre,3,(5,9),(1,5),(17,3),(28,6),MotorPump,hydraulic equipment,6
-RENAULT,2023,MediumOffRoad,Light,3,(6,5),(2),(17,6),(17,9),FireHoses,Oxygen tank,26
-SCANIA,2021,Urban,Light,4,(3,9),(2),(30,1),(29,3),FireExtinguishingPowderTank,Oxygen tank,17
-VOLVO,2017,Urban,Heavy,3,(4,6),(2,3),(23,3),(20,3),WaterRescue,hydraulic equipment,23
-VOLVO,2009,MediumOffRoad,Light,3,(7,7),(2),(22,6),(25,1),HighAltitudeRescue,hydraulic equipment,27
-IVECO,2008,OffRoad,Heavy,4,(5,3),(2,4),(25),(19,2),TruckPump,Oxygen tank,29
-MAN,2014,MediumOffRoad,Heavy,5,(3,6),(1,4),(30,9),(22,7),Quartermaster,Oxygen tank,26
-SCANIA,2016,OffRoad,Light,5,(7,4),(2,3),(22,7),(23,9),Pgaz,Petrol Saw,4
-VOLVO,2009,Urban,Mediocre,3,(4,6),(1,3),(21,6),(20,2),Pgaz,Oxygen tank,16
-MERCEDES BENZ,2009,MediumOffRoad,Light,3,(4,3),(1,8),(17,9),(29,7),ChemicalRescue,Oxygen tank,8
-MAN,2008,OffRoad,Mediocre,4,(4,2),(2,2),(16,5),(18,2),MotorPump,Petrol Saw,27
-RENAULT,2013,Urban,Heavy,4,(3,2),(2),(27,6),(20,1),ChemicalRescue,Oxygen tank,8
-MERCEDES BENZ,2012,Urban,Heavy,5,(2,2),(2),(24,8),(22,3),CommandAndCommunications,hydraulic equipment,19
-IVECO,2007,Urban,Heavy,4,(3,5),(1,7),(27,5),(17,3),CommandAndCommunications,hydraulic equipment,22
-SCANIA,2007,MediumOffRoad,Heavy,5,(2,3),(1,5),(19,1),(17,6),HighAltitudeRescue,hydraulic equipment,9
-RENAULT,2014,MediumOffRoad,Light,4,(2,9),(1,5),(16),(22),Pgaz,Oxygen tank,2
-MAN,2008,MediumOffRoad,Mediocre,4,(6,2),(1,2),(29),(25,4),WaterRescue,Oxygen tank,21
-SCANIA,2018,OffRoad,Heavy,3,(2,3),(2,4),(17),(30,5),Pgaz,Petrol Saw,12
-VOLVO,2011,OffRoad,Mediocre,4,(4,2),(2,6),(29),(18,4),CommandAndCommunications,Oxygen tank,5
-MAN,2020,Urban,Light,5,(7,6),(1,5),(19,7),(31,9),WithCO2Cylinders,hydraulic equipment,24
-MERCEDES BENZ,2016,Urban,Heavy,3,(2,9),(3),(22,7),(20,6),FireExtinguishingPowderTank,Petrol Saw,29
-MAN,2020,MediumOffRoad,Light,4,(7,2),(1,6),(24,2),(21,9),Lighting,Oxygen tank,23
-RENAULT,2020,OffRoad,Heavy,4,(6,8),(1,5),(19,3),(17,8),Pgaz,Oxygen tank,15
-VOLVO,2016,OffRoad,Mediocre,4,(6,2),(2,8),(20,7),(20,7),TechnicalRescue,hydraulic equipment,8
-RENAULT,2015,MediumOffRoad,Light,5,(2,8),(1,5),(21,4),(18,5),Operating,Oxygen tank,25
-RENAULT,2007,MediumOffRoad,Heavy,5,(2,6),(1,4),(31,1),(25,4),Operating,hydraulic equipment,22
-VOLVO,2021,MediumOffRoad,Mediocre,5,(3,2),(2,5),(16,2),(16,4),WithCO2Cylinders,Oxygen tank,6
-RENAULT,2018,Urban,Light,5,(2,6),(2,4),(30,3),(23,9),MotorPump,Petrol Saw,5
-SCANIA,2015,MediumOffRoad,Heavy,4,(7,4),(2,1),(22,1),(28,1),WaterRescue,hydraulic equipment,4
-VOLVO,2017,Urban,Mediocre,5,(7),(2,1),(22,3),(30,6),Crane,hydraulic equipment,5
-VOLVO,2017,OffRoad,Mediocre,5,(6,2),(1,1),(19,3),(29,8),Container,hydraulic equipment,15
-RENAULT,2022,Urban,Heavy,5,(6,9),(1,1),(19,6),(24,1),Lighting,hydraulic equipment,21
-MERCEDES BENZ,2006,Urban,Light,4,(5,8),(1,2),(22,7),(29,9),FireHoses,hydraulic equipment,11
-MAN,2017,OffRoad,Mediocre,4,(4),(2,3),(23,6),(26,8),TechnicalRescue,hydraulic equipment,13
-VOLVO,2009,MediumOffRoad,Light,4,(2,9),(2,9),(24,6),(23,9),FireHoses,hydraulic equipment,3
-MERCEDES BENZ,2010,MediumOffRoad,Mediocre,4,(4,7),(1,5),(31,1),(28,5),Operating,Oxygen tank,9
-MERCEDES BENZ,2010,MediumOffRoad,Mediocre,3,(5,7),(2,7),(22,2),(23,3),Reservoir,hydraulic equipment,24
-MAN,2017,MediumOffRoad,Light,4,(6,8),(2,2),(19,1),(27,6),WaterRescue,Oxygen tank,22
-SCANIA,2006,MediumOffRoad,Heavy,3,(7,8),(1,3),(29,6),(17,7),CommandAndCommunications,Petrol Saw,9
-RENAULT,2019,MediumOffRoad,Light,3,(5,4),(1,2),(17,1),(25,3),WithLadder,Petrol Saw,16
-VOLVO,2017,OffRoad,Light,5,(7,2),(1,6),(17,3),(30,8),CommandAndCommunications,Petrol Saw,8
-IVECO,2017,OffRoad,Light,3,(3),(1,3),(29,8),(21),Reservoir,Petrol Saw,19
-IVECO,2012,MediumOffRoad,Mediocre,4,(2,9),(2,7),(22,1),(22,4),WithCO2Cylinders,Oxygen tank,7
-VOLVO,2009,Urban,Heavy,5,(2,2),(2,5),(31,6),(22,8),WithCO2Cylinders,Petrol Saw,8
-MAN,2013,MediumOffRoad,Heavy,5,(5,9),(1,8),(23,7),(28,7),TechnicalRescue,hydraulic equipment,12
-VOLVO,2014,OffRoad,Light,3,(5,7),(2,5),(31,3),(28,6),Lighting,Oxygen tank,27
-RENAULT,2013,OffRoad,Mediocre,4,(5,4),(2,9),(25,5),(28,8),Lighting,hydraulic equipment,15
-VOLVO,2008,OffRoad,Heavy,5,(3),(2,7),(29,8),(29,2),Container,Oxygen tank,15
-RENAULT,2015,OffRoad,Mediocre,4,(4,9),(1),(17,8),(22,8),Reservoir,hydraulic equipment,6
-SCANIA,2007,MediumOffRoad,Mediocre,3,(4,8),(1,7),(23,2),(17),FireExtinguishingPowderTank,hydraulic equipment,14
-SCANIA,2017,Urban,Light,4,(6,4),(1,5),(27,8),(27,9),Lighting,Oxygen tank,5
-SCANIA,2008,OffRoad,Light,3,(5,2),(2),(25,1),(19,5),Crane,hydraulic equipment,21
-RENAULT,2010,MediumOffRoad,Heavy,5,(8),(1,9),(27,1),(26,1),WithCO2Cylinders,Oxygen tank,14
-RENAULT,2016,OffRoad,Light,3,(2,6),(1,6),(28,6),(27),WithLadder,Petrol Saw,5
-MERCEDES BENZ,2017,Urban,Mediocre,5,(5,9),(1,4),(20,3),(21,6),WaterRescue,Petrol Saw,19
-IVECO,2018,Urban,Mediocre,4,(5,5),(2,4),(31,1),(27,3),FireHoses,Oxygen tank,28
-MAN,2022,OffRoad,Mediocre,4,(6,9),(2,3),(29,1),(29,6),WaterRescue,Oxygen tank,21
-IVECO,2014,OffRoad,Mediocre,3,(4,2),(2,6),(29,9),(30,9),Reservoir,Petrol Saw,18
-IVECO,2019,MediumOffRoad,Heavy,5,(6,1),(2,5),(21,1),(28,7),TruckPump,Oxygen tank,25
-RENAULT,2010,Urban,Light,5,(2,5),(2,7),(30,2),(17,3),Lighting,hydraulic equipment,9
-SCANIA,2018,MediumOffRoad,Heavy,4,(2,8),(2,6),(16,9),(17,8),Lighting,hydraulic equipment,5
-MERCEDES BENZ,2022,Urban,Light,5,(6,8),(2,4),(23,4),(20,9),WithLadder,Oxygen tank,15
-VOLVO,2020,OffRoad,Heavy,4,(4,7),(2,8),(27,8),(26,8),HighAltitudeRescue,hydraulic equipment,3
-MERCEDES BENZ,2010,Urban,Mediocre,3,(4),(2,2),(23,4),(26,1),Lighting,Oxygen tank,25
-SCANIA,2016,Urban,Light,3,(3,4),(2,6),(20,2),(26,6),Quartermaster,Oxygen tank,12
-SCANIA,2016,MediumOffRoad,Light,5,(6,9),(2,5),(27,7),(23,9),CommandAndCommunications,Oxygen tank,5
-RENAULT,2019,MediumOffRoad,Light,4,(6,4),(1,7),(29),(18,6),WithHydraulicLift,Petrol Saw,10
-IVECO,2012,OffRoad,Mediocre,3,(6,1),(2,7),(26,5),(20,5),WithCO2Cylinders,Petrol Saw,8
-RENAULT,2023,MediumOffRoad,Heavy,4,(7,7),(1,3),(16,2),(28,9),WithCO2Cylinders,Oxygen tank,13
-SCANIA,2018,MediumOffRoad,Mediocre,5,(2,1),(1,8),(24,1),(21,1),TechnicalRescue,hydraulic equipment,9
-VOLVO,2012,Urban,Light,5,(5,3),(2,1),(17,7),(25,9),HighAltitudeRescue,hydraulic equipment,10
-RENAULT,2013,OffRoad,Light,3,(7,1),(2,4),(29,4),(16,8),Pgaz,Oxygen tank,29
-MAN,2010,OffRoad,Light,3,(4),(2,7),(21,4),(22,9),Reservoir,Oxygen tank,24
-MAN,2021,Urban,Light,5,(2,9),(1,6),(22,6),(29,7),Crane,hydraulic equipment,11
-RENAULT,2007,OffRoad,Mediocre,5,(2,3),(1,4),(30,5),(16,3),Lighting,hydraulic equipment,22
-RENAULT,2021,MediumOffRoad,Light,4,(5,8),(2,9),(24,1),(29,9),Pgaz,Oxygen tank,14
-RENAULT,2015,OffRoad,Light,3,(3,8),(1,3),(18,8),(22,1),Lighting,Petrol Saw,22
-MAN,2012,OffRoad,Heavy,5,(4,3),(2,2),(16,3),(21,6),Operating,Oxygen tank,8
-SCANIA,2007,OffRoad,Mediocre,4,(2,9),(1,6),(31,3),(19,1),Pgaz,hydraulic equipment,12
-MERCEDES BENZ,2012,Urban,Light,5,(2,4),(1,8),(31,3),(30,5),Operating,Petrol Saw,22
-SCANIA,2007,Urban,Heavy,3,(6),(1,4),(30,7),(28,9),Lighting,Oxygen tank,15
-MAN,2011,MediumOffRoad,Heavy,4,(5,7),(1,7),(28,3),(29,7),TechnicalRescue,Petrol Saw,12
-MAN,2008,OffRoad,Mediocre,3,(4,1),(2,8),(17,4),(25),Lighting,hydraulic equipment,4
-RENAULT,2020,OffRoad,Light,4,(5,8),(1,5),(18,6),(24,1),Operating,Petrol Saw,21
-VOLVO,2012,OffRoad,Light,5,(6,6),(1,2),(17,5),(24,5),Reservoir,Oxygen tank,7
-MAN,2009,Urban,Mediocre,3,(4,2),(2,3),(25,3),(25,8),FireHoses,hydraulic equipment,20
-SCANIA,2014,Urban,Light,5,(6,4),(1),(25),(25,7),MotorPump,Oxygen tank,15
-SCANIA,2019,Urban,Mediocre,5,(4,4),(2,5),(21,1),(18),Lighting,hydraulic equipment,2
-VOLVO,2014,Urban,Light,4,(7,3),(1,8),(27),(23,9),ChemicalRescue,Oxygen tank,25
-IVECO,2008,Urban,Heavy,4,(6,1),(1,8),(17,2),(24,3),FireHoses,Petrol Saw,6
-MERCEDES BENZ,2020,OffRoad,Mediocre,5,(3,4),(2,5),(25,6),(26,5),Operating,hydraulic equipment,23
-IVECO,2017,MediumOffRoad,Light,4,(5,8),(1,3),(27,7),(28,7),Lighting,Petrol Saw,14
-MAN,2013,MediumOffRoad,Mediocre,5,(4,1),(1,3),(28,1),(27,7),Lighting,hydraulic equipment,15
-VOLVO,2023,Urban,Heavy,4,(6,7),(2,1),(30,9),(22),FireHoses,hydraulic equipment,2
-VOLVO,2016,MediumOffRoad,Mediocre,4,(2,1),(2,5),(23,2),(31,7),Reservoir,Oxygen tank,23
-MAN,2009,MediumOffRoad,Heavy,4,(3,8),(1,3),(18,2),(21,7),Lighting,Petrol Saw,27
-RENAULT,2018,Urban,Heavy,4,(6,5),(1,8),(27),(23,9),FireHoses,Oxygen tank,20
-RENAULT,2019,OffRoad,Heavy,5,(2,2),(2,9),(24,4),(17),Lighting,Petrol Saw,9
-VOLVO,2023,Urban,Mediocre,5,(6,1),(2,7),(20,7),(19,1),WithLadder,hydraulic equipment,11
-MAN,2010,OffRoad,Light,4,(5,1),(2,2),(19,8),(18,4),MotorPump,Petrol Saw,3
-MAN,2023,MediumOffRoad,Heavy,4,(2,1),(1,9),(17,3),(22,3),WaterRescue,Petrol Saw,12
-MAN,2014,MediumOffRoad,Heavy,5,(7),(1,1),(29,6),(29,4),FireExtinguishingPowderTank,hydraulic equipment,12
-IVECO,2011,MediumOffRoad,Light,5,(5,1),(1,2),(24),(27,8),MotorPump,Petrol Saw,3
-SCANIA,2011,MediumOffRoad,Mediocre,3,(4,3),(1,1),(31,8),(18,5),WithLadder,hydraulic equipment,24
-RENAULT,2012,MediumOffRoad,Light,5,(5),(2,1),(29),(29,8),Lighting,hydraulic equipment,24
-VOLVO,2011,Urban,Mediocre,5,(2,5),(2,1),(31,6),(26),Operating,Petrol Saw,4
-SCANIA,2016,OffRoad,Heavy,4,(3,8),(1,9),(25,8),(26,9),WithHydraulicLift,Petrol Saw,16
-RENAULT,2014,Urban,Mediocre,3,(2,6),(3),(22),(17,2),WithHydraulicLift,Oxygen tank,8
-SCANIA,2009,MediumOffRoad,Heavy,4,(2),(1,4),(16,1),(18,5),ChemicalRescue,Oxygen tank,12
-VOLVO,2014,Urban,Heavy,4,(3,4),(2,2),(30,5),(17,6),Crane,hydraulic equipment,5
-MERCEDES BENZ,2006,OffRoad,Light,4,(7,9),(1,7),(28),(28),TechnicalRescue,Petrol Saw,11
-RENAULT,2012,OffRoad,Mediocre,3,(5,4),(1,4),(29,8),(23,3),Lighting,Oxygen tank,8
-MAN,2019,Urban,Heavy,4,(7,9),(2),(27,2),(25,4),FireExtinguishingPowderTank,Petrol Saw,5
-MERCEDES BENZ,2007,MediumOffRoad,Mediocre,4,(7,6),(1,9),(26,1),(26,5),WithLadder,hydraulic equipment,23
-IVECO,2017,Urban,Light,5,(2,9),(2,6),(17,8),(23,5),TruckPump,Petrol Saw,2
-SCANIA,2023,OffRoad,Heavy,4,(6,4),(1,4),(19),(21,1),HighAltitudeRescue,hydraulic equipment,8
-MAN,2022,OffRoad,Heavy,3,(2,2),(1,1),(30,9),(31),Reservoir,hydraulic equipment,17
-IVECO,2016,Urban,Heavy,3,(3,9),(1,4),(24,6),(17,6),MotorPump,Petrol Saw,3
-MERCEDES BENZ,2012,MediumOffRoad,Light,5,(6,9),(2,3),(28,4),(25,6),WithLadder,Oxygen tank,27
-VOLVO,2016,Urban,Mediocre,4,(5,1),(2,1),(18,1),(22,3),FireHoses,hydraulic equipment,23
-IVECO,2006,MediumOffRoad,Light,4,(2,9),(1,3),(31,6),(27),Operating,hydraulic equipment,14
-VOLVO,2008,MediumOffRoad,Light,3,(6,7),(1,9),(27),(27,7),Operating,Oxygen tank,6
-MAN,2006,OffRoad,Mediocre,3,(2,1),(2,1),(23,1),(17,9),Crane,Petrol Saw,11
-MAN,2010,Urban,Mediocre,5,(5,7),(1,1),(20,3),(31,7),Reservoir,Petrol Saw,29
-IVECO,2011,Urban,Mediocre,3,(4,5),(1,9),(25,6),(20,1),Pgaz,hydraulic equipment,14
-MAN,2009,OffRoad,Mediocre,3,(5),(1,3),(24,1),(18,7),WithLadder,hydraulic equipment,3
-MERCEDES BENZ,2017,OffRoad,Mediocre,4,(5,6),(2,9),(16,8),(16,1),Lighting,hydraulic equipment,3
-RENAULT,2006,Urban,Mediocre,4,(6),(1),(23,4),(20,8),ChemicalRescue,Oxygen tank,13
-MAN,2023,OffRoad,Light,5,(5,1),(2,2),(27,2),(29,4),Quartermaster,Petrol Saw,20
-MAN,2022,MediumOffRoad,Mediocre,4,(5,3),(2,8),(17,8),(16,4),Crane,Petrol Saw,28
-SCANIA,2018,OffRoad,Light,4,(3,9),(1,2),(20,1),(31),Pgaz,Petrol Saw,9
-SCANIA,2012,OffRoad,Heavy,5,(3,2),(1,1),(28,9),(19),ChemicalRescue,Petrol Saw,3
-IVECO,2010,MediumOffRoad,Mediocre,5,(3,9),(1,9),(19,6),(26,4),Quartermaster,Oxygen tank,7
-SCANIA,2021,MediumOffRoad,Light,4,(4,3),(2,5),(17,9),(29,4),Reservoir,Oxygen tank,14
-IVECO,2018,MediumOffRoad,Mediocre,5,(5,5),(2,2),(17,1),(21,8),Pgaz,Petrol Saw,4
-MAN,2007,OffRoad,Heavy,4,(6,8),(2,3),(25,9),(16,3),FireExtinguishingPowderTank,Oxygen tank,5
-IVECO,2013,Urban,Heavy,4,(6),(1,4),(27),(27,8),WithLadder,hydraulic equipment,6
-VOLVO,2014,Urban,Mediocre,5,(4,9),(2,2),(30),(16,3),WithHydraulicLift,Oxygen tank,11
-MERCEDES BENZ,2017,Urban,Mediocre,3,(3),(1,4),(31,6),(23,3),TruckPump,Petrol Saw,3
-IVECO,2010,Urban,Light,3,(3,9),(1,8),(25,7),(19,2),ChemicalRescue,hydraulic equipment,18
-VOLVO,2012,OffRoad,Light,3,(6,9),(1,8),(23,6),(18,7),WaterRescue,Oxygen tank,23
-MERCEDES BENZ,2008,OffRoad,Light,4,(2,7),(2,9),(27,1),(25,2),TechnicalRescue,Oxygen tank,2
-VOLVO,2007,MediumOffRoad,Heavy,4,(4,1),(1,8),(23),(23,1),HighAltitudeRescue,Petrol Saw,7
-MERCEDES BENZ,2016,Urban,Mediocre,3,(5,4),(2,3),(28,8),(22,2),FireHoses,hydraulic equipment,27
-MAN,2014,MediumOffRoad,Mediocre,5,(2),(2,4),(25,7),(16,1),MotorPump,Oxygen tank,11
-SCANIA,2006,OffRoad,Light,3,(3,4),(2,5),(25,2),(29,2),Crane,hydraulic equipment,23
-MERCEDES BENZ,2023,MediumOffRoad,Light,4,(6),(2),(17,6),(25,8),TruckPump,Petrol Saw,19
-SCANIA,2008,Urban,Heavy,5,(3,2),(1,1),(23,5),(26,1),WaterRescue,Oxygen tank,7
-VOLVO,2008,MediumOffRoad,Mediocre,3,(3,1),(1,6),(26,3),(26,6),WithHydraulicLift,Oxygen tank,7
-IVECO,2020,MediumOffRoad,Mediocre,3,(5,3),(2,4),(29,2),(28,9),Lighting,Petrol Saw,13
-RENAULT,2018,Urban,Light,4,(7,3),(2,5),(16,9),(22),Operating,Petrol Saw,27
-SCANIA,2011,MediumOffRoad,Heavy,3,(7),(1,1),(19,6),(18,8),Lighting,Petrol Saw,4
-RENAULT,2012,Urban,Heavy,5,(3,4),(2,5),(27,3),(21,2),Lighting,Petrol Saw,8
-VOLVO,2012,Urban,Heavy,5,(4,7),(1,5),(26,8),(16,9),Operating,Petrol Saw,19
-VOLVO,2007,Urban,Light,5,(5,2),(2,4),(19),(23,5),WithCO2Cylinders,hydraulic equipment,6
-MAN,2007,Urban,Mediocre,4,(7,9),(1,5),(28,2),(16),Reservoir,Oxygen tank,13
-SCANIA,2019,OffRoad,Light,5,(5,7),(2,7),(19,2),(24),TruckPump,Petrol Saw,4
-MERCEDES BENZ,2008,OffRoad,Mediocre,3,(4,2),(2,9),(19,5),(30,4),WithHydraulicLift,Oxygen tank,29
-MERCEDES BENZ,2007,Urban,Heavy,5,(6,2),(1,2),(20,3),(18),Lighting,Oxygen tank,9
-SCANIA,2021,Urban,Light,3,(7,1),(1,6),(26,7),(19,8),WithHydraulicLift,hydraulic equipment,19
-IVECO,2013,MediumOffRoad,Mediocre,3,(2,1),(1,7),(20,8),(19,7),Quartermaster,Petrol Saw,3
-RENAULT,2021,OffRoad,Light,3,(6,1),(2,5),(29,2),(18,7),WaterRescue,hydraulic equipment,24
-MERCEDES BENZ,2019,OffRoad,Heavy,3,(4,4),(2),(21,9),(20,8),Quartermaster,Oxygen tank,24
-MERCEDES BENZ,2006,Urban,Heavy,3,(4,8),(1,9),(19,5),(20,2),ChemicalRescue,Petrol Saw,6
-RENAULT,2007,OffRoad,Heavy,4,(6,2),(3),(25,3),(23,2),HighAltitudeRescue,Oxygen tank,18
-MAN,2017,Urban,Mediocre,5,(7,9),(2,3),(26,8),(29,9),CommandAndCommunications,Petrol Saw,25
-MAN,2020,Urban,Mediocre,3,(3,2),(1,5),(21,2),(23,2),ChemicalRescue,hydraulic equipment,13
-RENAULT,2009,Urban,Mediocre,3,(3,8),(1,1),(28,9),(26,2),Lighting,Petrol Saw,11
-MERCEDES BENZ,2015,Urban,Heavy,3,(5,2),(1,9),(30,3),(23,4),TruckPump,Petrol Saw,10
-MERCEDES BENZ,2009,Urban,Mediocre,4,(6,3),(1,4),(21,6),(27),Container,Petrol Saw,14
-VOLVO,2023,Urban,Mediocre,4,(3,3),(1,5),(22,6),(31,2),TechnicalRescue,Oxygen tank,6
-SCANIA,2017,OffRoad,Heavy,3,(4,1),(1),(17,4),(25,4),ChemicalRescue,hydraulic equipment,15
-SCANIA,2008,OffRoad,Mediocre,3,(6,1),(1,1),(19,3),(28),Container,Oxygen tank,19
-MAN,2023,MediumOffRoad,Light,5,(4,1),(1,4),(22,4),(29),Lighting,hydraulic equipment,10
-MAN,2010,OffRoad,Heavy,5,(4,2),(2,1),(29,9),(26),HighAltitudeRescue,Petrol Saw,4
-RENAULT,2020,Urban,Mediocre,5,(4,5),(3),(18,8),(19,3),TruckPump,Oxygen tank,2
-MERCEDES BENZ,2014,Urban,Light,4,(7,4),(2,3),(29,3),(18,9),Operating,hydraulic equipment,27
-MERCEDES BENZ,2019,OffRoad,Mediocre,5,(2,9),(1,4),(32),(16,2),ChemicalRescue,hydraulic equipment,22
-RENAULT,2014,MediumOffRoad,Mediocre,3,(5,7),(1,6),(22,8),(16,8),Lighting,Petrol Saw,12
-MERCEDES BENZ,2020,MediumOffRoad,Mediocre,3,(7),(2,6),(18,1),(23,6),Lighting,Petrol Saw,29
-IVECO,2010,MediumOffRoad,Heavy,3,(3,7),(2,5),(25,2),(28,6),CommandAndCommunications,Oxygen tank,3
-RENAULT,2023,Urban,Heavy,3,(6,7),(1,8),(26,2),(26,1),TruckPump,Petrol Saw,29
-VOLVO,2023,Urban,Mediocre,4,(4,9),(1,9),(18,5),(31,3),Lighting,hydraulic equipment,19
-MERCEDES BENZ,2023,MediumOffRoad,Heavy,3,(2,2),(2,9),(23,1),(30,6),FireHoses,Oxygen tank,7
-VOLVO,2009,MediumOffRoad,Heavy,3,(6,5),(1,4),(31,3),(31),Crane,hydraulic equipment,12
-SCANIA,2012,MediumOffRoad,Light,5,(3,4),(1,8),(18),(21,2),Reservoir,Oxygen tank,18
-IVECO,2011,Urban,Light,5,(2,6),(1,6),(23,2),(18,2),WithLadder,Petrol Saw,5
-IVECO,2023,MediumOffRoad,Light,5,(3,1),(2),(21,6),(30,9),CommandAndCommunications,hydraulic equipment,20
-MERCEDES BENZ,2011,MediumOffRoad,Mediocre,5,(7,9),(2,7),(30,8),(19,3),FireExtinguishingPowderTank,Oxygen tank,19
-MAN,2014,MediumOffRoad,Light,3,(5,8),(1,8),(25,6),(28,1),Container,hydraulic equipment,6
-MERCEDES BENZ,2019,MediumOffRoad,Mediocre,4,(4,5),(2,9),(23,8),(28,2),WithHydraulicLift,hydraulic equipment,24
-IVECO,2009,OffRoad,Light,5,(5,6),(2,5),(22,2),(24,2),Container,hydraulic equipment,19
-RENAULT,2010,OffRoad,Light,3,(3,2),(2,7),(31,6),(17,8),FireHoses,Petrol Saw,16
-IVECO,2009,MediumOffRoad,Mediocre,5,(6),(1,9),(22,3),(20,3),HighAltitudeRescue,Petrol Saw,23
-SCANIA,2023,MediumOffRoad,Mediocre,5,(2,6),(2,7),(23,5),(31,7),MotorPump,Petrol Saw,4
-RENAULT,2009,OffRoad,Mediocre,5,(3,3),(1,6),(23,8),(28),Lighting,Oxygen tank,8
-MERCEDES BENZ,2006,MediumOffRoad,Mediocre,4,(3,3),(1),(25,7),(28,6),FireExtinguishingPowderTank,Oxygen tank,4
-RENAULT,2014,OffRoad,Heavy,5,(4,4),(2,9),(22,9),(28,1),FireExtinguishingPowderTank,Oxygen tank,6
-MAN,2007,MediumOffRoad,Heavy,4,(5),(1,1),(27,2),(27,5),Quartermaster,hydraulic equipment,29
-VOLVO,2019,Urban,Light,4,(2,8),(1,2),(30,3),(31,4),Lighting,hydraulic equipment,20
-SCANIA,2014,OffRoad,Light,5,(7,5),(1,2),(20,4),(30,9),WaterRescue,hydraulic equipment,12
-SCANIA,2009,OffRoad,Light,3,(3,5),(2),(19),(25,6),Quartermaster,hydraulic equipment,2
-IVECO,2008,OffRoad,Mediocre,5,(2,6),(3),(23,2),(25,4),FireHoses,Petrol Saw,21
-RENAULT,2015,OffRoad,Mediocre,4,(4,5),(1,6),(27,8),(21,6),WithCO2Cylinders,Petrol Saw,12
-MAN,2007,Urban,Mediocre,3,(2,4),(2,6),(31,1),(25,3),Lighting,Oxygen tank,8
-MAN,2015,Urban,Heavy,4,(4,1),(2,7),(22,8),(18,3),WaterRescue,Petrol Saw,23
-VOLVO,2012,OffRoad,Mediocre,4,(7,7),(1,3),(21,5),(28,4),TechnicalRescue,hydraulic equipment,18
-RENAULT,2014,OffRoad,Light,4,(5,6),(1,1),(25,7),(25,8),ChemicalRescue,Petrol Saw,24
-MERCEDES BENZ,2019,MediumOffRoad,Light,5,(4,1),(2,4),(23),(28,4),ChemicalRescue,hydraulic equipment,29
-VOLVO,2013,MediumOffRoad,Light,3,(7,6),(2,4),(31,2),(31,3),HighAltitudeRescue,hydraulic equipment,11
-SCANIA,2020,MediumOffRoad,Light,3,(4,3),(1,9),(21,1),(20),Lighting,Oxygen tank,12
-MERCEDES BENZ,2010,Urban,Heavy,5,(4),(1,7),(19,7),(27,6),CommandAndCommunications,hydraulic equipment,11
-VOLVO,2016,Urban,Heavy,5,(5,3),(2,9),(28,6),(16,3),WithLadder,Petrol Saw,22
-MERCEDES BENZ,2008,Urban,Heavy,3,(2),(1,8),(16,6),(20,3),Lighting,Oxygen tank,20
-SCANIA,2019,MediumOffRoad,Light,3,(2,9),(1,7),(23,6),(24,7),CommandAndCommunications,hydraulic equipment,27
-RENAULT,2011,OffRoad,Heavy,5,(6,1),(1,9),(28,9),(20,8),CommandAndCommunications,Petrol Saw,17
-VOLVO,2018,OffRoad,Heavy,4,(5,7),(1,2),(31,2),(22,8),Lighting,Oxygen tank,10
-RENAULT,2016,MediumOffRoad,Light,5,(3,3),(2,2),(29,9),(31,5),HighAltitudeRescue,Petrol Saw,6
-VOLVO,2013,MediumOffRoad,Light,3,(2),(1,5),(31,7),(31,2),Lighting,Oxygen tank,14
-IVECO,2014,MediumOffRoad,Heavy,4,(2,5),(1,2),(23,7),(24,2),CommandAndCommunications,hydraulic equipment,3
-RENAULT,2016,MediumOffRoad,Mediocre,4,(4,7),(1,5),(24,4),(19,1),FireExtinguishingPowderTank,Oxygen tank,16
-RENAULT,2023,Urban,Mediocre,3,(5,6),(1,4),(24),(18,6),MotorPump,Petrol Saw,28
-MERCEDES BENZ,2019,MediumOffRoad,Heavy,3,(5,9),(2,9),(22),(27,1),MotorPump,Petrol Saw,24
-SCANIA,2012,MediumOffRoad,Mediocre,3,(7,8),(1,4),(20,2),(16,4),FireExtinguishingPowderTank,hydraulic equipment,11
-MAN,2018,OffRoad,Heavy,3,(3,9),(1,8),(25,2),(29,1),WithHydraulicLift,hydraulic equipment,22
-VOLVO,2016,OffRoad,Heavy,4,(3,8),(1,5),(23,4),(21,7),WithCO2Cylinders,Oxygen tank,15
-MERCEDES BENZ,2008,OffRoad,Light,4,(7,1),(2,6),(21,6),(21,3),WithLadder,Oxygen tank,25
-SCANIA,2022,MediumOffRoad,Mediocre,4,(6,2),(1),(25,9),(17,5),FireExtinguishingPowderTank,hydraulic equipment,2
-RENAULT,2021,MediumOffRoad,Mediocre,3,(4,9),(1,2),(18,1),(23,6),Quartermaster,Oxygen tank,29
-MERCEDES BENZ,2022,MediumOffRoad,Mediocre,3,(7,9),(1,7),(17),(27,2),CommandAndCommunications,Petrol Saw,28
-MAN,2012,MediumOffRoad,Light,3,(7,7),(2,5),(22,6),(28,6),Container,hydraulic equipment,28
-MERCEDES BENZ,2022,Urban,Heavy,5,(7,7),(1,4),(31,9),(20,6),HighAltitudeRescue,Petrol Saw,8
-VOLVO,2013,Urban,Heavy,4,(7,1),(2,3),(21,6),(23,6),Quartermaster,Petrol Saw,19
-IVECO,2020,OffRoad,Mediocre,5,(5,1),(1,6),(30,2),(16,4),TechnicalRescue,Petrol Saw,13
-MAN,2008,OffRoad,Heavy,5,(7,9),(2,4),(19,7),(24,4),WithHydraulicLift,Oxygen tank,20
-VOLVO,2012,OffRoad,Light,4,(3,7),(1,1),(26,9),(26,9),Pgaz,Petrol Saw,10
-MERCEDES BENZ,2020,MediumOffRoad,Mediocre,4,(5,4),(2,2),(19,4),(21,3),Container,hydraulic equipment,22
-SCANIA,2014,MediumOffRoad,Mediocre,4,(6,6),(1,2),(19,3),(16,4),WaterRescue,Petrol Saw,6
-MERCEDES BENZ,2023,MediumOffRoad,Mediocre,5,(5,3),(1),(24,4),(29,6),Pgaz,Petrol Saw,20
-MERCEDES BENZ,2018,Urban,Heavy,3,(3,5),(2),(20,8),(25,7),CommandAndCommunications,Oxygen tank,13
-MERCEDES BENZ,2022,MediumOffRoad,Light,4,(6,6),(1,9),(26,9),(23,8),Quartermaster,Oxygen tank,2
-SCANIA,2010,OffRoad,Light,4,(5,5),(1,8),(19,9),(20,2),Lighting,Oxygen tank,8
-SCANIA,2021,OffRoad,Light,5,(7,5),(2,5),(25,3),(21,2),WithCO2Cylinders,hydraulic equipment,28
-SCANIA,2009,OffRoad,Mediocre,3,(3,5),(2,6),(31,4),(25,5),Reservoir,Petrol Saw,22
-RENAULT,2020,MediumOffRoad,Light,4,(4,4),(2),(28,4),(31,3),WithLadder,Petrol Saw,9
-RENAULT,2020,OffRoad,Mediocre,4,(7,5),(2),(21,4),(23,9),Pgaz,Petrol Saw,11
-SCANIA,2015,Urban,Light,3,(3),(2,5),(21,6),(31),HighAltitudeRescue,Oxygen tank,20
-VOLVO,2021,Urban,Light,4,(2,1),(1,5),(28,5),(17),TechnicalRescue,Petrol Saw,5
-IVECO,2007,OffRoad,Heavy,3,(7,8),(2,8),(24,1),(20,8),Quartermaster,hydraulic equipment,29
-IVECO,2017,OffRoad,Mediocre,3,(4,6),(2,3),(23,2),(24,8),Lighting,Petrol Saw,7
-MERCEDES BENZ,2014,MediumOffRoad,Mediocre,4,(6),(1,2),(25,3),(18,9),HighAltitudeRescue,Oxygen tank,25
-SCANIA,2013,OffRoad,Mediocre,5,(2,8),(2,9),(29,7),(23,1),TechnicalRescue,hydraulic equipment,6
-VOLVO,2019,MediumOffRoad,Light,5,(6,5),(3),(17,2),(17,7),TruckPump,Petrol Saw,13
-SCANIA,2009,OffRoad,Light,4,(3),(1,1),(31,3),(22,7),WithLadder,hydraulic equipment,3
-SCANIA,2020,MediumOffRoad,Light,3,(3,2),(2,4),(21,7),(21,5),WithLadder,Petrol Saw,15
-SCANIA,2017,MediumOffRoad,Light,3,(4,2),(2),(25,8),(24,4),Container,Petrol Saw,21
-RENAULT,2014,Urban,Mediocre,3,(7,1),(1,8),(28,1),(16,5),TechnicalRescue,Oxygen tank,28
-RENAULT,2010,Urban,Heavy,3,(6,8),(2,9),(30,7),(20,8),Pgaz,hydraulic equipment,23
-RENAULT,2018,MediumOffRoad,Heavy,4,(2,1),(1,5),(25),(22,3),ChemicalRescue,Petrol Saw,22
-VOLVO,2018,OffRoad,Heavy,5,(4,6),(1,6),(22,7),(26),WithLadder,Oxygen tank,10
-SCANIA,2008,MediumOffRoad,Heavy,5,(3,3),(2,3),(25,4),(20,8),Crane,Oxygen tank,10
-MERCEDES BENZ,2023,OffRoad,Mediocre,5,(6,5),(2,9),(31),(29,6),Container,hydraulic equipment,28
-VOLVO,2007,MediumOffRoad,Heavy,3,(3),(2,5),(28,6),(20,2),Lighting,Oxygen tank,26
-MAN,2011,OffRoad,Heavy,3,(7,5),(2,3),(17,9),(16,4),CommandAndCommunications,Petrol Saw,19
-RENAULT,2018,OffRoad,Light,4,(7,9),(2,4),(17,6),(29,8),WithLadder,Oxygen tank,17
-SCANIA,2008,MediumOffRoad,Heavy,5,(7,7),(2,8),(19,9),(16,2),MotorPump,Oxygen tank,12
-SCANIA,2019,OffRoad,Heavy,4,(7,2),(1),(24,7),(27,1),Quartermaster,Petrol Saw,24
-MERCEDES BENZ,2009,OffRoad,Light,5,(7,7),(1,6),(24,5),(24,9),Container,Oxygen tank,14
-RENAULT,2011,MediumOffRoad,Mediocre,3,(6,4),(3),(24,9),(31,1),TruckPump,Oxygen tank,28
-SCANIA,2007,MediumOffRoad,Heavy,3,(6),(2),(23,1),(28,3),ChemicalRescue,hydraulic equipment,28
-IVECO,2023,Urban,Mediocre,5,(2,1),(1,2),(22,3),(26,7),TechnicalRescue,hydraulic equipment,12
-SCANIA,2020,MediumOffRoad,Mediocre,5,(5,5),(2,1),(25,8),(25,7),Operating,Oxygen tank,16
-MAN,2011,MediumOffRoad,Light,5,(5),(1,6),(30,1),(17,5),FireHoses,Petrol Saw,10
-SCANIA,2007,MediumOffRoad,Mediocre,3,(2,7),(2,3),(18,2),(16,4),Lighting,hydraulic equipment,23
-RENAULT,2022,MediumOffRoad,Light,5,(4,3),(2,2),(22,2),(24,5),MotorPump,Petrol Saw,3
-VOLVO,2023,MediumOffRoad,Mediocre,3,(3,2),(1,5),(22,7),(31,4),TechnicalRescue,Oxygen tank,7
-RENAULT,2012,Urban,Heavy,3,(4,2),(2,2),(28,2),(25,7),TruckPump,Petrol Saw,19
-RENAULT,2021,Urban,Mediocre,4,(6,8),(1,6),(21,4),(19),MotorPump,Oxygen tank,14
-VOLVO,2017,Urban,Light,3,(5,2),(2),(25),(24,4),WithCO2Cylinders,hydraulic equipment,13
-IVECO,2019,OffRoad,Heavy,3,(5,1),(1,1),(20,8),(23,9),WithLadder,Petrol Saw,22
-VOLVO,2019,OffRoad,Mediocre,3,(3),(2,6),(19),(30,9),CommandAndCommunications,Petrol Saw,20
-SCANIA,2010,OffRoad,Heavy,3,(4,6),(1,6),(19,7),(19,8),Crane,Oxygen tank,19
-MERCEDES BENZ,2011,MediumOffRoad,Mediocre,5,(4,9),(3),(31,8),(27,4),Reservoir,Petrol Saw,10
-MERCEDES BENZ,2017,Urban,Heavy,5,(6,4),(1),(19,7),(16,6),TechnicalRescue,hydraulic equipment,11
-SCANIA,2022,OffRoad,Mediocre,3,(7,7),(2,4),(27,1),(25,3),HighAltitudeRescue,Oxygen tank,22
-RENAULT,2008,OffRoad,Light,5,(4,3),(1,9),(19,7),(27,7),Lighting,Petrol Saw,6
-RENAULT,2021,MediumOffRoad,Heavy,3,(2,6),(2,5),(19,1),(27,9),Crane,Petrol Saw,3
-VOLVO,2006,MediumOffRoad,Light,4,(5,1),(2),(27,5),(28,9),Quartermaster,Petrol Saw,27
-MERCEDES BENZ,2010,OffRoad,Light,4,(5,6),(1,7),(19,2),(31,4),FireExtinguishingPowderTank,hydraulic equipment,11
-IVECO,2011,OffRoad,Light,4,(5,7),(1,5),(20,2),(26,9),FireExtinguishingPowderTank,Oxygen tank,6
-MERCEDES BENZ,2007,Urban,Mediocre,3,(4),(2,8),(25,5),(20,8),CommandAndCommunications,Petrol Saw,2
-MAN,2007,OffRoad,Light,3,(3,8),(1,6),(17,3),(23,1),Container,hydraulic equipment,13
-MAN,2019,MediumOffRoad,Heavy,4,(5),(1,5),(19,4),(26),TruckPump,Petrol Saw,11
-RENAULT,2017,MediumOffRoad,Light,3,(3,8),(1,9),(25,1),(24),Crane,Oxygen tank,4
-SCANIA,2023,OffRoad,Mediocre,4,(2,8),(1,1),(30,5),(26,3),Operating,Petrol Saw,13
-MERCEDES BENZ,2023,OffRoad,Mediocre,5,(3,3),(1,2),(21,5),(22,9),Lighting,hydraulic equipment,13
-MERCEDES BENZ,2006,MediumOffRoad,Heavy,3,(5),(1,1),(19,5),(26,3),ChemicalRescue,Petrol Saw,10
-IVECO,2015,Urban,Mediocre,4,(2,7),(2,3),(21,2),(17,7),Container,Oxygen tank,10
-MERCEDES BENZ,2008,Urban,Light,4,(6,5),(1,3),(29,8),(31,6),FireHoses,Oxygen tank,28
-MAN,2018,MediumOffRoad,Mediocre,3,(4,7),(1,7),(21,6),(27,4),WaterRescue,Oxygen tank,27
-IVECO,2007,MediumOffRoad,Mediocre,3,(6),(1,3),(23,7),(17,4),Crane,Oxygen tank,21
-IVECO,2013,OffRoad,Light,4,(6,7),(1,4),(23,6),(31,2),WithHydraulicLift,Oxygen tank,8
-MERCEDES BENZ,2014,OffRoad,Mediocre,3,(4,7),(1,5),(29,8),(26,1),Operating,Oxygen tank,22
-RENAULT,2022,Urban,Heavy,5,(3,6),(2,5),(27,1),(24,8),WithCO2Cylinders,Oxygen tank,21
-MERCEDES BENZ,2010,MediumOffRoad,Light,5,(7,6),(1,1),(21),(28),HighAltitudeRescue,Petrol Saw,26
-RENAULT,2022,MediumOffRoad,Heavy,4,(6,5),(2),(18,3),(17,7),FireHoses,Oxygen tank,19
-MERCEDES BENZ,2013,Urban,Mediocre,4,(6),(3),(23,4),(24),CommandAndCommunications,Oxygen tank,23
-MAN,2016,Urban,Heavy,4,(6,4),(1,2),(24,1),(21,8),Container,Oxygen tank,18
-IVECO,2014,Urban,Light,3,(4,4),(2),(23,7),(23,7),HighAltitudeRescue,Oxygen tank,20
-MERCEDES BENZ,2011,MediumOffRoad,Mediocre,3,(6,9),(2,1),(21,1),(17),TruckPump,Petrol Saw,13
-RENAULT,2008,OffRoad,Heavy,5,(5,8),(1,2),(31,9),(17,7),Reservoir,Petrol Saw,28
-RENAULT,2014,MediumOffRoad,Mediocre,4,(3,2),(1,8),(26,5),(26,5),Container,Petrol Saw,11
-SCANIA,2018,Urban,Light,4,(2,2),(2,6),(18),(27),WithLadder,Oxygen tank,8
-VOLVO,2010,MediumOffRoad,Heavy,4,(7,3),(1,8),(27,1),(27,2),MotorPump,hydraulic equipment,10
-IVECO,2022,Urban,Heavy,3,(6,5),(2,8),(25,6),(21,4),HighAltitudeRescue,hydraulic equipment,23
-SCANIA,2021,OffRoad,Light,5,(4,9),(1,2),(23,3),(31,6),HighAltitudeRescue,Oxygen tank,21
-MAN,2012,MediumOffRoad,Mediocre,4,(6,4),(2,4),(25,4),(17,6),WithLadder,Petrol Saw,8
-MAN,2009,Urban,Mediocre,3,(7,6),(2,6),(16,3),(20,8),TruckPump,Oxygen tank,27
-MERCEDES BENZ,2020,Urban,Heavy,5,(4,2),(1),(18,5),(20,7),Lighting,Oxygen tank,9
-MERCEDES BENZ,2011,Urban,Mediocre,5,(5,6),(2,3),(24,9),(18,2),HighAltitudeRescue,Oxygen tank,8
-RENAULT,2008,MediumOffRoad,Mediocre,4,(3,2),(2,9),(25),(24,8),Reservoir,hydraulic equipment,2
-RENAULT,2010,OffRoad,Mediocre,5,(2,6),(1,3),(30,1),(21),Lighting,Oxygen tank,29
-RENAULT,2021,OffRoad,Light,3,(2,5),(1,7),(16,4),(17,5),MotorPump,Oxygen tank,14
-IVECO,2012,OffRoad,Heavy,4,(5,7),(1,6),(18,4),(18,3),Lighting,hydraulic equipment,21
-SCANIA,2011,Urban,Heavy,4,(4,5),(2,2),(19,7),(16,6),Quartermaster,hydraulic equipment,2
-MERCEDES BENZ,2013,Urban,Heavy,4,(5,4),(1,2),(18,6),(22,9),WithLadder,Petrol Saw,13
-SCANIA,2014,Urban,Heavy,4,(6,9),(2,4),(29,8),(20,5),Container,Oxygen tank,29
-MAN,2010,MediumOffRoad,Heavy,3,(6,5),(2,1),(27,1),(27,9),WithLadder,Petrol Saw,22
-IVECO,2018,MediumOffRoad,Mediocre,3,(5),(2,7),(31,1),(19,9),ChemicalRescue,Oxygen tank,28
-IVECO,2015,Urban,Mediocre,3,(4,9),(2,9),(17,6),(29,2),Quartermaster,Petrol Saw,3
-RENAULT,2022,MediumOffRoad,Light,3,(7,8),(1,4),(17,7),(16),FireExtinguishingPowderTank,Oxygen tank,4
-MAN,2008,Urban,Light,4,(5,3),(1,2),(27,2),(19,4),CommandAndCommunications,Petrol Saw,20
-MAN,2022,OffRoad,Heavy,5,(6,1),(1,4),(27,4),(20,2),HighAltitudeRescue,Oxygen tank,23
-VOLVO,2013,Urban,Light,3,(7,1),(1,4),(20,5),(17,7),MotorPump,Petrol Saw,11
-MAN,2008,OffRoad,Heavy,3,(4,6),(3),(18,8),(29,4),TechnicalRescue,Petrol Saw,10
-MAN,2006,Urban,Light,3,(5,1),(1,2),(20,2),(19,7),Quartermaster,hydraulic equipment,20
-SCANIA,2010,OffRoad,Mediocre,4,(6,7),(1,5),(16,2),(22,2),FireHoses,Oxygen tank,8
-IVECO,2023,OffRoad,Heavy,3,(5,8),(1,2),(18,9),(22,1),ChemicalRescue,Oxygen tank,5
-RENAULT,2014,Urban,Heavy,3,(5,8),(2,5),(23,5),(31,3),FireHoses,Oxygen tank,12
-RENAULT,2018,OffRoad,Mediocre,4,(4,5),(2,1),(21,7),(29,7),FireHoses,Petrol Saw,5
-VOLVO,2010,OffRoad,Mediocre,4,(2,9),(1),(19,3),(17,8),TechnicalRescue,Petrol Saw,25
-MERCEDES BENZ,2015,MediumOffRoad,Heavy,5,(2,7),(2,3),(25,9),(29,9),FireHoses,hydraulic equipment,9
-VOLVO,2017,MediumOffRoad,Mediocre,3,(4,9),(2,6),(22,6),(20,7),WithHydraulicLift,Oxygen tank,28
-RENAULT,2018,MediumOffRoad,Mediocre,5,(7,9),(1,8),(16,1),(29,3),Quartermaster,Oxygen tank,4
-MAN,2015,OffRoad,Heavy,5,(7,6),(2),(31,3),(18,1),Pgaz,hydraulic equipment,29
-IVECO,2015,MediumOffRoad,Mediocre,4,(5,3),(2,8),(17,5),(17,8),WithCO2Cylinders,hydraulic equipment,7
-SCANIA,2007,OffRoad,Mediocre,5,(5,4),(2,1),(24,2),(27),WaterRescue,Petrol Saw,16
-SCANIA,2011,MediumOffRoad,Mediocre,3,(5,6),(1,6),(16,7),(27,9),ChemicalRescue,Petrol Saw,24
-MERCEDES BENZ,2018,OffRoad,Light,4,(6,7),(2,8),(22),(20),Reservoir,Oxygen tank,10
-RENAULT,2012,MediumOffRoad,Light,5,(7,7),(2,2),(17,9),(21),WithCO2Cylinders,hydraulic equipment,23
-SCANIA,2006,OffRoad,Heavy,4,(5,1),(1,8),(19,1),(25,5),FireExtinguishingPowderTank,hydraulic equipment,16
-VOLVO,2008,MediumOffRoad,Mediocre,4,(2,8),(1),(20,2),(23,7),Container,hydraulic equipment,15
-RENAULT,2018,OffRoad,Mediocre,4,(5,3),(1,3),(16,9),(25,5),MotorPump,Oxygen tank,8
-SCANIA,2023,MediumOffRoad,Light,4,(3,3),(2,8),(25,1),(27,4),TruckPump,hydraulic equipment,15
-SCANIA,2014,Urban,Mediocre,5,(4,5),(2,3),(30,5),(24,4),Quartermaster,hydraulic equipment,16
-MAN,2014,OffRoad,Mediocre,4,(5,2),(2,1),(20,6),(20,7),Pgaz,hydraulic equipment,15
-VOLVO,2007,MediumOffRoad,Heavy,3,(2,2),(1,7),(26),(16,1),Lighting,Petrol Saw,28
-IVECO,2017,OffRoad,Heavy,5,(2,8),(1,4),(23),(29,1),TechnicalRescue,Petrol Saw,26
-IVECO,2022,Urban,Mediocre,3,(6,4),(1,1),(27,5),(29,8),Lighting,Petrol Saw,8
-VOLVO,2012,Urban,Heavy,3,(2,5),(2,6),(29,1),(24,5),Lighting,hydraulic equipment,19
-RENAULT,2020,OffRoad,Light,3,(2,1),(2,4),(24),(24,2),WithLadder,hydraulic equipment,11
-VOLVO,2007,OffRoad,Light,4,(2,4),(2,6),(25,7),(30,3),Reservoir,Petrol Saw,25
-VOLVO,2021,MediumOffRoad,Light,4,(2),(1,6),(26),(16,5),WithHydraulicLift,Petrol Saw,19
-VOLVO,2006,Urban,Mediocre,4,(4),(1,7),(24,2),(17),Reservoir,Oxygen tank,25
-MERCEDES BENZ,2013,MediumOffRoad,Mediocre,4,(2),(1,9),(27,2),(21,8),Operating,hydraulic equipment,4
-SCANIA,2022,MediumOffRoad,Heavy,5,(7,2),(2,9),(17),(21,3),MotorPump,hydraulic equipment,4
-MERCEDES BENZ,2014,OffRoad,Mediocre,3,(7,5),(1,3),(24,9),(18,3),WithLadder,hydraulic equipment,16
-MERCEDES BENZ,2019,Urban,Light,4,(7,5),(1,8),(26,4),(26,1),Pgaz,Oxygen tank,12
-MAN,2011,MediumOffRoad,Mediocre,5,(4),(2,2),(24,8),(27),CommandAndCommunications,Petrol Saw,27
-SCANIA,2010,MediumOffRoad,Mediocre,3,(3,7),(2,2),(24,4),(27,6),WaterRescue,hydraulic equipment,28
-IVECO,2017,OffRoad,Heavy,4,(2,2),(1,9),(29,5),(23,8),Quartermaster,hydraulic equipment,12
-SCANIA,2012,MediumOffRoad,Mediocre,4,(7,1),(1,5),(29,9),(27,2),WaterRescue,Oxygen tank,3
-IVECO,2012,Urban,Light,3,(5,1),(2,9),(20,1),(27,5),Quartermaster,Oxygen tank,29
-IVECO,2016,OffRoad,Mediocre,5,(6,8),(2,1),(19),(18,2),Container,Oxygen tank,16
-SCANIA,2011,OffRoad,Mediocre,5,(4,2),(2,4),(25,6),(16,6),ChemicalRescue,hydraulic equipment,20
-RENAULT,2007,MediumOffRoad,Mediocre,3,(4,4),(2,8),(29,9),(18),Lighting,hydraulic equipment,9
-SCANIA,2022,OffRoad,Light,3,(3,9),(2,7),(26,2),(30,2),FireExtinguishingPowderTank,hydraulic equipment,19
-MAN,2009,Urban,Light,4,(6,3),(2,9),(22,4),(24),Lighting,Oxygen tank,21
-MAN,2020,OffRoad,Mediocre,5,(5,9),(1,6),(20,4),(18,8),Reservoir,hydraulic equipment,21
-RENAULT,2014,Urban,Light,3,(5,9),(1,9),(26,6),(27,7),CommandAndCommunications,Petrol Saw,2
-IVECO,2022,Urban,Mediocre,4,(2,4),(2,3),(17,5),(31,6),CommandAndCommunications,Petrol Saw,8
-RENAULT,2020,MediumOffRoad,Mediocre,4,(3,7),(1,4),(18,4),(26),TechnicalRescue,Petrol Saw,23
-SCANIA,2013,MediumOffRoad,Mediocre,4,(5),(3),(26),(27),WaterRescue,Petrol Saw,11
-VOLVO,2022,MediumOffRoad,Mediocre,4,(2,5),(2,5),(24,1),(27,5),Reservoir,hydraulic equipment,8
-MERCEDES BENZ,2016,MediumOffRoad,Light,4,(6,7),(2,5),(25,6),(20,2),WithHydraulicLift,Petrol Saw,9
-IVECO,2016,MediumOffRoad,Mediocre,3,(2,7),(1,9),(27,9),(22,6),MotorPump,hydraulic equipment,22
-VOLVO,2021,OffRoad,Light,5,(7),(2),(32),(20,7),FireHoses,Oxygen tank,24
-MAN,2016,Urban,Heavy,4,(7,4),(3),(24,1),(24,8),WithHydraulicLift,hydraulic equipment,27
-MAN,2006,MediumOffRoad,Heavy,3,(6,6),(1,4),(25,1),(24,6),Reservoir,Oxygen tank,7
-SCANIA,2015,MediumOffRoad,Mediocre,3,(7),(1,6),(23,6),(22,3),Crane,Petrol Saw,29
-MAN,2013,MediumOffRoad,Heavy,5,(5,3),(1,7),(20,3),(28,9),Quartermaster,Petrol Saw,3
-VOLVO,2017,MediumOffRoad,Mediocre,5,(6,2),(3),(24,6),(22,5),FireExtinguishingPowderTank,hydraulic equipment,15
-VOLVO,2016,Urban,Mediocre,4,(7),(2,2),(21,6),(31,6),WithLadder,hydraulic equipment,19
-VOLVO,2021,MediumOffRoad,Mediocre,5,(5,1),(1,5),(19,4),(28,5),Quartermaster,Petrol Saw,9
-IVECO,2017,MediumOffRoad,Heavy,5,(3,7),(2,9),(29,7),(20,9),FireExtinguishingPowderTank,Oxygen tank,27
-VOLVO,2008,OffRoad,Light,4,(4,6),(1,2),(19,7),(19,2),FireExtinguishingPowderTank,Petrol Saw,12
-MAN,2021,OffRoad,Heavy,3,(6),(1),(27,8),(30,6),CommandAndCommunications,hydraulic equipment,29
-RENAULT,2017,MediumOffRoad,Mediocre,4,(3,2),(1,9),(26,9),(18,3),Quartermaster,hydraulic equipment,3
-SCANIA,2023,MediumOffRoad,Mediocre,4,(3,5),(2,8),(25,2),(16,2),FireHoses,Oxygen tank,27
-MERCEDES BENZ,2006,Urban,Light,3,(3,1),(1,4),(20,4),(31,4),Lighting,Oxygen tank,29
-MAN,2017,Urban,Heavy,4,(7,1),(1,8),(26,6),(25),Quartermaster,Petrol Saw,12
-MAN,2010,MediumOffRoad,Light,3,(7,7),(3),(18,5),(21,3),Operating,hydraulic equipment,29
-IVECO,2018,OffRoad,Light,4,(3,4),(1,8),(21,1),(31,6),FireExtinguishingPowderTank,hydraulic equipment,2
-RENAULT,2021,OffRoad,Heavy,5,(3,1),(1,3),(28,3),(26,9),Crane,hydraulic equipment,3
-VOLVO,2011,MediumOffRoad,Heavy,5,(3,4),(2),(28,6),(27,4),WithCO2Cylinders,Petrol Saw,9
-VOLVO,2013,MediumOffRoad,Mediocre,3,(3,3),(1,8),(27,3),(23,9),FireExtinguishingPowderTank,hydraulic equipment,13
-RENAULT,2020,MediumOffRoad,Heavy,4,(6,1),(2,8),(29),(26,8),WithHydraulicLift,Petrol Saw,15
-IVECO,2014,OffRoad,Light,5,(6,5),(2,1),(19,8),(31,2),WithLadder,Petrol Saw,9
-SCANIA,2023,Urban,Mediocre,4,(3,4),(2,9),(25,5),(18,2),WaterRescue,Petrol Saw,14
-MAN,2022,MediumOffRoad,Light,3,(6,3),(2),(27,3),(16,9),Reservoir,Petrol Saw,23
-MERCEDES BENZ,2015,OffRoad,Mediocre,4,(7),(3),(30,4),(16,1),Crane,Oxygen tank,6
-MERCEDES BENZ,2009,OffRoad,Heavy,4,(7,5),(2,2),(20,7),(16,4),ChemicalRescue,hydraulic equipment,5
-SCANIA,2020,Urban,Mediocre,5,(4,3),(1,5),(22,6),(22,8),Lighting,hydraulic equipment,7
-VOLVO,2016,MediumOffRoad,Heavy,5,(6,3),(1,1),(21,2),(18,3),Reservoir,hydraulic equipment,28
-MERCEDES BENZ,2009,MediumOffRoad,Light,5,(7,4),(2,8),(18,2),(23,4),Lighting,Petrol Saw,2
-MAN,2008,OffRoad,Mediocre,4,(2,2),(1,6),(23,4),(20,7),Container,Oxygen tank,19
-MAN,2006,Urban,Mediocre,3,(4,2),(1,6),(23),(20,7),Crane,Oxygen tank,12
-VOLVO,2022,MediumOffRoad,Light,5,(2,8),(2,4),(17,3),(23,7),WaterRescue,Petrol Saw,10
-MERCEDES BENZ,2017,OffRoad,Mediocre,4,(7,1),(2,1),(22,9),(18,3),CommandAndCommunications,Petrol Saw,6
-MERCEDES BENZ,2009,MediumOffRoad,Light,3,(6,7),(1,1),(26,3),(31,2),Operating,hydraulic equipment,29
-SCANIA,2009,OffRoad,Heavy,5,(7,5),(2,8),(30,8),(22,5),WithHydraulicLift,Oxygen tank,8
-MAN,2022,Urban,Heavy,3,(4,2),(2,4),(23,4),(29),TechnicalRescue,Petrol Saw,11
-VOLVO,2017,MediumOffRoad,Light,4,(5,3),(1,8),(25,4),(25),Operating,Petrol Saw,2
-RENAULT,2012,Urban,Heavy,3,(5,6),(1,7),(27,8),(28,3),Quartermaster,Oxygen tank,24
-MERCEDES BENZ,2019,OffRoad,Mediocre,4,(3),(1,9),(23,4),(28),Reservoir,Petrol Saw,4
-MAN,2009,Urban,Heavy,4,(7,3),(2,8),(29,4),(31,1),ChemicalRescue,Petrol Saw,13
-VOLVO,2022,MediumOffRoad,Mediocre,3,(2,1),(2,5),(22,4),(25,7),Lighting,hydraulic equipment,3
-MERCEDES BENZ,2007,MediumOffRoad,Mediocre,4,(6,8),(1,7),(26),(23,1),Quartermaster,Petrol Saw,25
-MERCEDES BENZ,2010,OffRoad,Heavy,5,(7,1),(2,5),(30,3),(23,8),FireExtinguishingPowderTank,Petrol Saw,13
-SCANIA,2020,OffRoad,Light,3,(4,7),(1,8),(18,8),(20,8),WithLadder,Petrol Saw,8
-MAN,2021,Urban,Mediocre,5,(5,3),(1),(17,3),(28,9),Pgaz,Oxygen tank,5
-RENAULT,2012,MediumOffRoad,Light,5,(5,9),(2,1),(18,9),(26,3),ChemicalRescue,hydraulic equipment,7
-VOLVO,2006,MediumOffRoad,Light,4,(4,1),(2,2),(26,2),(21,3),WaterRescue,Petrol Saw,8
-SCANIA,2017,MediumOffRoad,Light,5,(7,8),(1,7),(17,9),(27,1),Operating,hydraulic equipment,17
-MERCEDES BENZ,2008,OffRoad,Mediocre,4,(5,9),(2,3),(16,5),(26,3),Crane,Petrol Saw,15
-SCANIA,2016,OffRoad,Heavy,3,(2,4),(1,5),(21,3),(22),WithLadder,hydraulic equipment,10
-MERCEDES BENZ,2012,OffRoad,Heavy,4,(5,3),(2,4),(31,3),(16,2),Container,Oxygen tank,13
-MAN,2014,Urban,Heavy,3,(3,1),(1,4),(16,6),(23,3),Quartermaster,hydraulic equipment,13
-MAN,2007,MediumOffRoad,Light,5,(5,4),(1,8),(20,1),(27,1),FireExtinguishingPowderTank,hydraulic equipment,15
-SCANIA,2007,Urban,Heavy,5,(3,2),(1,5),(19,7),(18,7),Reservoir,Petrol Saw,26
-MERCEDES BENZ,2021,Urban,Light,3,(4,4),(1),(16,8),(23,4),Crane,hydraulic equipment,3
-IVECO,2008,OffRoad,Light,5,(4,4),(2),(23,6),(30,4),Reservoir,hydraulic equipment,29
-IVECO,2010,Urban,Light,3,(2,4),(1,3),(30,3),(21),ChemicalRescue,Oxygen tank,21
-VOLVO,2020,OffRoad,Heavy,5,(7),(2,5),(24,5),(17,5),WithLadder,Petrol Saw,16
-MAN,2013,Urban,Light,4,(4,7),(1,1),(20,4),(25),CommandAndCommunications,Oxygen tank,25
-MERCEDES BENZ,2009,OffRoad,Light,3,(6,2),(2,6),(18,6),(25,7),Crane,Petrol Saw,29
-VOLVO,2019,MediumOffRoad,Heavy,3,(2),(2,5),(20,4),(28,9),FireHoses,hydraulic equipment,16
-RENAULT,2015,Urban,Mediocre,3,(6,6),(3),(17,1),(18,4),TruckPump,hydraulic equipment,29
-SCANIA,2023,Urban,Mediocre,4,(5),(1,9),(19,8),(23),MotorPump,Petrol Saw,18
-IVECO,2011,OffRoad,Light,3,(4),(1,7),(18,6),(22,9),WithLadder,Oxygen tank,25
-RENAULT,2023,MediumOffRoad,Heavy,5,(6,8),(2,8),(24,3),(22,4),Crane,Oxygen tank,23
-SCANIA,2020,Urban,Heavy,3,(5,5),(1,2),(20,8),(29,3),HighAltitudeRescue,Oxygen tank,12
-RENAULT,2016,Urban,Heavy,5,(2,8),(2,6),(30,4),(22,1),TruckPump,Oxygen tank,28
-MAN,2006,OffRoad,Mediocre,3,(2,8),(2,8),(26,4),(21,7),Lighting,hydraulic equipment,20
-IVECO,2012,OffRoad,Heavy,3,(5),(2,3),(18,7),(30),WithHydraulicLift,hydraulic equipment,2
-RENAULT,2017,OffRoad,Heavy,3,(4,4),(2,4),(24,9),(22,4),CommandAndCommunications,hydraulic equipment,29
-RENAULT,2020,MediumOffRoad,Heavy,4,(3,1),(1,7),(28,3),(25,7),CommandAndCommunications,Oxygen tank,13
-SCANIA,2017,MediumOffRoad,Heavy,4,(5,9),(2,8),(24,1),(21,1),WithCO2Cylinders,hydraulic equipment,2
-IVECO,2006,MediumOffRoad,Light,4,(6,4),(2,2),(28,6),(18),CommandAndCommunications,Petrol Saw,24
-RENAULT,2021,Urban,Light,3,(4,5),(2,2),(31),(24),Pgaz,hydraulic equipment,4
-VOLVO,2008,OffRoad,Light,4,(5,4),(2,5),(20,4),(16,5),Crane,Oxygen tank,25
-RENAULT,2021,MediumOffRoad,Mediocre,5,(3,8),(2),(27,1),(20,1),WithHydraulicLift,hydraulic equipment,2
-MAN,2022,Urban,Light,4,(7,2),(2,1),(30,5),(26),MotorPump,hydraulic equipment,27
-MERCEDES BENZ,2021,MediumOffRoad,Mediocre,4,(2,3),(2),(30,1),(27,3),Quartermaster,Petrol Saw,13
-IVECO,2010,MediumOffRoad,Mediocre,3,(7,7),(2,2),(19,8),(26,6),Pgaz,Petrol Saw,19
-RENAULT,2020,OffRoad,Heavy,4,(2,1),(1,8),(25,4),(31,7),CommandAndCommunications,Petrol Saw,25
-IVECO,2020,OffRoad,Heavy,3,(4,2),(2,9),(17,3),(24,9),TruckPump,Oxygen tank,12
-MERCEDES BENZ,2010,Urban,Mediocre,5,(6,6),(2,8),(19),(27,1),Crane,hydraulic equipment,20
-RENAULT,2011,MediumOffRoad,Light,5,(7,2),(1),(17,8),(16,5),HighAltitudeRescue,Petrol Saw,27
-RENAULT,2019,Urban,Light,3,(4,9),(2,2),(20),(28,6),WaterRescue,Petrol Saw,29
-VOLVO,2021,Urban,Light,5,(3,9),(2,7),(19,4),(28,6),Lighting,Petrol Saw,22
-SCANIA,2016,OffRoad,Light,3,(3,5),(1,7),(25,2),(16,7),Operating,Petrol Saw,21
-VOLVO,2017,OffRoad,Mediocre,4,(7,7),(1),(23,7),(16,3),FireExtinguishingPowderTank,Petrol Saw,3
-IVECO,2009,OffRoad,Heavy,4,(2,3),(2,2),(26,7),(28,9),Operating,hydraulic equipment,10
-RENAULT,2018,OffRoad,Mediocre,5,(5,8),(2,3),(16,9),(30,2),HighAltitudeRescue,Petrol Saw,27
-RENAULT,2006,OffRoad,Heavy,5,(3,2),(2,3),(18,3),(16,2),FireExtinguishingPowderTank,hydraulic equipment,28
-RENAULT,2018,Urban,Light,5,(5,8),(1,1),(20,2),(23,3),MotorPump,Oxygen tank,18
-SCANIA,2008,OffRoad,Heavy,4,(7,8),(1,2),(24,5),(16,2),FireHoses,Petrol Saw,4
-VOLVO,2012,OffRoad,Heavy,3,(3),(2,3),(20,3),(26,1),FireHoses,Petrol Saw,10
-MAN,2015,MediumOffRoad,Heavy,5,(2,4),(2,5),(21,7),(27,2),WithCO2Cylinders,hydraulic equipment,24
-RENAULT,2010,Urban,Heavy,3,(2),(1,7),(30,1),(16,5),Pgaz,Oxygen tank,5
-SCANIA,2016,MediumOffRoad,Heavy,5,(6,4),(2,9),(23,1),(28,3),Lighting,Oxygen tank,5
-MERCEDES BENZ,2021,MediumOffRoad,Mediocre,5,(6),(1,3),(27,8),(31,1),TruckPump,Petrol Saw,4
-RENAULT,2018,OffRoad,Heavy,5,(7),(1,8),(28,6),(17),Pgaz,Petrol Saw,2
-IVECO,2015,OffRoad,Light,3,(4,7),(1,7),(29,3),(21,6),FireHoses,Oxygen tank,27
-MERCEDES BENZ,2017,OffRoad,Mediocre,5,(2,9),(2,3),(31,8),(31,2),Operating,Oxygen tank,25
-SCANIA,2021,OffRoad,Light,4,(3,7),(2,5),(19,1),(24,7),Pgaz,Oxygen tank,27
-IVECO,2019,Urban,Heavy,5,(2,7),(1,8),(30,3),(19,2),Pgaz,Oxygen tank,18
-RENAULT,2022,Urban,Light,4,(3,4),(1,1),(23,4),(25,4),WaterRescue,Petrol Saw,2
-SCANIA,2020,Urban,Heavy,5,(3,5),(1,2),(29,8),(27,2),Container,Oxygen tank,14
-MAN,2021,OffRoad,Heavy,5,(7),(2),(26,7),(21,9),Lighting,Petrol Saw,29
-SCANIA,2015,OffRoad,Mediocre,4,(5),(1,5),(16,6),(26,7),Pgaz,Oxygen tank,14
-SCANIA,2020,OffRoad,Mediocre,3,(3,5),(2,7),(21,8),(25,5),Pgaz,Oxygen tank,27
-RENAULT,2012,OffRoad,Mediocre,4,(3,7),(1,2),(21,4),(26,4),Crane,hydraulic equipment,26
-MAN,2012,MediumOffRoad,Light,3,(6),(1,3),(21,9),(18,9),Reservoir,Oxygen tank,13
-MERCEDES BENZ,2015,Urban,Heavy,5,(6),(1,1),(31,4),(16,3),Crane,hydraulic equipment,6
-MERCEDES BENZ,2018,MediumOffRoad,Light,4,(5,4),(1,9),(27),(24,7),Quartermaster,Oxygen tank,26
-RENAULT,2009,MediumOffRoad,Mediocre,4,(4,1),(3),(18,1),(16,2),Reservoir,Petrol Saw,26
-MERCEDES BENZ,2009,Urban,Heavy,3,(6,6),(2),(20),(27,8),WaterRescue,hydraulic equipment,6
-SCANIA,2023,Urban,Heavy,3,(6,9),(1,8),(31,1),(20,8),Lighting,hydraulic equipment,16
-IVECO,2021,Urban,Heavy,5,(3,6),(2,2),(28,3),(27,3),Crane,Petrol Saw,2
-MERCEDES BENZ,2022,OffRoad,Mediocre,3,(2,6),(2,6),(29,7),(22,6),Operating,hydraulic equipment,21
-SCANIA,2015,OffRoad,Mediocre,5,(5,4),(1),(28,7),(28,1),MotorPump,Petrol Saw,16
-IVECO,2009,MediumOffRoad,Mediocre,4,(2,8),(2,7),(23,9),(24,9),ChemicalRescue,hydraulic equipment,15
-MAN,2019,OffRoad,Light,3,(2,7),(2,3),(28,3),(21,9),TruckPump,Oxygen tank,22
-SCANIA,2019,OffRoad,Heavy,4,(7,6),(2,5),(27,4),(23,9),FireExtinguishingPowderTank,hydraulic equipment,18
-VOLVO,2007,OffRoad,Light,3,(5,6),(2),(20,9),(19,9),FireHoses,Oxygen tank,14
-MERCEDES BENZ,2012,MediumOffRoad,Light,3,(3,1),(1,4),(18,6),(20),Pgaz,Oxygen tank,25
-MERCEDES BENZ,2009,Urban,Heavy,5,(5,7),(1,3),(18,1),(25,5),FireExtinguishingPowderTank,Petrol Saw,21
-SCANIA,2022,OffRoad,Mediocre,5,(5,8),(1,8),(27,2),(29,3),WithCO2Cylinders,hydraulic equipment,5
-SCANIA,2017,Urban,Heavy,5,(5,2),(2,6),(23,2),(16,1),WithCO2Cylinders,hydraulic equipment,8
-IVECO,2020,OffRoad,Heavy,3,(4,2),(1,5),(19,2),(20,4),Container,Petrol Saw,19
-IVECO,2019,Urban,Heavy,5,(4,7),(2,7),(26,8),(22,3),WaterRescue,hydraulic equipment,16
-MERCEDES BENZ,2007,Urban,Mediocre,4,(7,2),(1,8),(21,8),(30,8),WaterRescue,Oxygen tank,19
-SCANIA,2008,OffRoad,Light,3,(3,4),(1,8),(31,1),(25),Container,hydraulic equipment,15
-MAN,2015,Urban,Heavy,4,(3,9),(2,1),(28),(22,5),Reservoir,Petrol Saw,11
-MERCEDES BENZ,2010,Urban,Mediocre,4,(4,2),(2,7),(23),(23,3),Crane,Petrol Saw,11
-RENAULT,2010,OffRoad,Mediocre,5,(7,6),(1,4),(20),(20,2),Lighting,Petrol Saw,18
-VOLVO,2010,Urban,Light,5,(7,5),(3),(28,4),(23,4),Reservoir,hydraulic equipment,20
-MAN,2023,OffRoad,Light,4,(6,5),(2),(18,7),(18,9),FireHoses,hydraulic equipment,29
-MAN,2019,MediumOffRoad,Mediocre,3,(4,5),(1,2),(22,4),(30,5),Operating,Petrol Saw,3
-MAN,2022,MediumOffRoad,Mediocre,5,(5,8),(2,6),(28),(31,7),WithHydraulicLift,Oxygen tank,6
-VOLVO,2015,OffRoad,Light,3,(5,4),(1,6),(22,5),(22,1),Lighting,Oxygen tank,15
-MAN,2010,MediumOffRoad,Heavy,4,(4,4),(2,3),(31,2),(19,8),Pgaz,hydraulic equipment,12
-MERCEDES BENZ,2022,Urban,Light,3,(3,8),(1),(20,4),(26,4),WithLadder,Oxygen tank,3
-IVECO,2018,OffRoad,Mediocre,4,(5,9),(2,2),(17,7),(27,7),WithCO2Cylinders,hydraulic equipment,9
-IVECO,2016,OffRoad,Light,3,(2,5),(2,5),(30,3),(24),HighAltitudeRescue,hydraulic equipment,9
-MAN,2019,MediumOffRoad,Light,3,(4,7),(2,4),(29,5),(19,6),HighAltitudeRescue,hydraulic equipment,24
-IVECO,2019,MediumOffRoad,Mediocre,4,(5,4),(2,5),(20,2),(24,7),FireHoses,Petrol Saw,18
-IVECO,2021,Urban,Light,4,(7,9),(1,7),(23,6),(16,8),WaterRescue,Petrol Saw,15
-VOLVO,2013,OffRoad,Heavy,3,(3,4),(1,6),(16,6),(26,6),FireHoses,Petrol Saw,23
-MERCEDES BENZ,2015,MediumOffRoad,Mediocre,3,(4,2),(2),(28),(25,6),FireHoses,hydraulic equipment,12
-IVECO,2009,Urban,Heavy,5,(3,9),(2,7),(30,6),(19,5),WithLadder,Oxygen tank,11
-IVECO,2013,MediumOffRoad,Mediocre,3,(2,9),(1,2),(30),(17,1),WaterRescue,Petrol Saw,16
-MAN,2023,Urban,Heavy,5,(3,5),(2,2),(21,4),(22,1),WaterRescue,Petrol Saw,22
-VOLVO,2010,Urban,Light,5,(7,9),(2,6),(23,7),(20,3),Lighting,Oxygen tank,23
-RENAULT,2022,Urban,Light,3,(3,7),(1,8),(16,2),(16,8),Quartermaster,hydraulic equipment,2
-RENAULT,2020,MediumOffRoad,Heavy,5,(7,1),(2,6),(30,1),(21,5),MotorPump,Petrol Saw,5
-MERCEDES BENZ,2011,MediumOffRoad,Heavy,4,(7,5),(1,2),(26,1),(16,8),FireHoses,hydraulic equipment,9
-MAN,2017,Urban,Heavy,4,(4,7),(1,2),(20,8),(30),TruckPump,Petrol Saw,17
-RENAULT,2014,OffRoad,Light,3,(6,5),(2,7),(21,4),(18,4),Operating,hydraulic equipment,4
-VOLVO,2010,Urban,Mediocre,3,(4,8),(1,7),(19,4),(27,7),WaterRescue,hydraulic equipment,19
-MERCEDES BENZ,2023,OffRoad,Heavy,5,(7,6),(1,6),(29,4),(22,6),FireHoses,hydraulic equipment,9
-SCANIA,2015,OffRoad,Heavy,4,(7,2),(2,1),(21,1),(18,3),CommandAndCommunications,Petrol Saw,4
-RENAULT,2023,OffRoad,Heavy,4,(5,5),(2,8),(24,5),(17,8),HighAltitudeRescue,Petrol Saw,15
-MAN,2018,Urban,Heavy,5,(6,1),(2,5),(19,3),(17,3),FireExtinguishingPowderTank,Oxygen tank,22
-VOLVO,2014,Urban,Heavy,4,(2,6),(3),(19),(29,5),Reservoir,Petrol Saw,20
-IVECO,2012,MediumOffRoad,Mediocre,3,(5,6),(2,8),(16,2),(22,9),Lighting,Oxygen tank,7
-RENAULT,2022,Urban,Mediocre,5,(6,1),(2,4),(20,6),(20,5),WithHydraulicLift,hydraulic equipment,24
-MERCEDES BENZ,2017,MediumOffRoad,Mediocre,3,(3,5),(1,8),(21,4),(29,9),Reservoir,hydraulic equipment,8
-RENAULT,2017,MediumOffRoad,Mediocre,4,(7,2),(1,1),(31,7),(23,9),Lighting,hydraulic equipment,9
-IVECO,2019,Urban,Heavy,5,(4,6),(2,5),(27,5),(29,5),MotorPump,Oxygen tank,3
-MERCEDES BENZ,2019,OffRoad,Light,4,(4,8),(2),(21,2),(24,2),ChemicalRescue,Petrol Saw,15
-IVECO,2013,MediumOffRoad,Light,3,(7,1),(2,9),(29,1),(29,8),Pgaz,Oxygen tank,29
-SCANIA,2021,Urban,Light,5,(3,1),(2,9),(20,4),(28,5),TechnicalRescue,Oxygen tank,14
-VOLVO,2006,MediumOffRoad,Light,4,(4,8),(1,5),(22,7),(24),WaterRescue,hydraulic equipment,12
-VOLVO,2007,Urban,Heavy,4,(7,9),(2,1),(22,8),(20,3),WaterRescue,Oxygen tank,21
-SCANIA,2006,Urban,Mediocre,5,(6,1),(2,5),(29,5),(20,6),Crane,Petrol Saw,19
-IVECO,2020,OffRoad,Mediocre,4,(3,6),(1,9),(25,2),(21,5),WithLadder,Petrol Saw,20
-RENAULT,2019,Urban,Light,5,(7,5),(2,2),(24,8),(26,3),HighAltitudeRescue,hydraulic equipment,25
-MERCEDES BENZ,2014,MediumOffRoad,Heavy,3,(4,3),(2),(29,7),(19,5),Lighting,hydraulic equipment,16
-VOLVO,2013,MediumOffRoad,Mediocre,3,(2,5),(1,8),(23,5),(30,2),Crane,Oxygen tank,25
-MERCEDES BENZ,2022,OffRoad,Heavy,5,(3,2),(1,2),(17,7),(18,1),MotorPump,hydraulic equipment,9
-VOLVO,2020,OffRoad,Heavy,3,(4,5),(1,1),(18,5),(19,9),Lighting,hydraulic equipment,16
-MERCEDES BENZ,2019,OffRoad,Mediocre,3,(3,2),(2),(17,2),(19,4),Lighting,Oxygen tank,25
-VOLVO,2011,MediumOffRoad,Light,3,(7,6),(1,2),(20,5),(30,6),CommandAndCommunications,Petrol Saw,5
-IVECO,2018,OffRoad,Light,4,(7,1),(1,3),(30,7),(26,7),FireExtinguishingPowderTank,hydraulic equipment,5
-RENAULT,2011,MediumOffRoad,Light,4,(6,5),(1,1),(30,4),(30,3),FireHoses,Oxygen tank,19
-RENAULT,2008,MediumOffRoad,Heavy,5,(3,8),(1,5),(19,9),(24,8),Quartermaster,Petrol Saw,17
-VOLVO,2018,OffRoad,Heavy,3,(3,2),(1),(29),(19,2),Lighting,hydraulic equipment,25
-VOLVO,2009,Urban,Heavy,3,(2,3),(1,2),(16,9),(28,3),ChemicalRescue,hydraulic equipment,28
-IVECO,2016,Urban,Light,4,(4,5),(2,2),(17,3),(23,4),Reservoir,hydraulic equipment,23
-IVECO,2016,Urban,Light,4,(2,4),(1,7),(17,8),(26,7),FireHoses,hydraulic equipment,27
-SCANIA,2022,OffRoad,Light,4,(5),(1,3),(31,1),(18,1),Operating,Petrol Saw,24
-IVECO,2022,MediumOffRoad,Mediocre,5,(5,2),(1,7),(16),(18,8),Container,hydraulic equipment,7
-MERCEDES BENZ,2010,Urban,Heavy,5,(7),(1,8),(27,3),(21,8),CommandAndCommunications,Petrol Saw,6
-IVECO,2008,MediumOffRoad,Light,4,(7,4),(1,2),(18,4),(28,3),Quartermaster,Petrol Saw,5
-VOLVO,2008,OffRoad,Heavy,5,(5,5),(2,8),(31,9),(28,4),Quartermaster,Petrol Saw,10
-IVECO,2023,Urban,Mediocre,4,(7,6),(1,1),(29,9),(28,3),WithHydraulicLift,Oxygen tank,19
-SCANIA,2019,Urban,Mediocre,3,(2),(2,2),(22,4),(19,4),TechnicalRescue,hydraulic equipment,16
-MAN,2016,OffRoad,Mediocre,5,(7,5),(2,3),(24,9),(25),Reservoir,Petrol Saw,22
-MAN,2015,MediumOffRoad,Mediocre,5,(6,7),(2,9),(30,4),(17),Reservoir,Petrol Saw,4
-MERCEDES BENZ,2010,MediumOffRoad,Light,3,(6,1),(2,9),(18,4),(20,5),Container,Petrol Saw,2
-RENAULT,2018,MediumOffRoad,Mediocre,3,(4,4),(1),(31,4),(28,8),TruckPump,Oxygen tank,28
-MERCEDES BENZ,2008,MediumOffRoad,Heavy,3,(3,9),(1,1),(21,2),(24,3),Container,hydraulic equipment,20
-SCANIA,2018,MediumOffRoad,Mediocre,5,(7,6),(2,4),(30,7),(23,9),WithLadder,Petrol Saw,23
-MAN,2017,Urban,Light,5,(5,3),(1,3),(29,4),(25,4),WaterRescue,hydraulic equipment,3
-MAN,2006,Urban,Heavy,3,(5,6),(2,7),(28,9),(20,3),Pgaz,Petrol Saw,2
-IVECO,2008,MediumOffRoad,Mediocre,3,(7,3),(2,3),(29,2),(31,6),Operating,hydraulic equipment,28
-SCANIA,2009,OffRoad,Mediocre,3,(4,7),(1,1),(29,4),(22,6),Crane,hydraulic equipment,27
-VOLVO,2019,MediumOffRoad,Mediocre,5,(6,9),(1,3),(20,6),(30,9),HighAltitudeRescue,Oxygen tank,16
-RENAULT,2008,OffRoad,Mediocre,5,(5,9),(1,8),(27,6),(29,2),WithHydraulicLift,hydraulic equipment,17
-SCANIA,2015,Urban,Light,5,(2,8),(1),(17,2),(29,5),Crane,Oxygen tank,4
-MAN,2006,OffRoad,Mediocre,3,(5,2),(2,4),(27,8),(21,3),Pgaz,Oxygen tank,26
-RENAULT,2017,MediumOffRoad,Heavy,5,(7,6),(1,6),(21,9),(16,8),WithHydraulicLift,hydraulic equipment,11
-MAN,2015,Urban,Light,3,(7,6),(1,2),(16,4),(18,8),Reservoir,hydraulic equipment,23
-RENAULT,2015,OffRoad,Light,4,(6),(2,6),(16),(21,3),WithLadder,Petrol Saw,23
-IVECO,2007,MediumOffRoad,Light,5,(4,9),(2,5),(22,9),(30,8),Crane,hydraulic equipment,9
-SCANIA,2008,Urban,Light,5,(3,1),(1,8),(20,3),(24,4),Quartermaster,hydraulic equipment,21
-MAN,2009,MediumOffRoad,Heavy,5,(5,1),(2,1),(16,8),(23,7),WaterRescue,Oxygen tank,3
-IVECO,2013,Urban,Heavy,3,(4,3),(1,2),(18,1),(20),CommandAndCommunications,Petrol Saw,2
-IVECO,2010,MediumOffRoad,Heavy,4,(4,1),(1,2),(17,8),(26,4),CommandAndCommunications,Oxygen tank,24
-IVECO,2012,Urban,Light,3,(2,8),(1,8),(28,5),(26,7),Crane,Oxygen tank,25
-SCANIA,2014,OffRoad,Mediocre,5,(4,4),(2,4),(19,6),(25,1),Reservoir,Petrol Saw,21
-RENAULT,2013,MediumOffRoad,Heavy,3,(3,6),(1,8),(26,2),(26,4),WithHydraulicLift,Oxygen tank,19
-IVECO,2009,OffRoad,Light,5,(7,8),(2,5),(20,1),(23,2),WaterRescue,Oxygen tank,12
-VOLVO,2017,MediumOffRoad,Mediocre,4,(3,6),(2,6),(25,6),(26,4),Operating,Petrol Saw,13
-RENAULT,2011,Urban,Light,4,(2,4),(2,4),(19,2),(21),MotorPump,Oxygen tank,29
-RENAULT,2014,OffRoad,Heavy,4,(5,2),(1,7),(29,2),(30,3),MotorPump,Oxygen tank,5
-IVECO,2010,Urban,Light,5,(3,8),(1,8),(16,2),(20,5),ChemicalRescue,Petrol Saw,20
-IVECO,2013,MediumOffRoad,Heavy,4,(5),(1,3),(16,4),(20),Quartermaster,Oxygen tank,14
-IVECO,2010,Urban,Light,5,(2,9),(2),(24,7),(21,4),WaterRescue,hydraulic equipment,10
-IVECO,2011,MediumOffRoad,Mediocre,3,(4,3),(2,8),(32),(24,8),Reservoir,Petrol Saw,11
-RENAULT,2010,MediumOffRoad,Light,5,(7),(1,2),(20,5),(24,5),TruckPump,hydraulic equipment,28
-MERCEDES BENZ,2010,OffRoad,Heavy,5,(3,4),(2,5),(30,3),(24),Lighting,Oxygen tank,17
-MERCEDES BENZ,2015,OffRoad,Light,3,(4,5),(1,2),(27,8),(31,3),Lighting,Petrol Saw,5
-SCANIA,2012,MediumOffRoad,Light,3,(4,5),(1,4),(25,7),(30,1),Reservoir,Oxygen tank,3
-VOLVO,2013,MediumOffRoad,Light,4,(7,3),(1,9),(24,8),(27,7),WithLadder,Oxygen tank,12
-VOLVO,2008,Urban,Heavy,5,(5,9),(1,1),(25,4),(19,2),HighAltitudeRescue,Petrol Saw,5
-RENAULT,2007,MediumOffRoad,Heavy,3,(2,6),(2,5),(23,6),(31,6),Quartermaster,Oxygen tank,13
-MERCEDES BENZ,2020,OffRoad,Heavy,3,(4,5),(1,7),(26,9),(27,8),ChemicalRescue,hydraulic equipment,28
-MERCEDES BENZ,2008,MediumOffRoad,Mediocre,4,(3,2),(1),(26,8),(25),WithLadder,Oxygen tank,17
-IVECO,2006,Urban,Light,4,(5,8),(2,6),(31,2),(30,8),FireHoses,Oxygen tank,11
-MAN,2015,OffRoad,Light,3,(4,7),(1,4),(27,4),(32),ChemicalRescue,hydraulic equipment,18
-IVECO,2010,OffRoad,Heavy,3,(2,4),(1,2),(18,2),(23,3),Quartermaster,Oxygen tank,27
-IVECO,2015,Urban,Mediocre,5,(5,6),(2,3),(27),(28,3),CommandAndCommunications,Petrol Saw,16
-RENAULT,2012,MediumOffRoad,Light,5,(4,8),(1,6),(28,3),(25,8),Container,hydraulic equipment,15
-MAN,2022,MediumOffRoad,Light,4,(3,2),(2,9),(22),(16,9),Lighting,Oxygen tank,9
-VOLVO,2021,Urban,Mediocre,4,(5,8),(1,7),(25,3),(28,1),TruckPump,hydraulic equipment,29
-MAN,2009,MediumOffRoad,Heavy,4,(2,5),(2,8),(24,3),(21,5),CommandAndCommunications,Petrol Saw,27
-RENAULT,2006,OffRoad,Light,3,(5,8),(1,3),(27,8),(17,9),WithHydraulicLift,Petrol Saw,4
-SCANIA,2014,OffRoad,Heavy,4,(5,7),(2,5),(25),(22,6),Reservoir,Oxygen tank,18
-MERCEDES BENZ,2019,OffRoad,Light,5,(7,5),(2,9),(28,2),(20,9),WaterRescue,Oxygen tank,28
-VOLVO,2019,OffRoad,Heavy,5,(6),(2,4),(29,4),(17,8),FireHoses,Oxygen tank,19
-VOLVO,2014,MediumOffRoad,Mediocre,5,(2,8),(2,2),(30,2),(28),Operating,Petrol Saw,25
-VOLVO,2013,MediumOffRoad,Light,5,(6,6),(1,7),(18,2),(26,8),Pgaz,hydraulic equipment,14
-VOLVO,2013,MediumOffRoad,Mediocre,3,(3,5),(2),(24,6),(16,3),WaterRescue,hydraulic equipment,26
-MAN,2013,Urban,Heavy,3,(4,3),(1,1),(19,8),(29,9),ChemicalRescue,hydraulic equipment,26
-MAN,2012,OffRoad,Heavy,3,(7,2),(1,9),(27,7),(25,2),Lighting,Petrol Saw,27
-RENAULT,2017,MediumOffRoad,Light,5,(3,7),(2,2),(29,3),(28,4),Lighting,hydraulic equipment,8
-MAN,2018,Urban,Light,3,(4,4),(1,2),(24,5),(24,3),Quartermaster,Petrol Saw,17
-RENAULT,2006,MediumOffRoad,Light,4,(5,5),(1,2),(22,8),(30,4),WithLadder,Petrol Saw,6
-MERCEDES BENZ,2010,Urban,Heavy,3,(3,1),(1,1),(26,3),(26,1),WithLadder,Oxygen tank,16
-VOLVO,2019,Urban,Mediocre,4,(7,9),(2,7),(28,3),(24,4),Crane,Oxygen tank,14
-SCANIA,2018,MediumOffRoad,Light,3,(7,8),(2,6),(24,4),(21,6),Lighting,Oxygen tank,5
-SCANIA,2016,MediumOffRoad,Mediocre,4,(4,7),(2,8),(24,1),(24,3),MotorPump,hydraulic equipment,28
-MAN,2017,OffRoad,Heavy,5,(2),(1,9),(22,6),(25,4),WithCO2Cylinders,Petrol Saw,4
-RENAULT,2013,OffRoad,Light,4,(5,3),(2,1),(31,9),(31,5),WithLadder,Oxygen tank,15
-MERCEDES BENZ,2018,MediumOffRoad,Mediocre,5,(6,9),(2,5),(28,8),(21),WaterRescue,Oxygen tank,5
-MERCEDES BENZ,2010,MediumOffRoad,Mediocre,3,(7,7),(1,2),(30,8),(17,4),Pgaz,hydraulic equipment,13
-VOLVO,2008,Urban,Mediocre,5,(5,2),(1,6),(20,9),(29,7),FireExtinguishingPowderTank,hydraulic equipment,17
-IVECO,2011,Urban,Heavy,3,(7,7),(1,5),(21,4),(25,9),Container,Oxygen tank,5
-MAN,2023,MediumOffRoad,Mediocre,4,(3,6),(1,2),(26,5),(25,9),Reservoir,hydraulic equipment,13
-RENAULT,2009,OffRoad,Mediocre,3,(6,3),(1,1),(21,5),(26,7),Lighting,hydraulic equipment,26
-MERCEDES BENZ,2018,OffRoad,Light,4,(3,4),(2),(26,8),(18,3),WithLadder,Oxygen tank,3
-SCANIA,2018,OffRoad,Mediocre,5,(6,4),(2,9),(31,5),(24,8),WithHydraulicLift,Petrol Saw,5
-IVECO,2015,OffRoad,Mediocre,4,(7,8),(1,7),(24,4),(29,4),FireHoses,Oxygen tank,2
-MAN,2018,OffRoad,Mediocre,3,(2,6),(1,1),(19,6),(27,3),HighAltitudeRescue,Oxygen tank,7
-IVECO,2014,Urban,Heavy,3,(5,5),(2,1),(30,7),(26,4),Crane,hydraulic equipment,14
-MERCEDES BENZ,2018,Urban,Mediocre,5,(6,2),(2,8),(16,4),(18,9),WithHydraulicLift,Oxygen tank,2
-IVECO,2007,Urban,Light,5,(2,7),(2,2),(17,5),(21,8),Operating,Oxygen tank,3
-VOLVO,2014,OffRoad,Mediocre,5,(2,6),(2),(27,9),(32),Crane,Oxygen tank,6
-MAN,2012,Urban,Heavy,3,(7,3),(2,5),(27,5),(23,1),WaterRescue,Oxygen tank,25
-VOLVO,2007,MediumOffRoad,Mediocre,4,(7,2),(2),(19,1),(19,4),Quartermaster,hydraulic equipment,5
-VOLVO,2022,MediumOffRoad,Mediocre,3,(5,4),(2,1),(20,5),(22,5),Crane,Petrol Saw,25
-MAN,2008,MediumOffRoad,Heavy,3,(6,1),(2,9),(23,5),(27,6),Container,Oxygen tank,11
-RENAULT,2011,MediumOffRoad,Heavy,4,(5,3),(1,8),(21,2),(24,8),Container,hydraulic equipment,6
-IVECO,2012,Urban,Light,4,(6,9),(1,3),(30,3),(27,8),Quartermaster,hydraulic equipment,22
-IVECO,2011,OffRoad,Heavy,3,(3,9),(1,7),(27,7),(23,1),Quartermaster,hydraulic equipment,27
-MERCEDES BENZ,2008,Urban,Mediocre,4,(2,4),(2,7),(26,5),(23,4),WaterRescue,Petrol Saw,22
-SCANIA,2021,OffRoad,Heavy,4,(3,5),(1,6),(30,6),(28,6),CommandAndCommunications,Oxygen tank,6
-MERCEDES BENZ,2007,Urban,Light,5,(3,6),(1,5),(22,8),(25,9),FireHoses,Petrol Saw,2
-SCANIA,2016,OffRoad,Heavy,3,(4,3),(2,2),(20),(23,8),CommandAndCommunications,hydraulic equipment,22
-RENAULT,2023,OffRoad,Light,3,(6,9),(1,3),(26),(22,9),WithLadder,hydraulic equipment,15
-MAN,2020,OffRoad,Mediocre,4,(2,8),(2),(17,6),(18,8),Crane,Petrol Saw,24
-RENAULT,2010,MediumOffRoad,Mediocre,3,(4),(1,7),(26,9),(19),ChemicalRescue,Petrol Saw,9
-MAN,2016,OffRoad,Light,3,(5,2),(2,1),(24,9),(30,9),WithLadder,Petrol Saw,15
-VOLVO,2012,Urban,Heavy,4,(3,8),(1,3),(17,9),(30,3),Pgaz,Petrol Saw,3
-SCANIA,2013,Urban,Mediocre,4,(3,6),(1),(22,3),(17,3),Quartermaster,Petrol Saw,13
-VOLVO,2022,Urban,Light,3,(2,3),(1,7),(21,5),(29,6),WaterRescue,Oxygen tank,3
-RENAULT,2017,OffRoad,Heavy,5,(5),(2,8),(22,4),(26,8),CommandAndCommunications,Oxygen tank,6
-RENAULT,2021,Urban,Light,5,(7,7),(2,8),(30,6),(17,2),WithCO2Cylinders,Oxygen tank,14
-RENAULT,2022,MediumOffRoad,Heavy,4,(2,6),(1,4),(20,6),(23,6),Lighting,Oxygen tank,15
-IVECO,2018,MediumOffRoad,Mediocre,4,(5,5),(2,6),(19),(17,7),FireExtinguishingPowderTank,Oxygen tank,3
-MERCEDES BENZ,2018,OffRoad,Heavy,4,(6,8),(2,4),(16,3),(18,9),WaterRescue,Oxygen tank,5
-SCANIA,2017,MediumOffRoad,Heavy,4,(2,9),(1,8),(20,1),(24,6),Reservoir,hydraulic equipment,7
-SCANIA,2010,OffRoad,Mediocre,4,(6,4),(1,8),(20,7),(24),WithCO2Cylinders,hydraulic equipment,5
-MAN,2008,OffRoad,Mediocre,3,(4,1),(1,9),(20,8),(18,9),Lighting,Oxygen tank,5
-RENAULT,2008,MediumOffRoad,Heavy,4,(6),(2,8),(24,7),(24,7),CommandAndCommunications,Oxygen tank,4
-IVECO,2019,OffRoad,Light,5,(7,8),(3),(28,7),(16,7),Quartermaster,Petrol Saw,12
-RENAULT,2019,Urban,Light,5,(6,1),(1,5),(19,2),(21,7),Lighting,Petrol Saw,28
-IVECO,2011,MediumOffRoad,Light,3,(2,5),(2,7),(22,1),(28,8),TechnicalRescue,Petrol Saw,24
-VOLVO,2006,Urban,Light,3,(4,2),(1,2),(31,2),(23,7),FireHoses,Oxygen tank,24
-MAN,2022,OffRoad,Heavy,4,(2,4),(1,8),(31,4),(20,8),WithHydraulicLift,Petrol Saw,17
-MAN,2016,Urban,Mediocre,4,(3,1),(1,1),(19,8),(28,3),WaterRescue,Oxygen tank,2
-MAN,2019,MediumOffRoad,Light,5,(4,7),(2,5),(29,2),(20,7),WaterRescue,Petrol Saw,27
-RENAULT,2006,Urban,Mediocre,4,(3,4),(2,9),(21,1),(27,1),Lighting,hydraulic equipment,24
-IVECO,2012,MediumOffRoad,Mediocre,5,(5,2),(2,9),(30,4),(20,1),CommandAndCommunications,Petrol Saw,3
-IVECO,2017,OffRoad,Light,4,(3,8),(2,7),(29,1),(27,9),WithHydraulicLift,hydraulic equipment,15
-IVECO,2023,OffRoad,Light,5,(4,6),(1,2),(21),(30,6),TechnicalRescue,hydraulic equipment,10
-IVECO,2006,Urban,Heavy,4,(2,8),(2,6),(18,9),(21,7),Lighting,Oxygen tank,5
-MERCEDES BENZ,2010,Urban,Mediocre,4,(3,6),(2,9),(22,2),(16),WaterRescue,Petrol Saw,27
-VOLVO,2009,Urban,Mediocre,5,(7,8),(2,8),(17,8),(23,5),Quartermaster,Oxygen tank,22
-VOLVO,2016,MediumOffRoad,Light,3,(4,8),(2,7),(19,1),(27,1),Quartermaster,Oxygen tank,22
-MERCEDES BENZ,2021,MediumOffRoad,Heavy,3,(4),(1,5),(22,6),(19,5),ChemicalRescue,hydraulic equipment,16
-RENAULT,2006,MediumOffRoad,Light,3,(3,7),(1,4),(26),(26,1),Reservoir,hydraulic equipment,3
-VOLVO,2011,Urban,Mediocre,4,(4,2),(2,6),(29),(29),MotorPump,Oxygen tank,13
-VOLVO,2021,Urban,Light,3,(2,2),(2,5),(31),(25,7),MotorPump,Petrol Saw,29
-MAN,2021,MediumOffRoad,Heavy,4,(6,8),(1,2),(20,5),(19,9),Lighting,hydraulic equipment,10
-MAN,2010,OffRoad,Heavy,4,(4,8),(1,4),(27,2),(17,8),WithCO2Cylinders,Oxygen tank,4
-SCANIA,2012,MediumOffRoad,Mediocre,5,(6,6),(2),(18,8),(19,2),MotorPump,Petrol Saw,25
-SCANIA,2009,OffRoad,Mediocre,3,(6,1),(2,5),(31,5),(21),Pgaz,Oxygen tank,21
-MERCEDES BENZ,2009,MediumOffRoad,Light,5,(4,1),(2),(17,2),(23,2),Container,hydraulic equipment,19
-SCANIA,2007,Urban,Light,4,(4,1),(2,8),(30,9),(29,3),Lighting,hydraulic equipment,27
-MAN,2006,OffRoad,Heavy,5,(2,8),(1,6),(28,3),(19),WithLadder,Petrol Saw,23
-MERCEDES BENZ,2007,OffRoad,Mediocre,3,(3,9),(2,6),(26,8),(16,3),Quartermaster,hydraulic equipment,28
-MAN,2018,Urban,Mediocre,4,(7,3),(2,9),(24,7),(25,4),CommandAndCommunications,Petrol Saw,17
-SCANIA,2022,OffRoad,Mediocre,5,(7,3),(2,9),(28,4),(21,6),Lighting,Oxygen tank,14
-VOLVO,2022,Urban,Heavy,3,(5,2),(2,1),(24,2),(31,1),Operating,hydraulic equipment,6
-RENAULT,2021,OffRoad,Heavy,5,(5,5),(2,5),(17,9),(24,1),MotorPump,Oxygen tank,16
-IVECO,2007,Urban,Heavy,5,(2,4),(1,1),(30,9),(17,7),ChemicalRescue,Petrol Saw,3
-MAN,2020,OffRoad,Mediocre,5,(2,8),(2),(28,2),(17,5),FireExtinguishingPowderTank,Oxygen tank,17
-IVECO,2023,Urban,Heavy,4,(3,1),(1),(21),(24,7),FireExtinguishingPowderTank,hydraulic equipment,24
-VOLVO,2007,OffRoad,Mediocre,5,(4,8),(1),(26,2),(30,7),Pgaz,Petrol Saw,21
-MERCEDES BENZ,2019,Urban,Light,3,(6,2),(1,2),(16,9),(29,4),WithLadder,Petrol Saw,26
-IVECO,2019,OffRoad,Mediocre,3,(6,6),(2,3),(24,3),(22,1),WithCO2Cylinders,Oxygen tank,7
-MERCEDES BENZ,2009,Urban,Heavy,4,(7,2),(1,9),(31,6),(21),Crane,Petrol Saw,14
-VOLVO,2021,MediumOffRoad,Mediocre,5,(7,1),(1,3),(22,8),(28,4),FireHoses,hydraulic equipment,24
-SCANIA,2015,OffRoad,Heavy,4,(7,5),(1,4),(27,7),(24,8),HighAltitudeRescue,hydraulic equipment,11
-MERCEDES BENZ,2011,Urban,Mediocre,5,(3,7),(2,8),(19,3),(30,3),MotorPump,Petrol Saw,21
-MAN,2008,MediumOffRoad,Mediocre,4,(6,6),(1,8),(20,2),(21,9),ChemicalRescue,Petrol Saw,25
-RENAULT,2007,MediumOffRoad,Mediocre,4,(7,7),(2,7),(24,8),(19),Reservoir,Oxygen tank,10
-RENAULT,2010,OffRoad,Light,3,(4,7),(2,2),(23,8),(25,4),Reservoir,Petrol Saw,27
-VOLVO,2018,Urban,Heavy,4,(3,4),(3),(27,9),(23,5),Pgaz,Oxygen tank,20
-MAN,2009,OffRoad,Light,5,(4,5),(2,7),(31,5),(26),WithLadder,Oxygen tank,11
-MERCEDES BENZ,2012,MediumOffRoad,Heavy,4,(5,7),(2,6),(29,5),(27,8),WithLadder,Oxygen tank,21
-IVECO,2007,Urban,Heavy,3,(6,2),(1,7),(25,6),(31,4),ChemicalRescue,hydraulic equipment,19
-MAN,2009,OffRoad,Mediocre,5,(3,2),(2,4),(28),(21,6),WithHydraulicLift,Oxygen tank,24
-RENAULT,2007,Urban,Mediocre,3,(6,4),(1,5),(27,9),(20,5),FireHoses,Petrol Saw,4
-SCANIA,2019,Urban,Light,4,(6,8),(1,2),(17),(26,3),WithCO2Cylinders,Petrol Saw,16
-MAN,2010,Urban,Heavy,3,(2,2),(1),(22,9),(17,8),WithHydraulicLift,hydraulic equipment,3
-VOLVO,2014,Urban,Mediocre,5,(5,2),(1,6),(25,5),(24,4),WithCO2Cylinders,Petrol Saw,8
-VOLVO,2014,Urban,Mediocre,4,(2,2),(3),(23),(18,2),Container,Petrol Saw,27
-MERCEDES BENZ,2023,MediumOffRoad,Mediocre,4,(4),(2,4),(24,6),(24,5),Reservoir,Oxygen tank,12
-RENAULT,2020,Urban,Mediocre,5,(5,6),(2,5),(28,5),(16,2),WithHydraulicLift,Petrol Saw,9
-VOLVO,2014,Urban,Light,5,(4,4),(1,5),(30,5),(30,7),Container,Petrol Saw,19
-VOLVO,2008,MediumOffRoad,Light,3,(6,7),(2),(23,4),(24,8),TechnicalRescue,Petrol Saw,14
-RENAULT,2019,MediumOffRoad,Mediocre,4,(4,6),(1,5),(21,5),(29,1),WithCO2Cylinders,hydraulic equipment,4
-MERCEDES BENZ,2017,MediumOffRoad,Mediocre,4,(6,1),(2,2),(30),(22),MotorPump,Oxygen tank,22
-MERCEDES BENZ,2008,MediumOffRoad,Mediocre,5,(3,7),(1,1),(28,5),(28,2),Lighting,Oxygen tank,23
-RENAULT,2007,OffRoad,Heavy,5,(3,9),(1,3),(31,1),(31,6),ChemicalRescue,hydraulic equipment,14
-SCANIA,2022,OffRoad,Mediocre,4,(6,5),(1,7),(23,8),(20,1),Container,Petrol Saw,18
-MAN,2008,MediumOffRoad,Mediocre,4,(6,2),(2,1),(17,5),(29,9),Container,hydraulic equipment,27
-MAN,2008,MediumOffRoad,Heavy,4,(7,9),(2,6),(30,3),(18,8),WaterRescue,hydraulic equipment,22
-IVECO,2017,OffRoad,Mediocre,3,(4,5),(2),(27,9),(16,4),Crane,hydraulic equipment,26
-IVECO,2023,OffRoad,Light,4,(6,9),(2,6),(31,5),(17,8),Operating,Petrol Saw,22
-VOLVO,2022,MediumOffRoad,Heavy,5,(3,8),(1,3),(25,6),(22,4),Crane,Petrol Saw,18
-IVECO,2019,Urban,Light,5,(5,5),(1,8),(24,2),(17),FireExtinguishingPowderTank,hydraulic equipment,19
-RENAULT,2019,Urban,Heavy,4,(7,8),(1,6),(29,3),(23,6),WithHydraulicLift,Oxygen tank,10
-MERCEDES BENZ,2022,Urban,Mediocre,5,(5,1),(1,6),(16),(27,8),Lighting,Petrol Saw,21
-MAN,2020,MediumOffRoad,Light,3,(6,8),(2,1),(27,1),(26,1),MotorPump,Oxygen tank,14
-IVECO,2020,MediumOffRoad,Heavy,4,(5,2),(2,3),(22,8),(20,4),FireHoses,hydraulic equipment,8
-RENAULT,2011,OffRoad,Heavy,5,(3,6),(1,2),(23,2),(28,7),Quartermaster,hydraulic equipment,26
-MERCEDES BENZ,2010,OffRoad,Mediocre,4,(2),(2),(26,5),(20,8),WaterRescue,Oxygen tank,28
-IVECO,2011,MediumOffRoad,Mediocre,3,(2,1),(2),(26,7),(20,1),ChemicalRescue,hydraulic equipment,22
-MAN,2007,MediumOffRoad,Heavy,4,(3,9),(1,9),(28,1),(29,1),Lighting,Petrol Saw,17
-VOLVO,2006,Urban,Light,3,(3,4),(1,1),(26,5),(24,4),WithHydraulicLift,Petrol Saw,17
-MERCEDES BENZ,2021,MediumOffRoad,Mediocre,5,(4,9),(2),(17,3),(28,1),WithCO2Cylinders,Oxygen tank,10
-RENAULT,2014,OffRoad,Mediocre,5,(7,4),(2,8),(22,2),(31,8),Pgaz,Oxygen tank,4
-RENAULT,2023,MediumOffRoad,Heavy,5,(7),(1,4),(29,7),(27,1),TechnicalRescue,hydraulic equipment,24
-MERCEDES BENZ,2013,OffRoad,Mediocre,5,(7,5),(1,7),(23,6),(30,9),Pgaz,Petrol Saw,3
-RENAULT,2023,OffRoad,Mediocre,5,(3),(2,9),(28,1),(18,7),TechnicalRescue,Oxygen tank,3
-SCANIA,2006,OffRoad,Light,3,(5,9),(2,8),(23,7),(20,9),Operating,Petrol Saw,23
-VOLVO,2006,MediumOffRoad,Heavy,4,(4,2),(1,2),(16,7),(26,3),Crane,hydraulic equipment,17
-VOLVO,2017,Urban,Heavy,3,(3,3),(2),(20,8),(25,8),CommandAndCommunications,hydraulic equipment,4
-MAN,2022,OffRoad,Mediocre,4,(6,9),(1,1),(31,4),(31,5),Quartermaster,Oxygen tank,3
-SCANIA,2022,OffRoad,Mediocre,5,(5,8),(1),(24,6),(16),WithHydraulicLift,hydraulic equipment,12
-MAN,2020,Urban,Light,3,(3,6),(2,1),(28),(31,6),Operating,Oxygen tank,18
-VOLVO,2017,OffRoad,Light,4,(3,8),(2,5),(26,6),(31,9),Container,Petrol Saw,12
-IVECO,2007,OffRoad,Light,5,(6,8),(1,1),(29,4),(19,6),WithLadder,hydraulic equipment,22
-VOLVO,2016,Urban,Heavy,5,(6,5),(2,2),(21,3),(20,9),Operating,Oxygen tank,18
-RENAULT,2016,MediumOffRoad,Light,4,(2,6),(2,6),(19,9),(22,7),Quartermaster,hydraulic equipment,15
-MERCEDES BENZ,2010,Urban,Mediocre,5,(2),(2,6),(31,7),(22,9),WithLadder,Oxygen tank,29
-VOLVO,2009,MediumOffRoad,Mediocre,3,(5,3),(3),(16,5),(22,1),Operating,Petrol Saw,27
-SCANIA,2014,Urban,Heavy,4,(2,4),(2,8),(26,7),(26,6),MotorPump,Petrol Saw,29
-VOLVO,2007,OffRoad,Mediocre,3,(5,3),(1,7),(24,4),(31,2),FireHoses,hydraulic equipment,26
-VOLVO,2018,Urban,Heavy,3,(7,3),(1,8),(21,1),(26),WithHydraulicLift,Petrol Saw,25
-RENAULT,2016,MediumOffRoad,Light,3,(5,3),(2,8),(21,9),(22,9),WithCO2Cylinders,hydraulic equipment,16
-IVECO,2006,MediumOffRoad,Light,5,(3,4),(1,7),(31,3),(23,8),Crane,Petrol Saw,29
-MERCEDES BENZ,2019,OffRoad,Heavy,5,(3,7),(1,7),(25,4),(17,7),Lighting,Oxygen tank,21
-IVECO,2015,MediumOffRoad,Light,5,(2,7),(1,3),(20,8),(25,5),WithLadder,Petrol Saw,20
-IVECO,2013,Urban,Mediocre,3,(7,2),(1,8),(20,2),(24,8),Lighting,Oxygen tank,18
-MAN,2007,OffRoad,Mediocre,5,(7,3),(1,7),(29,6),(24,4),FireHoses,Petrol Saw,24
-VOLVO,2007,OffRoad,Light,3,(2,5),(2,5),(30,6),(27,6),CommandAndCommunications,Petrol Saw,28
-RENAULT,2014,OffRoad,Heavy,3,(5,9),(1,9),(29),(30,9),ChemicalRescue,Oxygen tank,5
-MAN,2017,OffRoad,Light,4,(5),(2,8),(30,1),(21,5),TechnicalRescue,hydraulic equipment,3
-RENAULT,2014,MediumOffRoad,Mediocre,3,(2,8),(1,3),(30,8),(18,5),FireExtinguishingPowderTank,Oxygen tank,3
-MERCEDES BENZ,2021,Urban,Heavy,4,(2,3),(1,9),(16,6),(30),ChemicalRescue,Petrol Saw,28
-VOLVO,2006,MediumOffRoad,Mediocre,4,(8),(2,1),(18),(17,5),Pgaz,Oxygen tank,10
-MERCEDES BENZ,2007,OffRoad,Heavy,5,(4),(2,6),(20,3),(19,7),CommandAndCommunications,Petrol Saw,24
-SCANIA,2021,Urban,Light,5,(5,2),(2),(31,2),(26),TruckPump,Oxygen tank,29
-VOLVO,2014,Urban,Light,5,(6,2),(1,9),(24,4),(22,9),WithHydraulicLift,hydraulic equipment,11
-SCANIA,2009,Urban,Light,3,(3,6),(1,9),(16,8),(28,7),Container,Petrol Saw,28
-SCANIA,2007,OffRoad,Light,3,(5),(1,3),(17,2),(26,2),Lighting,Petrol Saw,3
-MAN,2023,MediumOffRoad,Mediocre,5,(5,6),(2,5),(24,9),(18,1),TechnicalRescue,hydraulic equipment,7
-SCANIA,2006,Urban,Light,3,(5,8),(1,1),(29,8),(20,4),CommandAndCommunications,hydraulic equipment,14
-MERCEDES BENZ,2011,MediumOffRoad,Light,5,(7,4),(1,5),(29,3),(22,7),WithLadder,hydraulic equipment,8
-SCANIA,2014,MediumOffRoad,Mediocre,3,(3,9),(1,4),(16,8),(23,7),WithLadder,Petrol Saw,17
-SCANIA,2010,Urban,Light,4,(6,4),(1,4),(19,6),(23,9),Lighting,Oxygen tank,13
-SCANIA,2013,Urban,Mediocre,5,(6,6),(1,2),(28,8),(19,6),Reservoir,Oxygen tank,12
-MAN,2015,Urban,Light,4,(3,8),(2,1),(22,1),(18,2),Lighting,Oxygen tank,29
-RENAULT,2018,MediumOffRoad,Light,5,(5,5),(2,6),(30),(31,2),MotorPump,Petrol Saw,12
-IVECO,2021,Urban,Light,3,(4,6),(2,3),(20,1),(18,2),HighAltitudeRescue,Petrol Saw,4
-RENAULT,2012,MediumOffRoad,Light,3,(5,1),(2,9),(20,6),(18,4),Container,Petrol Saw,26
-VOLVO,2014,OffRoad,Light,4,(3,4),(2,6),(25),(27,9),Operating,hydraulic equipment,10
-MERCEDES BENZ,2010,Urban,Light,3,(4),(1,4),(24,8),(26,8),Crane,hydraulic equipment,24
-IVECO,2016,OffRoad,Heavy,3,(3,5),(2,7),(28,4),(17,8),WithCO2Cylinders,Petrol Saw,25
-RENAULT,2010,MediumOffRoad,Mediocre,4,(3,2),(1,4),(20,2),(22,6),ChemicalRescue,Oxygen tank,7
-MAN,2016,MediumOffRoad,Mediocre,4,(7,8),(2,5),(24,3),(16,5),Crane,Petrol Saw,23
-SCANIA,2014,Urban,Heavy,5,(4,7),(2,7),(29,8),(25),ChemicalRescue,Oxygen tank,11
-RENAULT,2013,OffRoad,Heavy,5,(3,5),(2,6),(31,5),(24,1),Operating,Petrol Saw,4
-IVECO,2006,OffRoad,Mediocre,4,(5,6),(2,1),(19,3),(17,3),WithCO2Cylinders,Petrol Saw,17
-MERCEDES BENZ,2022,MediumOffRoad,Light,5,(3,8),(2,5),(16,7),(17,3),Lighting,Oxygen tank,17
-VOLVO,2006,Urban,Heavy,5,(4,6),(1,7),(16,9),(23,8),Quartermaster,hydraulic equipment,19
-MAN,2006,MediumOffRoad,Light,5,(5,8),(1),(16,7),(19,4),WithLadder,hydraulic equipment,15
-MERCEDES BENZ,2007,MediumOffRoad,Heavy,3,(2,3),(1,8),(21,6),(16,5),ChemicalRescue,Petrol Saw,27
-MAN,2006,MediumOffRoad,Light,4,(5,9),(2,3),(17,6),(25,3),Operating,Petrol Saw,27
-SCANIA,2014,OffRoad,Light,3,(5,4),(2),(20,6),(29,7),CommandAndCommunications,Oxygen tank,3
-IVECO,2011,OffRoad,Heavy,4,(5,9),(1,8),(26,7),(23,2),Quartermaster,Petrol Saw,25
-MERCEDES BENZ,2018,MediumOffRoad,Heavy,4,(2,7),(2,2),(26,4),(18,6),Reservoir,hydraulic equipment,2
-SCANIA,2023,Urban,Heavy,3,(7,1),(1,6),(26),(20),HighAltitudeRescue,Oxygen tank,2
-IVECO,2023,Urban,Light,4,(2,6),(1,9),(20,4),(24,6),HighAltitudeRescue,hydraulic equipment,18
-RENAULT,2007,Urban,Heavy,5,(6,8),(1,3),(25,4),(22),FireHoses,Petrol Saw,9
-MAN,2006,MediumOffRoad,Mediocre,5,(4,4),(2,6),(25),(24,4),Pgaz,Oxygen tank,23
-MERCEDES BENZ,2019,OffRoad,Light,4,(3,5),(2,4),(20,7),(21,8),FireExtinguishingPowderTank,Petrol Saw,3
-MAN,2010,OffRoad,Light,5,(3,9),(1,2),(27,6),(18,6),Pgaz,Petrol Saw,15
-SCANIA,2007,MediumOffRoad,Heavy,5,(4,3),(1,4),(29,9),(16,9),Lighting,Oxygen tank,26
-IVECO,2019,MediumOffRoad,Heavy,4,(5,4),(1,3),(30,4),(23,9),MotorPump,hydraulic equipment,11
-SCANIA,2017,Urban,Heavy,4,(2,1),(2,2),(18,7),(20),Quartermaster,hydraulic equipment,4
-MERCEDES BENZ,2008,Urban,Heavy,5,(7,6),(1),(25,2),(23,2),TechnicalRescue,Petrol Saw,5
-SCANIA,2008,MediumOffRoad,Mediocre,4,(6),(2,8),(21,4),(29,5),ChemicalRescue,Oxygen tank,3
-RENAULT,2016,OffRoad,Mediocre,3,(2,7),(2,4),(21,6),(29,8),WithCO2Cylinders,Oxygen tank,7
-MAN,2022,Urban,Light,3,(5,9),(2,7),(20,4),(31,6),WithCO2Cylinders,Oxygen tank,10
-MERCEDES BENZ,2019,OffRoad,Light,3,(4,1),(1,2),(18,2),(16,5),Pgaz,hydraulic equipment,12
-RENAULT,2014,MediumOffRoad,Light,3,(7,6),(2,8),(24,7),(27,5),FireExtinguishingPowderTank,hydraulic equipment,9
-IVECO,2010,Urban,Light,4,(4,5),(2,1),(18,7),(27,2),Quartermaster,Oxygen tank,28
-MERCEDES BENZ,2010,Urban,Light,4,(7,7),(1,9),(31,4),(24,7),WithLadder,hydraulic equipment,9
-RENAULT,2010,MediumOffRoad,Heavy,4,(2,2),(2),(29,2),(18,8),WithHydraulicLift,Oxygen tank,5
-MAN,2020,Urban,Light,3,(5),(1,4),(18,1),(21,7),HighAltitudeRescue,Oxygen tank,18
-IVECO,2015,OffRoad,Heavy,4,(6,3),(1,6),(21,6),(22,5),WithLadder,Petrol Saw,8
-MAN,2014,OffRoad,Light,5,(2,9),(2,6),(24,4),(31,6),WithCO2Cylinders,hydraulic equipment,24
-MAN,2022,Urban,Light,4,(4,6),(1,4),(20,1),(19,7),Container,Oxygen tank,28
-MERCEDES BENZ,2011,Urban,Heavy,5,(4),(1,9),(17),(25,8),WithLadder,Oxygen tank,27
-VOLVO,2020,OffRoad,Light,5,(6,2),(1,6),(28,6),(21,5),WithHydraulicLift,Petrol Saw,4
-VOLVO,2007,Urban,Heavy,3,(2,8),(2,8),(18,6),(18,5),Reservoir,Oxygen tank,12
-IVECO,2007,OffRoad,Mediocre,4,(4,2),(2),(28,3),(22),WithLadder,hydraulic equipment,21
-SCANIA,2006,Urban,Mediocre,3,(3,4),(1,1),(28,5),(18,8),WithHydraulicLift,hydraulic equipment,12
-IVECO,2014,MediumOffRoad,Mediocre,3,(4,6),(2,5),(22,6),(28),ChemicalRescue,hydraulic equipment,11
-IVECO,2013,OffRoad,Light,3,(6,6),(1,2),(29,4),(16,5),FireExtinguishingPowderTank,Oxygen tank,22
-IVECO,2023,OffRoad,Mediocre,4,(6,5),(2,4),(17,8),(28,6),Container,Petrol Saw,18
-IVECO,2021,OffRoad,Mediocre,3,(6,8),(2,3),(20,6),(24,9),FireHoses,hydraulic equipment,15
-SCANIA,2015,OffRoad,Heavy,4,(7,1),(1,2),(17,1),(18,6),CommandAndCommunications,Petrol Saw,5
-VOLVO,2009,MediumOffRoad,Heavy,4,(5,7),(2,2),(31,9),(30,2),MotorPump,Petrol Saw,20
-MERCEDES BENZ,2020,Urban,Mediocre,3,(4,9),(2,8),(25,5),(28,5),WithLadder,hydraulic equipment,11
-SCANIA,2020,MediumOffRoad,Light,3,(4,7),(2,3),(31,9),(20,2),Crane,Petrol Saw,20
-SCANIA,2020,Urban,Heavy,4,(4,4),(2,2),(27,2),(16,1),HighAltitudeRescue,Petrol Saw,6
-IVECO,2014,OffRoad,Light,5,(6,1),(2,1),(24,6),(29,1),Reservoir,Petrol Saw,10
-IVECO,2023,Urban,Mediocre,3,(2,9),(2,1),(22,2),(26,9),WithHydraulicLift,hydraulic equipment,16
-RENAULT,2015,OffRoad,Heavy,5,(5,6),(2,3),(19,9),(27,1),Lighting,Oxygen tank,4
-SCANIA,2008,MediumOffRoad,Light,4,(2,4),(2,3),(23,7),(21),TechnicalRescue,hydraulic equipment,17
-IVECO,2020,OffRoad,Mediocre,5,(2,6),(1,8),(29,2),(29,9),FireExtinguishingPowderTank,hydraulic equipment,26
-MERCEDES BENZ,2008,Urban,Mediocre,3,(2,8),(1,8),(28,4),(27,2),WaterRescue,hydraulic equipment,4
-MAN,2007,OffRoad,Heavy,3,(3),(2,6),(25),(19,8),Quartermaster,Petrol Saw,4
-VOLVO,2016,OffRoad,Light,5,(3,3),(1),(16,6),(26,1),WaterRescue,hydraulic equipment,22
-SCANIA,2011,OffRoad,Light,3,(2),(1,4),(16,5),(24,3),Container,hydraulic equipment,16
-RENAULT,2007,MediumOffRoad,Light,5,(4,2),(2,7),(18,3),(18,9),TechnicalRescue,Oxygen tank,19
-IVECO,2020,OffRoad,Light,5,(2,2),(1,2),(28,6),(17,1),Container,Petrol Saw,20
-IVECO,2015,OffRoad,Mediocre,3,(6,5),(2,9),(26,8),(16,8),WithCO2Cylinders,hydraulic equipment,21
-MERCEDES BENZ,2011,MediumOffRoad,Mediocre,4,(2,5),(2,1),(17,6),(17,5),Lighting,Oxygen tank,29
-IVECO,2007,MediumOffRoad,Light,3,(2,2),(2,9),(23,6),(25,2),HighAltitudeRescue,Petrol Saw,9
-RENAULT,2020,Urban,Mediocre,3,(5,5),(1,8),(23,1),(18,4),WaterRescue,hydraulic equipment,7
-MAN,2023,MediumOffRoad,Mediocre,3,(3,5),(2,1),(17,1),(23,4),FireExtinguishingPowderTank,Petrol Saw,20
-MAN,2016,MediumOffRoad,Heavy,3,(2,3),(1,4),(16,3),(31,4),Lighting,Petrol Saw,25
-MAN,2008,OffRoad,Heavy,3,(5),(3),(24,9),(31,1),Lighting,Petrol Saw,9
-VOLVO,2020,MediumOffRoad,Mediocre,5,(5,7),(2,6),(26,1),(26,3),Crane,Petrol Saw,13
-VOLVO,2014,MediumOffRoad,Light,5,(4,5),(2,6),(29,7),(21),WithCO2Cylinders,Oxygen tank,21
-SCANIA,2011,MediumOffRoad,Mediocre,5,(3,4),(1,7),(24,1),(30,3),Lighting,Petrol Saw,7
-VOLVO,2016,MediumOffRoad,Light,5,(6,1),(1,1),(30,6),(20,6),Reservoir,Oxygen tank,9
-VOLVO,2013,OffRoad,Heavy,4,(6,5),(2,6),(20,5),(29,2),Lighting,Petrol Saw,3
-SCANIA,2011,OffRoad,Mediocre,3,(4,7),(2,1),(25,9),(21,3),Container,Petrol Saw,6
-RENAULT,2022,MediumOffRoad,Mediocre,5,(6,6),(1,4),(26,5),(16,4),Container,Petrol Saw,17
-SCANIA,2006,Urban,Light,5,(2,2),(1,2),(24),(16,7),WithHydraulicLift,Oxygen tank,28
-IVECO,2017,MediumOffRoad,Light,4,(7,2),(2,8),(27,6),(19,4),WithHydraulicLift,Oxygen tank,10
-SCANIA,2016,OffRoad,Light,5,(6,9),(1,6),(30,1),(20,5),Operating,hydraulic equipment,14
-VOLVO,2017,MediumOffRoad,Light,3,(2,2),(3),(29,5),(21,9),Quartermaster,Oxygen tank,28
-SCANIA,2011,OffRoad,Heavy,3,(7,1),(1,8),(16,8),(29,1),FireExtinguishingPowderTank,hydraulic equipment,8
-IVECO,2021,MediumOffRoad,Mediocre,4,(7,8),(1,5),(19,7),(23,4),FireExtinguishingPowderTank,hydraulic equipment,23
-RENAULT,2012,OffRoad,Light,5,(6,9),(1,3),(31,2),(25,2),Lighting,Oxygen tank,28
-RENAULT,2017,MediumOffRoad,Light,3,(3,9),(1),(21,5),(18,3),Quartermaster,hydraulic equipment,21
-RENAULT,2022,Urban,Mediocre,5,(3,2),(2,7),(17),(23,1),Pgaz,Petrol Saw,16
-RENAULT,2014,OffRoad,Light,3,(4),(2,2),(17,9),(31,5),Lighting,hydraulic equipment,29
-IVECO,2022,MediumOffRoad,Light,5,(5,8),(2),(27,5),(30,6),Lighting,hydraulic equipment,24
-VOLVO,2010,Urban,Heavy,3,(4,2),(2,9),(25,9),(27),ChemicalRescue,Petrol Saw,10
-MAN,2008,Urban,Heavy,4,(4,1),(2,8),(25,6),(21,5),Lighting,Petrol Saw,23
-VOLVO,2019,Urban,Mediocre,4,(4),(1,6),(29,9),(17),Crane,Oxygen tank,20
-IVECO,2007,MediumOffRoad,Heavy,3,(7,3),(1,4),(26,5),(28,7),WithCO2Cylinders,Oxygen tank,14
-MAN,2011,MediumOffRoad,Heavy,4,(4,2),(2,5),(22,3),(21,6),Lighting,Petrol Saw,29
-IVECO,2018,MediumOffRoad,Heavy,4,(5,1),(2,6),(19,9),(16),Container,hydraulic equipment,16
-RENAULT,2023,MediumOffRoad,Light,5,(7,3),(2,5),(19,6),(17,7),Container,Oxygen tank,12
-VOLVO,2013,OffRoad,Light,3,(3,2),(1,9),(17,9),(27,9),WithCO2Cylinders,Oxygen tank,3
-MERCEDES BENZ,2006,MediumOffRoad,Heavy,5,(3,2),(1),(21),(28,8),Container,Petrol Saw,28
-SCANIA,2010,MediumOffRoad,Mediocre,4,(4,2),(2,1),(16,4),(18,3),Crane,Petrol Saw,21
-IVECO,2009,MediumOffRoad,Mediocre,3,(2,4),(2,6),(16,5),(26,7),Pgaz,Oxygen tank,23
-IVECO,2021,OffRoad,Mediocre,4,(7,3),(1,5),(24,3),(27,2),Crane,hydraulic equipment,11
-RENAULT,2019,MediumOffRoad,Heavy,4,(2,5),(2,9),(22,4),(25,5),Pgaz,Petrol Saw,17
-SCANIA,2010,Urban,Mediocre,3,(5,3),(1),(24,2),(20),Container,Oxygen tank,28
-MERCEDES BENZ,2013,OffRoad,Heavy,3,(4,5),(1,6),(27),(27,6),TruckPump,Petrol Saw,17
-MERCEDES BENZ,2014,OffRoad,Mediocre,3,(7,5),(2,9),(25,6),(21,6),ChemicalRescue,hydraulic equipment,29
-IVECO,2021,OffRoad,Heavy,4,(5,2),(2,1),(17,4),(26,4),WithHydraulicLift,Petrol Saw,10
-MERCEDES BENZ,2009,MediumOffRoad,Heavy,4,(5,4),(2,9),(19,7),(16,2),WithHydraulicLift,Petrol Saw,7
-MERCEDES BENZ,2022,Urban,Heavy,3,(3),(2,2),(24,3),(21),Container,hydraulic equipment,23
-IVECO,2006,Urban,Heavy,3,(3,1),(2,8),(31),(16,1),WithLadder,Oxygen tank,12
-MAN,2008,MediumOffRoad,Mediocre,5,(4,9),(1,1),(22,2),(28),TechnicalRescue,Oxygen tank,28
-RENAULT,2008,MediumOffRoad,Light,3,(4),(2,4),(31,9),(18,4),MotorPump,Petrol Saw,13
-MERCEDES BENZ,2018,OffRoad,Light,4,(7,5),(1,9),(18,5),(27,9),Pgaz,Oxygen tank,9
-IVECO,2023,OffRoad,Heavy,5,(5,8),(2,6),(20,8),(21,8),CommandAndCommunications,Oxygen tank,2
-MERCEDES BENZ,2010,MediumOffRoad,Mediocre,3,(5,8),(2,6),(19,1),(16,2),Lighting,Oxygen tank,17
-SCANIA,2013,OffRoad,Mediocre,3,(2,4),(2),(26,6),(17,3),TruckPump,Petrol Saw,23
-IVECO,2014,Urban,Heavy,5,(7,4),(1,6),(26),(21),WaterRescue,hydraulic equipment,14
-IVECO,2011,Urban,Heavy,3,(6,7),(1,8),(25,4),(26,4),Pgaz,Petrol Saw,10
-IVECO,2022,OffRoad,Mediocre,3,(2,7),(1,6),(21,5),(17,8),Pgaz,hydraulic equipment,5
-SCANIA,2021,MediumOffRoad,Heavy,4,(7,4),(2,8),(19,3),(19,5),CommandAndCommunications,hydraulic equipment,19
-RENAULT,2020,OffRoad,Heavy,5,(5,4),(2),(31,7),(27,6),Lighting,Oxygen tank,4
-MERCEDES BENZ,2018,Urban,Light,3,(6,5),(1,8),(25,4),(23,3),Reservoir,Oxygen tank,22
-IVECO,2017,Urban,Mediocre,5,(4,6),(2),(20,7),(20,1),TruckPump,hydraulic equipment,27
-VOLVO,2013,Urban,Heavy,4,(2,6),(3),(29,4),(25,5),Pgaz,Petrol Saw,22
-RENAULT,2014,OffRoad,Mediocre,4,(3,7),(2,6),(25,5),(19,2),WithLadder,hydraulic equipment,23
-VOLVO,2022,MediumOffRoad,Heavy,5,(2,1),(2,2),(31,8),(25),Pgaz,Oxygen tank,22
-VOLVO,2017,MediumOffRoad,Mediocre,3,(6),(1,4),(24,8),(20,5),Quartermaster,hydraulic equipment,28
-RENAULT,2011,MediumOffRoad,Mediocre,4,(4,3),(2,9),(26,6),(17,5),MotorPump,Petrol Saw,18
-MAN,2010,Urban,Heavy,5,(4,3),(2,4),(23,1),(25,2),WithCO2Cylinders,Petrol Saw,7
-MAN,2019,Urban,Mediocre,4,(2,1),(1,2),(25),(27,8),FireHoses,Oxygen tank,6
-MERCEDES BENZ,2013,OffRoad,Mediocre,3,(2,3),(3),(16,8),(16,7),CommandAndCommunications,Petrol Saw,24
-SCANIA,2008,Urban,Light,4,(5,8),(2,8),(31,1),(21,2),FireHoses,Oxygen tank,9
-RENAULT,2012,Urban,Mediocre,5,(2,4),(2,9),(28,4),(19,9),WaterRescue,Oxygen tank,21
-IVECO,2020,Urban,Light,3,(6,6),(1,3),(21,1),(30,2),WaterRescue,Oxygen tank,14
-IVECO,2006,OffRoad,Heavy,3,(3,7),(1,1),(28,6),(22,9),CommandAndCommunications,Oxygen tank,6
-IVECO,2015,Urban,Mediocre,3,(5,3),(1,9),(30,8),(19,1),Crane,hydraulic equipment,6
-VOLVO,2014,Urban,Light,3,(2,7),(2,9),(17,7),(26,5),CommandAndCommunications,Petrol Saw,22
-SCANIA,2016,Urban,Light,4,(2,3),(2,2),(29,1),(24,4),Reservoir,hydraulic equipment,2
-VOLVO,2021,Urban,Mediocre,3,(7,9),(1,6),(24,8),(29,5),Crane,Oxygen tank,7
-MAN,2020,OffRoad,Light,5,(5,9),(2,3),(27,6),(28),Crane,Oxygen tank,9
-SCANIA,2014,Urban,Mediocre,5,(2,6),(1),(25,6),(26,6),WithLadder,Petrol Saw,11
-VOLVO,2015,OffRoad,Heavy,4,(2,8),(1),(22,7),(16,1),FireHoses,hydraulic equipment,16
-RENAULT,2014,MediumOffRoad,Heavy,3,(5,2),(2,7),(29,3),(26,9),Lighting,Oxygen tank,20
-IVECO,2013,Urban,Mediocre,5,(3,6),(1,2),(20,4),(27,9),Quartermaster,Petrol Saw,26
-VOLVO,2014,Urban,Light,3,(4,4),(2,8),(26,6),(25,9),HighAltitudeRescue,hydraulic equipment,24
-VOLVO,2018,MediumOffRoad,Heavy,5,(4,2),(1,7),(21,1),(25,5),TruckPump,Oxygen tank,27
-MAN,2022,Urban,Heavy,4,(2,6),(2,4),(23,7),(16,5),TechnicalRescue,Oxygen tank,20
-RENAULT,2011,MediumOffRoad,Heavy,4,(5,6),(2,1),(26),(26,1),Reservoir,Petrol Saw,22
-IVECO,2021,Urban,Heavy,4,(2,6),(2,2),(27,5),(16,1),FireHoses,hydraulic equipment,27
-MAN,2023,Urban,Light,4,(4),(1,1),(27,5),(19,3),FireExtinguishingPowderTank,Oxygen tank,23
-IVECO,2022,OffRoad,Heavy,5,(4,2),(1),(19),(21),FireHoses,hydraulic equipment,6
+Manufacturer, YearOfProduction, VehicleCategory, Weight, NumbersOfSeats, SizeOfWaterReservoir, SizeOfFoamConcentrateTank, CarPumpEfficiency, WaterCannonEfficiency, NumbersOfFireHoses, OtherEquipment
+SCANIA,2022,3,2,4,8,2,23.4,20,12,hydraulic equipment
+VOLVO,2022,1,2,3,6.1,1.5,28,19.5,22,Oxygen tank
+SCANIA,2009,3,3,5,2.3,3,29,29.6,3,hydraulic equipment
+VOLVO,2008,1,3,3,4,2.1,28.2,31.8,19,hydraulic equipment
+SCANIA,2018,3,3,3,4.8,1.5,22.7,17.6,22,Oxygen tank
+VOLVO,2013,1,3,4,3.6,3,27.8,17.4,24,Oxygen tank
+IVECO,2018,1,1,4,5.1,1.4,29.8,18.5,13,hydraulic equipment
+SCANIA,2021,1,2,3,6.6,1.3,25.5,21.2,13,Petrol Saw
+SCANIA,2016,3,2,5,2.8,2.3,25.2,26,10,Oxygen tank
+IVECO,2011,2,1,3,4,2.7,31.3,21.8,25,Petrol Saw
+RENAULT,2010,2,1,3,5.5,2,25.9,29,15,Petrol Saw
+SCANIA,2012,1,1,4,7,2.3,24.5,26.4,28,Oxygen tank
+MAN,2019,2,1,5,5.1,1.9,17.8,24.3,16,Oxygen tank
+RENAULT,2020,2,1,5,6.4,2.5,20.9,27.3,8,Petrol Saw
+IVECO,2021,2,3,5,5.6,2.6,18.2,20.5,5,Oxygen tank
+MAN,2015,3,1,3,5.8,2.1,20.8,23.6,21,Petrol Saw
+VOLVO,2014,3,3,3,2.1,2,29.6,27.2,19,Oxygen tank
+SCANIA,2006,2,3,5,2.7,1.4,23,18.2,28,hydraulic equipment
+MAN,2018,2,1,5,3.2,2.5,16.6,28.4,23,Oxygen tank
+MERCEDES BENZ,2013,1,1,5,4.2,1.6,28.4,17.8,25,Petrol Saw
+MERCEDES BENZ,2008,3,1,3,4.6,2.4,20.6,28,27,hydraulic equipment
+VOLVO,2007,1,1,3,3,1.5,29.8,24.3,23,hydraulic equipment
+RENAULT,2017,1,2,4,4.3,1.1,22.6,29.9,17,Petrol Saw
+SCANIA,2009,3,3,4,3.8,2.2,27.9,26.7,3,Petrol Saw
+VOLVO,2023,2,3,3,3.5,2.9,21.8,24,25,hydraulic equipment
+VOLVO,2018,3,2,5,5.3,1.8,24.8,16.8,6,hydraulic equipment
+VOLVO,2023,3,1,4,6,2.4,29.1,28.3,14,Oxygen tank
+VOLVO,2020,1,3,3,2.9,3,29,30.8,16,Oxygen tank
+RENAULT,2011,1,3,4,4,2.6,21.9,25.9,26,hydraulic equipment
+RENAULT,2006,3,1,5,2.8,2.5,27.6,26.7,11,Petrol Saw
+MERCEDES BENZ,2009,2,2,5,3.8,1.8,24.4,28.8,12,Oxygen tank
+RENAULT,2015,1,2,5,5.1,1.8,28.4,24.3,16,Petrol Saw
+IVECO,2006,1,1,3,7.4,1.3,22.7,30.2,16,Petrol Saw
+RENAULT,2014,3,2,3,5,1.4,28.4,21.1,11,hydraulic equipment
+IVECO,2016,3,2,4,4.8,2.4,23.8,28.1,16,Oxygen tank
+MERCEDES BENZ,2014,3,3,4,5.3,1.4,30.7,27,15,hydraulic equipment
+MERCEDES BENZ,2020,3,3,3,6,2.4,20.1,19.8,14,hydraulic equipment
+VOLVO,2013,2,2,3,6.4,1.1,25,20.6,9,Oxygen tank
+IVECO,2007,2,1,5,3.6,2.4,16.6,29,28,hydraulic equipment
+MERCEDES BENZ,2013,3,3,4,2.9,1.4,20.4,23.9,10,Oxygen tank
+IVECO,2015,1,1,3,4.3,1.4,25.8,31,10,hydraulic equipment
+RENAULT,2012,3,3,3,5.8,1.1,22,29.5,19,Oxygen tank
+IVECO,2015,2,1,3,4.3,1.6,21.3,19.1,13,Petrol Saw
+RENAULT,2006,1,1,5,4.2,1.9,23.4,18.9,8,hydraulic equipment
+MERCEDES BENZ,2013,1,1,3,2.3,2,24,23.7,24,Oxygen tank
+IVECO,2017,2,1,5,7.5,2.5,25.6,31,22,hydraulic equipment
+RENAULT,2015,3,3,3,2.5,1.8,24.7,25.4,27,hydraulic equipment
+RENAULT,2015,3,1,5,2.5,2.4,31.1,26.3,10,Oxygen tank
+IVECO,2009,3,2,3,3.5,1.1,30,28.4,27,Petrol Saw
+VOLVO,2020,2,2,3,7.9,2,19.8,17,18,hydraulic equipment
+MAN,2023,3,1,4,3.8,1.8,19.6,21,9,Oxygen tank
+MAN,2021,1,1,4,2.7,2.4,25.1,29.5,23,Oxygen tank
+SCANIA,2023,3,1,4,6.5,2.1,29.1,18.7,21,Oxygen tank
+MERCEDES BENZ,2019,1,1,4,7.1,1.4,26.3,18.7,16,Oxygen tank
+MAN,2015,1,3,4,3.7,1.9,18.3,18.1,22,hydraulic equipment
+MERCEDES BENZ,2019,1,1,3,5.1,2.4,23.4,17.5,7,hydraulic equipment
+VOLVO,2017,1,1,3,3.8,1,26.7,26.8,4,hydraulic equipment
+SCANIA,2008,3,3,4,3.5,1.3,21.5,21,26,Oxygen tank
+MERCEDES BENZ,2022,1,1,5,6.1,2,26.1,22.6,9,Petrol Saw
+MERCEDES BENZ,2011,2,1,3,6,1.7,29.3,21.5,23,hydraulic equipment
+RENAULT,2006,3,2,5,3.1,2.6,31.4,23.2,11,Petrol Saw
+MERCEDES BENZ,2015,2,2,4,5.7,1.1,27.1,24.3,16,Oxygen tank
+SCANIA,2007,3,3,4,7.7,2.4,20,27.5,19,Petrol Saw
+RENAULT,2015,2,2,3,5.9,1.5,29.7,24,22,Oxygen tank
+MERCEDES BENZ,2008,2,3,4,2.1,1.2,29.6,30.6,11,hydraulic equipment
+MAN,2022,2,2,4,2.6,2.3,26.5,25,28,Petrol Saw
+RENAULT,2019,2,2,5,5.5,1.2,25,18.9,3,Oxygen tank
+SCANIA,2014,1,2,5,7.5,1.3,18.7,20.2,2,Petrol Saw
+VOLVO,2010,1,2,3,4.9,1.6,25.8,16.1,25,Petrol Saw
+SCANIA,2016,2,1,5,2,1.7,25.3,30.2,14,hydraulic equipment
+MAN,2012,1,1,3,2.2,1.2,18.4,19.6,20,hydraulic equipment
+IVECO,2007,2,1,4,4.4,1.1,22.9,29.3,21,Oxygen tank
+SCANIA,2014,3,2,3,6.6,2.5,21.9,26.5,25,hydraulic equipment
+MAN,2015,1,2,3,4.1,1.2,16.9,27.7,29,Petrol Saw
+SCANIA,2015,2,2,5,2.4,2.5,29.1,23.2,17,Oxygen tank
+SCANIA,2019,2,2,5,4.6,2.5,30.8,16.1,27,Oxygen tank
+RENAULT,2011,3,3,3,7.4,2.6,18,27.8,25,hydraulic equipment
+MERCEDES BENZ,2015,2,2,3,3.4,1,23,26.7,4,Petrol Saw
+IVECO,2016,2,1,3,3,2,21.1,23.1,13,hydraulic equipment
+RENAULT,2022,2,2,5,7.4,2.4,19.7,24.5,24,hydraulic equipment
+MERCEDES BENZ,2008,2,2,5,4.9,2.4,21.9,22.2,14,Oxygen tank
+VOLVO,2022,2,1,4,6,1.6,17.3,26.9,9,Petrol Saw
+MERCEDES BENZ,2006,2,3,4,2.8,2.3,23.1,16,27,Oxygen tank
+SCANIA,2009,3,2,3,7.5,1.1,28,21.4,2,Oxygen tank
+IVECO,2010,3,3,4,7.6,2.3,23.1,27,7,Petrol Saw
+MERCEDES BENZ,2006,3,2,4,7.2,2.8,19.8,22.5,8,Petrol Saw
+MERCEDES BENZ,2022,1,2,3,4.9,1.9,19.6,27.4,7,Petrol Saw
+MERCEDES BENZ,2010,3,3,5,2.5,2.3,25.1,16.2,8,Oxygen tank
+SCANIA,2015,3,3,5,2.7,1,18.1,29.3,14,hydraulic equipment
+VOLVO,2017,2,1,4,4,2.2,17.2,30.4,6,Oxygen tank
+SCANIA,2009,2,2,3,6.1,1,19.8,29.7,10,Petrol Saw
+IVECO,2023,1,1,5,6.7,2.7,24.9,26.7,8,hydraulic equipment
+RENAULT,2020,1,3,4,3.7,1.4,28.8,28,16,Petrol Saw
+RENAULT,2006,1,1,4,3.6,2.5,28.3,27.6,26,Oxygen tank
+IVECO,2009,2,3,4,5.7,2,29.2,27,14,Oxygen tank
+MAN,2010,1,2,4,6.2,2.1,26.2,22.2,11,hydraulic equipment
+RENAULT,2018,1,1,5,5.8,1.5,29,28,12,hydraulic equipment
+MAN,2011,2,3,5,7.4,1.8,31.5,28.5,10,Petrol Saw
+MERCEDES BENZ,2012,3,3,3,3.8,2,31.5,19.4,10,Petrol Saw
+MERCEDES BENZ,2012,1,3,5,7.8,2.3,23.5,24.8,10,Oxygen tank
+IVECO,2015,2,1,4,7.7,2.4,31.9,22.7,11,Oxygen tank
+VOLVO,2007,2,2,3,6.9,2.4,20.5,21.8,27,Petrol Saw
+MAN,2007,2,2,3,5.2,2.7,27.9,18.4,4,Oxygen tank
+SCANIA,2017,3,2,4,3.9,2.5,22.7,21.9,21,Oxygen tank
+MERCEDES BENZ,2007,1,1,4,8,1.2,17.6,23.5,10,hydraulic equipment
+VOLVO,2014,3,1,5,4.4,1.3,17.7,25.1,27,hydraulic equipment
+VOLVO,2007,3,1,4,5.8,1.7,16.2,17.4,28,Oxygen tank
+IVECO,2023,1,3,4,6.3,1.5,28.4,25.2,26,Petrol Saw
+MAN,2019,1,3,3,6.3,2.9,16.2,27.3,12,hydraulic equipment
+RENAULT,2021,1,1,4,7.9,1.8,25.8,16.7,3,hydraulic equipment
+RENAULT,2011,3,1,3,6.9,2.1,18.4,17.9,2,hydraulic equipment
+IVECO,2023,1,2,3,7.1,1.5,19,28.7,28,Petrol Saw
+VOLVO,2015,1,2,4,2.6,2.2,17.8,22,7,hydraulic equipment
+RENAULT,2006,2,3,4,5,1.7,16.2,24.5,16,hydraulic equipment
+IVECO,2020,2,1,5,3.8,1.3,28.7,21.5,3,Oxygen tank
+MAN,2021,3,1,4,3.2,2.4,22.3,22,13,Petrol Saw
+MAN,2011,1,1,4,4.6,1.5,24,30.5,9,Oxygen tank
+SCANIA,2022,3,2,3,4.3,3,24.3,16.5,23,Oxygen tank
+IVECO,2019,1,1,3,2.1,1.8,16.9,19.9,13,Oxygen tank
+MAN,2006,2,2,3,2.1,1.5,18.1,26.9,18,Petrol Saw
+VOLVO,2020,2,3,5,6.2,1.4,20.7,31.4,3,Oxygen tank
+MAN,2017,2,1,3,4.1,1.8,19.6,18.9,4,Oxygen tank
+VOLVO,2007,3,3,4,7.3,1.9,24.6,26.1,18,hydraulic equipment
+SCANIA,2006,2,3,5,5,1.4,23.2,17.9,18,hydraulic equipment
+RENAULT,2019,2,3,3,5.2,1.8,26.7,31,8,Petrol Saw
+IVECO,2006,1,1,4,3.8,2.9,21.2,20.6,29,Oxygen tank
+MERCEDES BENZ,2018,3,1,4,5.2,1.9,30.3,16,29,hydraulic equipment
+IVECO,2013,3,3,4,2.8,1.5,18.4,24.7,24,hydraulic equipment
+RENAULT,2015,2,3,4,6.2,1.6,21.6,18.1,24,Oxygen tank
+MERCEDES BENZ,2011,1,1,3,2.4,1.5,30.8,19.9,12,hydraulic equipment
+SCANIA,2017,3,3,5,3.6,1.9,29.2,25.5,15,Oxygen tank
+VOLVO,2006,2,1,3,6.2,2.5,27.3,28.6,13,Petrol Saw
+SCANIA,2009,2,2,5,2.3,2.4,17.4,24.3,9,hydraulic equipment
+RENAULT,2013,3,3,3,6.5,2.3,17.3,30.7,8,hydraulic equipment
+MAN,2023,1,3,4,7.6,2.7,29.9,19.4,9,Oxygen tank
+SCANIA,2012,3,2,3,7.8,1,25.9,29.1,5,Petrol Saw
+VOLVO,2017,2,1,5,3,1.2,21,20.8,21,Oxygen tank
+MAN,2022,3,1,3,4.3,1.3,25.8,17.1,6,Petrol Saw
+SCANIA,2015,1,1,5,6.7,3,21.5,16.9,3,hydraulic equipment
+RENAULT,2013,3,2,5,7.7,2.2,19.8,27.5,25,Petrol Saw
+SCANIA,2021,2,3,4,3.7,2.5,19,30.5,2,Petrol Saw
+MAN,2020,2,1,4,5.4,2.2,20,27.1,12,Oxygen tank
+SCANIA,2015,3,1,3,3.5,2,25.4,25.2,17,Oxygen tank
+VOLVO,2008,2,3,3,5.2,2.1,23.4,30.2,25,Oxygen tank
+RENAULT,2023,1,3,4,7.9,2.6,25.2,23.6,29,hydraulic equipment
+RENAULT,2010,2,2,4,6.2,1.6,18.4,31.9,16,hydraulic equipment
+MAN,2022,1,3,3,7.6,1.4,31.9,27.3,26,Petrol Saw
+IVECO,2019,3,2,3,6.5,2,21,25.5,16,Oxygen tank
+RENAULT,2015,1,3,4,7.7,1.4,20.6,22.5,15,hydraulic equipment
+MERCEDES BENZ,2011,3,1,3,2.1,2.5,22.5,26.4,21,Oxygen tank
+SCANIA,2020,3,3,4,4.4,2.3,30,27.1,13,hydraulic equipment
+SCANIA,2009,1,2,4,6.6,1.5,22.7,30.2,14,Oxygen tank
+IVECO,2013,2,3,4,5.8,2.7,19,30.8,3,hydraulic equipment
+IVECO,2019,2,3,3,2.3,2.4,20.1,18.9,7,hydraulic equipment
+VOLVO,2020,2,3,4,4.5,1.9,21.7,17.9,18,hydraulic equipment
+VOLVO,2014,2,1,5,2.7,3,26,21.2,14,Petrol Saw
+SCANIA,2018,2,2,5,6.6,1.7,27.3,28.6,13,hydraulic equipment
+MAN,2022,2,1,4,3.2,1.2,16.9,25.4,13,hydraulic equipment
+RENAULT,2010,2,1,5,5.9,1.5,18.6,29,9,Petrol Saw
+IVECO,2021,2,1,4,5.3,2.2,16.5,23.2,14,hydraulic equipment
+IVECO,2013,2,3,4,3.8,1.8,23.6,19.3,9,hydraulic equipment
+MERCEDES BENZ,2014,2,1,3,6.8,2.2,24.9,27.4,29,hydraulic equipment
+MERCEDES BENZ,2022,3,2,4,2.5,2.6,27.1,23.4,4,Petrol Saw
+SCANIA,2021,2,3,5,7.4,2.3,20.7,28.9,24,Oxygen tank
+MERCEDES BENZ,2013,2,1,3,7.7,2.6,24.9,30.6,17,Petrol Saw
+IVECO,2008,1,2,3,2.2,1.7,23,30.2,29,Oxygen tank
+RENAULT,2019,1,1,5,4.4,2.7,18.3,31.8,28,Petrol Saw
+RENAULT,2013,3,2,5,7.5,2.6,30.6,24.5,15,Petrol Saw
+IVECO,2013,3,2,3,3.5,1.1,25.4,20.2,19,Oxygen tank
+SCANIA,2006,1,2,3,5.9,2.1,28.8,19.2,15,Petrol Saw
+VOLVO,2021,2,1,3,3.4,1.4,17.9,21.6,18,hydraulic equipment
+MAN,2014,3,2,4,2.7,2.9,20.7,17,15,Petrol Saw
+MAN,2012,1,1,4,6.4,1.7,16.7,31.7,13,hydraulic equipment
+RENAULT,2018,3,2,3,7.5,2.9,18.8,31.8,16,Oxygen tank
+MERCEDES BENZ,2015,1,2,3,5.9,2.3,18.9,25,3,Petrol Saw
+RENAULT,2023,3,1,3,2.5,1.9,25.4,28.9,14,Petrol Saw
+MAN,2018,2,1,4,7.8,2.9,16.9,28.1,25,hydraulic equipment
+RENAULT,2012,3,2,5,8,2.4,21,19.7,23,Oxygen tank
+IVECO,2013,2,2,4,6.9,2.1,31,22.6,17,Petrol Saw
+MAN,2019,3,1,3,7.8,2.1,31.9,19,11,Petrol Saw
+VOLVO,2021,3,2,5,4.9,1.2,26.7,23.3,22,Oxygen tank
+MAN,2022,3,2,4,7.3,2.8,31.7,22,23,Petrol Saw
+RENAULT,2015,3,1,4,4.2,1.7,16.1,30,10,Petrol Saw
+IVECO,2008,2,2,5,4.8,1.7,32,28.3,18,Oxygen tank
+MAN,2020,3,1,4,4.4,1,20.5,30.9,16,hydraulic equipment
+RENAULT,2008,1,2,5,5.3,1.1,26.2,18.6,9,Petrol Saw
+RENAULT,2012,3,3,5,4.9,1.4,16.2,28.7,22,hydraulic equipment
+IVECO,2021,3,2,4,7,2.2,21.4,28,9,hydraulic equipment
+MAN,2022,2,3,5,2.6,2.9,17.4,25.8,6,Oxygen tank
+SCANIA,2022,2,1,5,3.3,2.7,24.8,21.8,24,Oxygen tank
+IVECO,2011,1,1,3,2.9,1.1,31.2,20,17,Oxygen tank
+VOLVO,2019,3,1,5,5.4,2.6,21.7,25.6,14,hydraulic equipment
+MAN,2013,2,2,5,6.2,1.7,31.2,19.5,14,Petrol Saw
+MERCEDES BENZ,2013,2,2,4,4.4,1.4,23.4,31.5,28,Oxygen tank
+VOLVO,2022,3,1,3,6.8,1.6,24.8,19.4,18,Petrol Saw
+RENAULT,2006,1,3,5,2.1,2.1,16.1,25.6,14,Petrol Saw
+VOLVO,2018,3,2,5,2.2,2.5,21.9,20.8,21,Petrol Saw
+IVECO,2013,3,1,5,2.3,1.5,26,31.6,10,Petrol Saw
+MERCEDES BENZ,2015,2,3,5,4.7,3,27.8,30.5,12,Oxygen tank
+MERCEDES BENZ,2018,3,2,5,7.6,2.3,24.5,19.4,28,Petrol Saw
+MAN,2022,3,1,5,4.1,2.4,27.4,17.3,27,hydraulic equipment
+VOLVO,2020,1,3,4,6,1.5,29.5,21.4,5,Petrol Saw
+MERCEDES BENZ,2016,2,3,4,6,1.6,24.7,29,25,hydraulic equipment
+MERCEDES BENZ,2016,1,2,5,3.3,1.2,28.6,25.8,13,Petrol Saw
+IVECO,2012,2,1,4,6.1,2.9,30.3,18.4,26,hydraulic equipment
+MERCEDES BENZ,2008,1,1,5,3.5,2.6,28.3,18.3,12,Petrol Saw
+SCANIA,2016,1,1,3,5.1,1.5,16.3,25,20,Petrol Saw
+MERCEDES BENZ,2009,3,2,5,5.8,2.4,27.6,22.3,13,hydraulic equipment
+VOLVO,2006,2,1,4,7.9,2.1,25.1,24,10,Oxygen tank
+VOLVO,2009,3,2,5,5,2.4,24.8,23.8,7,Oxygen tank
+RENAULT,2023,1,3,5,2.1,2.5,16.6,17.9,4,Oxygen tank
+IVECO,2014,1,3,5,6.3,1.1,16.1,28.7,15,Petrol Saw
+IVECO,2016,2,2,5,4.1,1.3,28,21.2,17,Petrol Saw
+RENAULT,2008,2,2,3,4.4,1.1,23.6,25.3,2,Oxygen tank
+VOLVO,2009,2,2,5,3.9,1.1,26.2,24.4,25,hydraulic equipment
+IVECO,2006,1,3,5,2.9,2.1,26.5,17,28,Oxygen tank
+SCANIA,2009,1,2,4,4.6,1,20.5,22.7,5,Oxygen tank
+IVECO,2016,2,3,4,7.8,2.4,29.8,25.7,10,hydraulic equipment
+IVECO,2016,3,2,5,7.1,1.1,30.3,31,29,hydraulic equipment
+MERCEDES BENZ,2008,3,1,4,5.1,2,19.3,26,12,hydraulic equipment
+IVECO,2018,3,2,3,5.6,2.1,30.4,23.4,16,Petrol Saw
+SCANIA,2017,3,1,3,2.1,2.8,22.8,26.6,20,Petrol Saw
+IVECO,2013,3,1,3,6.7,2,28.5,25.3,20,Oxygen tank
+SCANIA,2007,3,2,4,4.5,1.6,22.7,29.3,28,Oxygen tank
+IVECO,2020,1,2,5,3.4,2,31,17.8,11,hydraulic equipment
+RENAULT,2011,2,1,3,5.4,1,28.4,26.7,2,Petrol Saw
+VOLVO,2019,1,1,4,4.9,1.3,17.1,29.8,12,Oxygen tank
+RENAULT,2016,2,1,5,5.1,2.6,22.6,25,24,Oxygen tank
+IVECO,2014,3,2,4,6.9,1.1,28.4,19.6,11,Petrol Saw
+MAN,2018,3,1,5,8,2.8,17.7,24.3,13,Petrol Saw
+MERCEDES BENZ,2016,3,2,3,4.3,1.7,21.7,24.6,17,Petrol Saw
+MAN,2010,1,2,4,7.1,2.8,23.9,28.5,29,Oxygen tank
+SCANIA,2015,2,2,4,4.7,2.1,22.1,21.1,5,Petrol Saw
+VOLVO,2012,3,2,4,3.3,2.4,19.1,20.4,19,hydraulic equipment
+RENAULT,2022,1,3,3,3.6,2.1,30.3,28.6,22,hydraulic equipment
+SCANIA,2020,1,3,5,5.6,2.1,25.8,17.6,12,Petrol Saw
+MERCEDES BENZ,2022,1,1,5,7.4,1.1,23.5,19.2,11,Petrol Saw
+MAN,2016,1,3,3,3.5,2.2,22.2,25.9,26,Petrol Saw
+RENAULT,2018,1,3,4,6.4,1,19,27.6,6,hydraulic equipment
+SCANIA,2022,2,1,4,2.4,1,16.3,29.7,19,Oxygen tank
+MAN,2017,2,1,4,3.5,1.5,29.4,29.2,15,Oxygen tank
+IVECO,2022,3,1,5,3.8,2.6,20.3,19.9,3,Oxygen tank
+MERCEDES BENZ,2018,3,2,5,5,1,20.6,31.7,29,Oxygen tank
+MERCEDES BENZ,2006,1,3,5,2.8,1.2,28.5,29.2,4,hydraulic equipment
+MERCEDES BENZ,2009,1,2,4,7.1,2.6,24.1,22.9,22,Oxygen tank
+MAN,2013,2,1,3,7.8,2,30.7,25.6,21,hydraulic equipment
+IVECO,2021,2,1,3,7.8,2.5,23.6,19.9,17,Oxygen tank
+MAN,2009,2,1,5,5.7,1.6,24.1,26.5,9,hydraulic equipment
+SCANIA,2007,1,3,5,2.5,2.8,16.5,26.7,7,Petrol Saw
+SCANIA,2011,1,1,4,5.5,1.4,21.5,25.5,22,Oxygen tank
+MERCEDES BENZ,2012,3,2,4,6.4,1.6,31.7,20.1,24,Oxygen tank
+IVECO,2010,2,1,5,2.7,1.5,16.4,26.7,24,Oxygen tank
+VOLVO,2008,1,2,4,6.9,1.7,28.7,26.8,29,hydraulic equipment
+SCANIA,2019,1,3,4,6.7,2.1,21.2,30.2,7,Oxygen tank
+MERCEDES BENZ,2017,3,1,3,4,1.6,18,19,26,Petrol Saw
+MERCEDES BENZ,2010,1,1,4,5.9,2.2,21.9,19.4,13,hydraulic equipment
+IVECO,2016,1,1,3,4.1,3,23.4,22.8,22,hydraulic equipment
+MAN,2015,2,3,3,6.6,1.8,26.3,20.8,23,Petrol Saw
+SCANIA,2011,1,3,5,2.3,1.6,20.9,29.3,27,Petrol Saw
+MERCEDES BENZ,2008,2,2,4,7.5,2.7,26.3,19.2,22,hydraulic equipment
+MAN,2010,2,1,3,8,1.2,25.2,30.5,21,Oxygen tank
+MAN,2014,1,3,4,6.7,2.8,26.7,19.4,15,Petrol Saw
+VOLVO,2011,2,1,4,4.5,1.4,16.4,17,10,hydraulic equipment
+IVECO,2011,2,3,4,5.5,3,19.9,20.7,24,Petrol Saw
+RENAULT,2009,3,3,5,4.2,3,22.5,22.7,27,Oxygen tank
+MERCEDES BENZ,2018,1,1,4,5.8,1.7,31.2,21.4,27,Petrol Saw
+VOLVO,2017,3,2,4,5.1,2.1,23.7,19.9,12,hydraulic equipment
+VOLVO,2016,3,2,5,7.1,1.3,19.6,21.8,4,Petrol Saw
+IVECO,2007,3,2,4,3.9,1.9,22.3,31.7,5,Oxygen tank
+IVECO,2007,1,2,4,3.2,2.7,25,28.7,27,Oxygen tank
+SCANIA,2018,2,1,3,2.4,2.3,28.5,22,8,Petrol Saw
+IVECO,2020,2,3,3,4.3,2.8,23.6,23,27,Oxygen tank
+VOLVO,2013,3,3,4,2.8,2.4,23.2,18.4,2,Petrol Saw
+SCANIA,2019,1,3,4,6.9,1.9,31.5,23.5,29,hydraulic equipment
+MERCEDES BENZ,2022,1,2,3,7.2,1,27.7,26,20,Petrol Saw
+VOLVO,2011,2,2,3,5.1,2,26.8,20.1,18,Oxygen tank
+MERCEDES BENZ,2007,1,2,4,3,1.4,19.3,20.7,24,hydraulic equipment
+VOLVO,2018,3,3,5,5.7,2.2,25.9,26.5,4,Petrol Saw
+MERCEDES BENZ,2017,1,2,3,6.1,2.4,29.5,17.5,8,Oxygen tank
+MAN,2017,3,2,3,6.9,2.3,30,16.4,8,hydraulic equipment
+VOLVO,2011,3,3,5,6.3,2.8,19.4,26.7,12,Petrol Saw
+SCANIA,2009,1,1,3,2.1,1.2,27.2,19.8,6,Petrol Saw
+IVECO,2009,2,2,5,3.8,2.5,18,20.2,16,Oxygen tank
+IVECO,2014,2,1,3,6.6,2.5,19.9,20.1,22,hydraulic equipment
+SCANIA,2018,2,1,3,7.2,2.6,28.2,28.9,15,Petrol Saw
+MERCEDES BENZ,2014,2,1,3,4.4,1.7,21.2,18.2,25,Oxygen tank
+MAN,2018,2,2,4,5.8,1.6,23.7,23.8,19,Petrol Saw
+RENAULT,2020,1,2,3,6,2.8,27,20.3,11,Oxygen tank
+MAN,2020,1,2,4,4.3,2.1,29.6,22.1,13,hydraulic equipment
+IVECO,2015,3,3,4,7.9,2,25.2,25,29,Petrol Saw
+RENAULT,2021,2,1,4,5.9,1.8,19.1,22,8,Oxygen tank
+MAN,2006,2,2,4,2.9,1.1,21,16.9,25,hydraulic equipment
+MERCEDES BENZ,2015,1,3,4,5.9,2.3,23.1,30.4,17,hydraulic equipment
+SCANIA,2012,1,2,4,5.7,1.6,19.6,29.1,22,Petrol Saw
+IVECO,2013,1,3,4,2.4,2.6,23.3,28.2,29,Petrol Saw
+IVECO,2019,1,1,3,7.6,1.6,30.1,22.5,8,Oxygen tank
+MERCEDES BENZ,2023,3,2,5,6.9,1.4,19.9,27,28,Petrol Saw
+SCANIA,2019,3,1,3,4.3,1.1,26.8,27,29,Petrol Saw
+RENAULT,2019,1,2,5,6.5,2.4,19.8,30.2,22,Petrol Saw
+MAN,2013,3,1,3,3.8,1,24.8,26.8,23,Petrol Saw
+MAN,2011,1,2,5,3.9,1.4,23.7,25,17,hydraulic equipment
+RENAULT,2017,1,2,5,5.6,1.1,26.4,20.6,20,Oxygen tank
+RENAULT,2010,1,1,3,6.2,1,22.7,28.1,17,Petrol Saw
+MERCEDES BENZ,2018,2,1,3,5.8,1.8,27.6,20.7,7,Petrol Saw
+MERCEDES BENZ,2015,3,2,3,4.8,2.8,20.8,31.5,11,Petrol Saw
+IVECO,2015,3,3,5,7.8,1.5,24.9,25.1,21,Petrol Saw
+RENAULT,2011,2,3,5,5.2,1.1,21.7,17.5,17,Petrol Saw
+MERCEDES BENZ,2012,1,1,4,7,1.1,20.9,17.6,5,Oxygen tank
+MERCEDES BENZ,2016,3,3,4,6.1,2.3,24.7,25.2,17,Petrol Saw
+MAN,2010,3,2,3,3.9,1,17.3,21.4,5,hydraulic equipment
+VOLVO,2019,1,3,5,3.7,1.8,18.3,26.1,15,hydraulic equipment
+IVECO,2012,1,3,5,4,2.9,26.5,28.4,19,hydraulic equipment
+IVECO,2008,2,1,3,5.5,2.2,30.2,19.1,18,Oxygen tank
+RENAULT,2008,3,1,3,4,2.1,29.9,23.1,14,hydraulic equipment
+VOLVO,2012,3,2,5,3.3,2.9,21,18.4,20,Oxygen tank
+VOLVO,2006,2,2,3,5.2,2.1,28.1,20.1,25,Oxygen tank
+SCANIA,2019,3,1,3,6.1,2,31.9,19.2,5,hydraulic equipment
+MERCEDES BENZ,2017,3,3,3,7.3,1.3,24.3,18.5,26,Petrol Saw
+MERCEDES BENZ,2009,3,3,4,6.6,2.2,21.7,26.6,22,hydraulic equipment
+SCANIA,2016,2,2,3,4.6,1.9,23.4,23.9,24,Oxygen tank
+SCANIA,2019,1,2,5,2.6,1,25.7,26.6,20,Oxygen tank
+RENAULT,2018,1,3,5,3.5,1.3,16.3,20.3,4,Oxygen tank
+VOLVO,2012,2,2,5,2.4,2.9,26,16.2,5,Oxygen tank
+VOLVO,2007,3,2,3,2.6,2.1,18.4,28.1,6,Oxygen tank
+MERCEDES BENZ,2014,3,3,5,4.8,1.6,25.6,18,22,Petrol Saw
+IVECO,2011,1,2,4,7.6,2.2,28.9,26.9,15,hydraulic equipment
+IVECO,2009,1,1,3,5.1,1.7,29.3,22,15,Petrol Saw
+RENAULT,2013,2,1,5,2.8,2.7,31.9,19.7,26,Oxygen tank
+MERCEDES BENZ,2011,2,2,4,6.4,2.8,18.9,20.8,5,Oxygen tank
+SCANIA,2020,3,3,5,5.8,2,24.3,23.4,8,Oxygen tank
+SCANIA,2022,3,3,4,6.7,1.4,20.8,30.9,24,Petrol Saw
+MERCEDES BENZ,2010,3,3,5,5.5,1.4,19.1,18.2,15,Petrol Saw
+MAN,2009,3,1,4,4.8,1.9,24.8,22.8,9,hydraulic equipment
+MAN,2007,2,2,3,2.3,2.5,17.3,25.3,26,hydraulic equipment
+MAN,2016,1,2,3,7.8,3,30.8,24.9,4,Petrol Saw
+IVECO,2007,1,1,5,6.1,2.4,24.3,32,10,Oxygen tank
+RENAULT,2009,3,1,3,5.9,1.3,25.9,20.3,18,Petrol Saw
+RENAULT,2015,3,2,4,3.1,1.8,22.4,16.8,25,hydraulic equipment
+RENAULT,2023,2,3,3,2.4,2.1,28.2,30.1,14,Oxygen tank
+MAN,2013,1,1,5,7.2,1.1,16.5,30.6,7,Oxygen tank
+VOLVO,2013,1,1,3,2.5,1.1,31.7,27.8,19,Petrol Saw
+MERCEDES BENZ,2017,1,3,4,4.5,2,30.9,19.8,29,Petrol Saw
+RENAULT,2012,3,1,5,3.5,1.9,21,29.2,20,hydraulic equipment
+IVECO,2008,3,2,5,6.3,1.5,18.1,26.9,20,Petrol Saw
+SCANIA,2018,3,2,3,3.7,2,27.6,27.5,18,Petrol Saw
+MERCEDES BENZ,2007,3,2,3,5.5,1.6,20.8,26.2,27,hydraulic equipment
+VOLVO,2020,3,1,5,2.2,1.1,30.2,25.7,20,Petrol Saw
+VOLVO,2015,2,3,5,4.3,2.8,21.4,19.8,19,hydraulic equipment
+RENAULT,2008,3,2,4,7,2.5,17.1,25.7,27,Petrol Saw
+MERCEDES BENZ,2016,2,3,5,5.6,3,20.4,24.7,12,hydraulic equipment
+MERCEDES BENZ,2018,3,2,3,2.5,1.1,20.4,22.1,25,Oxygen tank
+IVECO,2013,2,3,5,4.5,1.9,25.6,17.2,25,Petrol Saw
+RENAULT,2023,3,3,3,6,1.6,21,28.4,18,hydraulic equipment
+MAN,2008,1,2,3,5.7,2.6,30.7,21.6,19,hydraulic equipment
+RENAULT,2007,2,2,5,5.6,2.7,16.3,17.6,29,Oxygen tank
+MAN,2006,2,1,5,7.5,1.9,23.2,21.5,8,hydraulic equipment
+SCANIA,2022,1,2,5,4.7,2.7,30.8,26.6,26,Oxygen tank
+RENAULT,2020,2,1,4,2.2,2.5,22.1,29,28,hydraulic equipment
+IVECO,2019,2,1,5,6.1,1.8,24.7,24.6,22,Petrol Saw
+SCANIA,2009,2,1,4,7.1,1.6,21.6,23.9,23,Oxygen tank
+MERCEDES BENZ,2009,2,3,4,5.7,1.2,21,26.8,25,Oxygen tank
+MERCEDES BENZ,2007,1,2,4,2.5,2.5,30.4,21,21,hydraulic equipment
+SCANIA,2021,3,1,3,7.2,1.2,30.4,28.5,6,Petrol Saw
+SCANIA,2007,1,1,4,3.8,2,28,27.3,19,Oxygen tank
+VOLVO,2023,1,1,5,7.8,1.2,19.5,22.3,12,Oxygen tank
+IVECO,2015,1,3,3,5.6,1.8,29.7,17.3,13,hydraulic equipment
+MERCEDES BENZ,2020,2,2,5,6.2,1.8,19.2,25.3,21,Petrol Saw
+IVECO,2016,2,2,5,3.2,2,29.2,26.1,14,Petrol Saw
+RENAULT,2013,3,2,5,7.6,2.3,25.2,17.8,8,Petrol Saw
+IVECO,2021,1,3,3,4.2,1.6,18.8,17.7,14,Petrol Saw
+MERCEDES BENZ,2011,1,1,3,2.8,2.6,31.4,21.6,25,Petrol Saw
+RENAULT,2012,2,2,4,5.6,2.5,26.2,25.7,26,Oxygen tank
+MERCEDES BENZ,2007,2,3,4,4.4,2.3,27.8,20,13,Petrol Saw
+MAN,2016,2,3,4,4.4,2.4,16.2,22,29,Oxygen tank
+RENAULT,2016,2,1,3,7,1.1,20,21.1,21,Oxygen tank
+RENAULT,2015,3,2,5,4.7,1.9,22.3,20.6,13,Petrol Saw
+RENAULT,2007,2,3,4,5.7,2.9,21.6,31.8,29,Oxygen tank
+IVECO,2020,3,2,3,6.3,1.2,19.7,16,9,Oxygen tank
+RENAULT,2017,3,1,4,3.4,1.5,21.7,27.2,2,Oxygen tank
+MAN,2007,2,1,5,6.2,2.1,28.8,30.2,25,Oxygen tank
+MAN,2016,3,1,3,2.3,2.1,25.1,31,25,Oxygen tank
+SCANIA,2014,3,3,4,5.9,2.3,17.5,22.1,18,hydraulic equipment
+MERCEDES BENZ,2015,1,3,4,2.7,1.6,23.6,30.6,8,Oxygen tank
+VOLVO,2022,1,3,5,3.2,1.7,21.3,17.5,8,Petrol Saw
+MAN,2007,2,3,5,2.7,1.1,26.3,31.4,2,Petrol Saw
+IVECO,2012,1,3,4,7.5,1,25.8,19.2,26,hydraulic equipment
+SCANIA,2008,1,2,4,7.2,1.8,18,29.3,27,Oxygen tank
+MERCEDES BENZ,2011,1,3,3,5.9,1.5,23.9,29.2,15,Oxygen tank
+RENAULT,2013,3,1,3,7.7,2.7,16.8,25.1,22,Oxygen tank
+SCANIA,2021,3,2,3,6.4,2.3,17.6,27.9,8,Oxygen tank
+MERCEDES BENZ,2011,2,3,4,3.2,2.7,27.3,17.7,23,Petrol Saw
+VOLVO,2011,1,3,5,5.1,1.2,22.8,16.8,5,Oxygen tank
+IVECO,2022,1,2,5,5.8,2.9,30.6,16.6,17,Oxygen tank
+MAN,2008,3,1,5,7.2,2.1,17.7,20.6,8,Petrol Saw
+MERCEDES BENZ,2018,3,3,3,6.1,1.2,18,20.6,12,Petrol Saw
+IVECO,2006,1,3,5,7.6,1.6,20.1,17.3,15,hydraulic equipment
+SCANIA,2013,3,2,5,7.4,2.7,27.9,23.8,17,Oxygen tank
+SCANIA,2008,1,3,3,3.1,1.9,29.1,17.1,24,hydraulic equipment
+MERCEDES BENZ,2015,3,1,4,3.9,2.8,20.8,24.2,20,Oxygen tank
+MAN,2012,2,2,3,7.1,1.8,29.4,21.2,13,Petrol Saw
+SCANIA,2014,1,3,4,4.2,1.9,26.7,17.2,8,hydraulic equipment
+RENAULT,2013,1,3,3,4,2.4,30.9,30,17,hydraulic equipment
+IVECO,2016,3,1,5,5.8,1.3,18,21.2,18,Petrol Saw
+MERCEDES BENZ,2017,1,2,5,4.4,1.6,23.3,20.7,26,Petrol Saw
+IVECO,2021,2,1,4,2.8,2.1,16.1,27,28,hydraulic equipment
+MERCEDES BENZ,2014,2,1,5,3,2.4,24.9,16,15,Oxygen tank
+MERCEDES BENZ,2020,2,1,4,7.3,1.7,19.6,22,14,Petrol Saw
+VOLVO,2017,2,3,4,6.7,1.8,16,25.3,4,Oxygen tank
+SCANIA,2010,2,3,4,4.3,1.3,17.2,17.7,25,Petrol Saw
+RENAULT,2023,3,1,4,4,2.3,21.3,18.8,16,Oxygen tank
+MAN,2022,3,1,4,5.7,1.7,28.2,22.5,20,Oxygen tank
+MAN,2007,1,2,5,5.4,2.7,27.4,19.1,6,Petrol Saw
+VOLVO,2007,3,2,4,3.2,2.6,21.2,16.7,16,hydraulic equipment
+MAN,2006,3,1,3,4,2.1,29.8,23.5,9,Oxygen tank
+IVECO,2021,1,1,4,2.4,2.1,29.5,23.9,4,Petrol Saw
+MAN,2008,3,3,3,5.1,2.4,21.3,28.8,22,hydraulic equipment
+MAN,2014,2,1,3,3.8,1.4,23.7,19.2,3,hydraulic equipment
+IVECO,2016,3,3,4,2.8,2.3,23.6,17.4,7,hydraulic equipment
+RENAULT,2021,1,2,4,7.8,1.1,29,20.4,17,Oxygen tank
+RENAULT,2010,2,1,5,6.3,2.5,25.9,27,22,hydraulic equipment
+VOLVO,2008,2,1,3,2,1.5,20.9,20.4,25,Petrol Saw
+IVECO,2021,1,1,5,4.4,2,26.9,16.1,25,Oxygen tank
+RENAULT,2008,1,3,5,5.2,1.5,17.3,31.8,16,hydraulic equipment
+VOLVO,2017,3,1,3,5.9,2.4,31.6,19.3,25,hydraulic equipment
+MERCEDES BENZ,2012,1,2,5,3.2,1.8,18.8,31.5,3,Petrol Saw
+IVECO,2023,2,2,3,2,2.8,20.9,29,15,Oxygen tank
+VOLVO,2009,1,3,4,2.3,1.1,18.9,24.7,20,hydraulic equipment
+RENAULT,2018,3,1,4,2.6,1.8,27,30.3,22,hydraulic equipment
+MAN,2014,2,2,3,3.9,2.5,21.2,25.8,3,Petrol Saw
+SCANIA,2019,1,1,5,2.6,1.9,23.4,22.6,17,hydraulic equipment
+SCANIA,2010,1,3,4,6.7,2.5,29.7,31.5,7,Petrol Saw
+IVECO,2022,3,2,4,2.6,2.1,19.8,25.4,8,Oxygen tank
+MERCEDES BENZ,2020,2,1,3,3.5,1.8,31.5,22.8,29,hydraulic equipment
+SCANIA,2023,1,3,3,2.6,2.3,20.8,24.6,28,Oxygen tank
+VOLVO,2020,1,2,5,2.8,2.9,18.3,25.6,10,Oxygen tank
+MERCEDES BENZ,2010,2,1,4,6.8,1.7,28.5,30.7,20,hydraulic equipment
+IVECO,2023,3,3,4,3.6,1.1,30.4,27.8,2,Petrol Saw
+SCANIA,2019,3,1,5,3.3,1.9,17.4,20.3,5,Oxygen tank
+SCANIA,2021,3,1,3,5,2.2,22.5,21.2,25,hydraulic equipment
+MERCEDES BENZ,2006,3,3,4,2.2,1.9,23.6,22.9,3,hydraulic equipment
+VOLVO,2008,2,1,3,7.4,1.6,29.2,21.5,10,Petrol Saw
+IVECO,2009,1,1,5,5.3,2.9,30.9,24.7,12,Petrol Saw
+IVECO,2011,3,1,3,4.2,2,25.5,24.4,25,Oxygen tank
+MAN,2008,1,3,5,4.2,1.6,28.1,17.2,29,Petrol Saw
+VOLVO,2009,2,1,3,6.3,2.4,19.9,27.9,21,hydraulic equipment
+VOLVO,2012,2,2,4,6.2,1.5,30.5,26.2,23,hydraulic equipment
+IVECO,2020,2,2,4,2.6,2.8,19.9,23.2,5,hydraulic equipment
+IVECO,2016,1,1,4,2.9,2.3,21,18.2,20,Oxygen tank
+SCANIA,2007,2,1,3,2.5,1.6,20.9,23,23,hydraulic equipment
+RENAULT,2015,2,2,4,5.4,1.7,18.7,16.7,27,hydraulic equipment
+VOLVO,2007,1,1,5,7.6,1.1,30.8,27.4,27,Oxygen tank
+MAN,2011,3,1,5,6.9,1.8,19.1,16.4,23,Oxygen tank
+MERCEDES BENZ,2012,1,3,4,2.6,1.6,22.4,27.2,9,Oxygen tank
+IVECO,2021,3,1,4,5.8,2.4,22.6,29.9,3,Oxygen tank
+MAN,2020,1,3,3,6.4,1.2,22.5,21.2,13,Petrol Saw
+MERCEDES BENZ,2006,3,3,5,4.1,1.2,22.5,16.7,11,Petrol Saw
+MAN,2022,1,1,4,5.8,2.4,21.1,20.7,15,Petrol Saw
+MERCEDES BENZ,2017,1,3,3,5.6,1.4,20.3,30.7,26,hydraulic equipment
+SCANIA,2013,3,1,3,5.5,1.9,27.6,20.9,25,hydraulic equipment
+MAN,2007,2,2,4,6,1.1,23.3,30.2,3,Oxygen tank
+RENAULT,2015,2,1,5,5.5,2.4,29,30.4,28,hydraulic equipment
+MAN,2009,3,2,5,7.9,1.2,28.9,30.4,5,hydraulic equipment
+IVECO,2018,1,1,3,7.5,1.6,20.3,20.2,5,hydraulic equipment
+IVECO,2022,1,2,3,6,1.4,31.6,28.9,9,Petrol Saw
+RENAULT,2009,2,3,4,4.8,2.3,19.5,25.5,12,hydraulic equipment
+MAN,2013,2,2,3,6.5,1.4,26.4,22.5,24,hydraulic equipment
+MERCEDES BENZ,2016,1,3,5,6.3,2.7,22.1,24.1,23,Petrol Saw
+SCANIA,2007,3,2,4,2.3,1.5,18.2,22.1,20,Petrol Saw
+RENAULT,2009,3,1,4,4.3,1.2,28.7,27.7,12,Oxygen tank
+MAN,2012,1,2,4,3.9,1.7,27.8,18,8,Oxygen tank
+VOLVO,2018,3,1,3,6.8,2.4,24.9,16.4,20,Petrol Saw
+SCANIA,2017,3,3,5,6.5,1.6,28.9,25.9,4,Oxygen tank
+MERCEDES BENZ,2018,3,2,5,7.5,1.2,18.8,30.7,21,hydraulic equipment
+MAN,2008,3,3,5,3.6,1.9,23.6,25.6,27,Oxygen tank
+IVECO,2021,2,2,5,3.7,1.6,16.1,28.4,20,Oxygen tank
+MAN,2018,3,1,5,4.8,2,27.9,26,23,Petrol Saw
+VOLVO,2017,3,1,5,6.1,1.4,24.1,24.6,28,Petrol Saw
+MAN,2012,1,3,5,2.7,2.8,23.8,17.8,14,Oxygen tank
+IVECO,2007,2,1,5,6.8,1.8,22.5,24,9,Petrol Saw
+MAN,2010,2,3,5,3.4,2.5,21.1,19.8,27,Oxygen tank
+SCANIA,2016,1,3,5,4.3,1.9,22.3,30.4,22,hydraulic equipment
+VOLVO,2013,1,3,4,5.8,2.2,25.2,25.9,6,hydraulic equipment
+MERCEDES BENZ,2011,3,2,3,6.9,1.1,31.2,26.2,4,Petrol Saw
+IVECO,2019,1,1,3,7.7,1.2,20.7,24.4,15,hydraulic equipment
+IVECO,2021,2,2,5,5.9,1.5,26.5,30.9,29,Petrol Saw
+MAN,2017,2,2,4,6.4,2.8,16.1,21.5,22,hydraulic equipment
+VOLVO,2013,2,2,3,7.4,1,25.9,16.7,25,Oxygen tank
+MERCEDES BENZ,2009,2,3,4,7.8,2.6,27.7,23.4,14,hydraulic equipment
+SCANIA,2021,1,2,4,5.2,1.1,17.5,29.8,24,Oxygen tank
+SCANIA,2022,1,2,4,7.5,2.2,25.8,18.2,13,Petrol Saw
+IVECO,2022,3,1,3,3.2,1.4,26.2,27.1,12,Petrol Saw
+MAN,2015,3,1,3,7,2.4,23.2,16.8,28,Petrol Saw
+IVECO,2013,3,2,4,6.5,2.1,18.1,29.6,4,hydraulic equipment
+RENAULT,2023,3,1,3,4.2,2.8,20.4,28,25,hydraulic equipment
+MERCEDES BENZ,2010,3,2,3,7.7,1.6,18.5,22.1,27,Petrol Saw
+SCANIA,2017,1,2,4,3.6,1.3,28.8,28.3,27,Oxygen tank
+SCANIA,2016,1,1,3,5,2.1,21.1,20.5,23,hydraulic equipment
+IVECO,2022,2,2,4,4.3,1.8,23.9,28.7,15,Oxygen tank
+RENAULT,2014,2,3,3,4.2,2.8,23,20.9,6,Oxygen tank
+RENAULT,2008,3,3,4,4.5,2.5,18.1,18.1,25,Oxygen tank
+SCANIA,2012,2,2,5,8,1.8,21.4,22.2,8,Petrol Saw
+MERCEDES BENZ,2014,3,1,3,4.8,1.1,18.1,31.4,18,hydraulic equipment
+SCANIA,2012,3,3,3,4.1,3,24,18.1,29,hydraulic equipment
+MERCEDES BENZ,2010,2,3,3,4.1,2.5,29.6,18.9,15,hydraulic equipment
+RENAULT,2006,3,1,4,5.7,1.1,17.7,28.4,29,hydraulic equipment
+MERCEDES BENZ,2009,1,3,4,4.9,2.4,21.1,30.5,21,hydraulic equipment
+MAN,2011,3,3,3,7.5,2.7,17.5,23.6,12,Petrol Saw
+MAN,2006,2,2,4,5.1,1.3,30.7,24.8,6,hydraulic equipment
+IVECO,2023,1,2,3,5.8,2.9,21.6,24.3,28,Oxygen tank
+MERCEDES BENZ,2019,3,2,3,4.2,2.7,20.6,29.4,13,Petrol Saw
+MERCEDES BENZ,2014,3,1,3,6.7,2.3,16.7,26.6,23,hydraulic equipment
+MAN,2009,3,1,5,6.2,2.2,18.2,24.7,27,hydraulic equipment
+MAN,2015,1,3,4,7,2.5,25.8,28.6,7,Oxygen tank
+RENAULT,2011,1,3,4,7.6,1.5,23.6,30.8,26,hydraulic equipment
+MERCEDES BENZ,2020,3,3,3,5.2,2.5,23.9,25.9,2,Petrol Saw
+RENAULT,2021,2,1,4,7.6,1.5,26.8,26.4,15,Oxygen tank
+SCANIA,2015,1,3,5,6.6,2.5,17.5,22.7,24,Petrol Saw
+MAN,2008,3,1,5,7.6,1.5,21.5,16.5,8,Petrol Saw
+MAN,2016,2,2,5,6.7,2.9,17.3,31.4,16,hydraulic equipment
+IVECO,2013,1,1,5,3.8,1.3,18.4,31.8,5,Oxygen tank
+VOLVO,2009,1,3,4,5.2,2.9,29.5,19,16,Oxygen tank
+VOLVO,2006,2,2,4,2.7,1.8,25.4,16.8,24,hydraulic equipment
+SCANIA,2008,2,3,5,3.6,1.8,29.6,20.3,15,Oxygen tank
+IVECO,2021,1,2,5,5,1.8,25.9,21.7,2,hydraulic equipment
+MAN,2014,2,2,4,2.9,2.6,26.3,18.3,24,Oxygen tank
+VOLVO,2006,2,1,5,5.2,1.1,17.8,22.6,12,hydraulic equipment
+VOLVO,2014,3,2,4,3.1,1.1,25.7,29.4,24,Petrol Saw
+MERCEDES BENZ,2022,1,2,3,5.1,2.3,18.5,25.9,17,Oxygen tank
+IVECO,2015,3,3,4,3.4,2.4,23,23.6,17,Petrol Saw
+MERCEDES BENZ,2019,3,1,3,3.7,1.8,18.7,31.9,28,Oxygen tank
+RENAULT,2023,3,2,3,7.8,2.3,29.1,25.3,23,Oxygen tank
+RENAULT,2009,2,2,3,3.2,1.5,27.6,28.9,27,hydraulic equipment
+SCANIA,2008,2,3,3,5.3,2.1,31.5,24.5,28,Oxygen tank
+MERCEDES BENZ,2015,2,2,3,4.8,2.7,31,23.2,26,Oxygen tank
+RENAULT,2006,2,3,5,7.3,1.9,25.4,18.1,21,Petrol Saw
+MAN,2019,1,1,4,6,2.1,29.3,24.9,7,hydraulic equipment
+IVECO,2015,2,2,5,6.7,1.5,28.7,22.5,4,hydraulic equipment
+MERCEDES BENZ,2010,2,2,5,3.7,2.7,29.1,28.1,22,Petrol Saw
+MERCEDES BENZ,2020,3,1,5,4.8,1,18.9,24,13,hydraulic equipment
+VOLVO,2018,1,3,4,4.7,1.6,24.9,24.1,11,Petrol Saw
+MAN,2006,3,1,3,4.1,1.3,18.5,26.8,27,Oxygen tank
+IVECO,2019,1,1,3,4,2.7,16.1,31.6,4,Oxygen tank
+RENAULT,2007,3,2,5,6.4,2.8,26,19.2,27,Oxygen tank
+MERCEDES BENZ,2010,2,1,3,5.8,2,19.8,26.7,21,hydraulic equipment
+RENAULT,2007,2,1,5,2.6,2.4,22.4,21.8,28,Petrol Saw
+MERCEDES BENZ,2016,3,1,4,2.7,2.1,17.1,16.9,26,Petrol Saw
+RENAULT,2009,1,1,3,6.4,1.5,30.8,16.6,21,Oxygen tank
+MERCEDES BENZ,2010,1,2,4,6.7,2.3,18.9,27.7,14,Oxygen tank
+MERCEDES BENZ,2017,3,2,3,3.6,1.3,29.3,27.3,19,Petrol Saw
+MAN,2010,1,1,5,5.6,2.7,17.8,24.1,18,Oxygen tank
+SCANIA,2013,1,2,3,2.9,2.6,31.3,19.1,28,Petrol Saw
+MERCEDES BENZ,2022,1,1,3,6.9,1.1,18,31.8,17,Petrol Saw
+MAN,2014,2,2,3,3.4,2.1,23.5,27.6,8,Oxygen tank
+IVECO,2009,2,1,4,7.4,1.5,30.7,18.3,14,hydraulic equipment
+IVECO,2017,2,1,4,4.4,2.2,23,31,29,Petrol Saw
+IVECO,2015,1,1,5,7.5,2.6,16.7,16.8,19,Petrol Saw
+IVECO,2021,3,3,4,6,2.2,24.9,16,20,Petrol Saw
+RENAULT,2013,1,1,4,8,2.1,30.1,17.2,2,hydraulic equipment
+VOLVO,2010,2,1,5,5.4,2.9,23,16.8,14,hydraulic equipment
+VOLVO,2007,1,2,5,7.8,1.4,19.8,26.7,2,Oxygen tank
+RENAULT,2006,2,1,3,6.1,2,30.9,25.3,5,Oxygen tank
+IVECO,2022,3,2,5,5.2,2.2,22.3,31.3,25,Oxygen tank
+RENAULT,2008,1,1,3,4.6,1.8,20.1,26.1,14,Petrol Saw
+IVECO,2013,2,2,5,5.2,2.4,26.9,30.3,3,hydraulic equipment
+VOLVO,2019,2,3,5,5.2,2.9,27.2,21.8,26,Oxygen tank
+MERCEDES BENZ,2021,2,3,5,5.3,1.9,16.4,22.1,21,hydraulic equipment
+SCANIA,2007,3,2,4,5,2.5,22.4,22.2,9,hydraulic equipment
+MAN,2009,2,2,4,3.1,1.5,22.5,27.1,11,hydraulic equipment
+VOLVO,2007,2,1,5,6.9,2.5,30.8,28.7,17,Petrol Saw
+IVECO,2021,1,1,4,3.3,1.1,20,17.8,9,Petrol Saw
+MAN,2007,3,2,4,5.8,2.9,29.6,28.8,26,Oxygen tank
+IVECO,2011,2,2,3,7.1,2.8,24.7,31.7,29,Oxygen tank
+MAN,2021,2,1,4,7.8,2,16.3,16.3,17,hydraulic equipment
+VOLVO,2009,2,1,3,4.7,1.9,19.2,26.1,27,hydraulic equipment
+MERCEDES BENZ,2018,1,3,4,5.5,2.1,23.8,31.4,13,Oxygen tank
+IVECO,2010,3,2,3,7.1,2.2,20.4,18,23,Petrol Saw
+VOLVO,2011,2,1,5,4.5,1.7,18.3,22,7,Petrol Saw
+IVECO,2009,3,1,4,3.5,1.5,20.6,23,29,hydraulic equipment
+IVECO,2014,1,1,4,4.7,1.2,19.1,16.8,11,Petrol Saw
+MAN,2009,2,3,3,4.5,2.8,18.9,21.5,7,Oxygen tank
+MERCEDES BENZ,2007,2,1,3,8,2.2,26.6,29.5,16,Petrol Saw
+VOLVO,2012,3,1,5,5.3,2.8,17.9,18,9,Petrol Saw
+MAN,2021,3,3,5,4.1,2.9,19.8,27,12,Petrol Saw
+SCANIA,2019,1,2,3,5.4,2.3,25.1,27.5,21,Oxygen tank
+RENAULT,2020,3,1,5,2.8,1.8,28.5,29.6,2,Oxygen tank
+VOLVO,2020,3,2,3,3,1.3,19.6,20.7,13,Petrol Saw
+IVECO,2008,3,2,5,5.9,1.5,27.4,28.6,19,Petrol Saw
+IVECO,2022,2,1,3,7.4,2.6,23.1,18.4,27,Oxygen tank
+MAN,2021,1,2,5,7.3,1.7,22.7,18.9,7,Oxygen tank
+SCANIA,2021,1,3,4,2.2,2.1,26.6,27.7,5,Petrol Saw
+MAN,2006,1,3,5,4.9,1.6,23.2,26.3,28,Oxygen tank
+MAN,2016,3,2,4,2.3,2.9,23.1,29.7,14,Petrol Saw
+VOLVO,2009,1,3,5,3,1.8,31.2,29.5,23,Oxygen tank
+VOLVO,2020,3,1,4,7.6,1.9,20.1,23,22,Petrol Saw
+MAN,2013,3,1,5,6.7,1.3,18.8,30.4,3,Oxygen tank
+IVECO,2021,2,1,3,2.5,1.9,28.5,20.8,28,Oxygen tank
+RENAULT,2019,2,1,3,8,1.2,26.8,26,24,hydraulic equipment
+SCANIA,2018,2,3,5,7.5,1.4,19.1,22.2,2,hydraulic equipment
+IVECO,2014,2,1,5,5.7,1,31.6,18.9,25,hydraulic equipment
+RENAULT,2009,3,1,3,2.7,2.8,18.3,27.9,13,hydraulic equipment

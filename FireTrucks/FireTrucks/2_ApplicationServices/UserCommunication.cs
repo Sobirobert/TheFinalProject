@@ -1,7 +1,9 @@
-﻿
+﻿using FireTrucks._1_DataAccess;
 using FireTrucks._1_DataAccess.Entities;
 using FireTrucks._1_DataAccess.Entities.Extensions;
 using FireTrucks._1_DataAccess.Repositories;
+using FireTrucks._5_Components.CsvReader;
+using System.Formats.Asn1;
 
 namespace FireTrucks._2_ApplicationServices;
 
@@ -10,12 +12,24 @@ public class UserCommunication : UserCommunicationBase, IUserCommunication
     private readonly IRepository<EmergencyVehicle> _emergencyVehicleRepository;
     private readonly IRepository<FirefightingVehicle> _firefightingVehicleRepository;
     private readonly IRepository<Trailer> _trailerRepository;
-    public UserCommunication(IRepository<Trailer> trailerRepository, IRepository<EmergencyVehicle> emergencyVehicleRepository, IRepository<FirefightingVehicle> firefightingVehicleRepository)
+    private readonly IAdditionalInfoProviderEmergencyVehicle _additionalOptionProviderEmergencyVehicle;
+    private readonly IAdditionalInfoProviderFirefighterVehicle _additionalOptionProviderFirefightingVehicle;
+    private readonly ICsvReader _csvReader;
+    public readonly FireTrucksDbContext _fireTrucksDbContext;
+
+    public UserCommunication(IRepository<Trailer> trailerRepository, IRepository<EmergencyVehicle> emergencyVehicleRepository, IRepository<FirefightingVehicle> firefightingVehicleRepository,
+        IAdditionalInfoProviderEmergencyVehicle additionalOptionProviderEmergencyVehicle, IAdditionalInfoProviderFirefighterVehicle additionalOptionProviderFirefightingVehicle,
+        ICsvReader csvReader, FireTrucksDbContext fireTrucksDbContext)
     {
         _emergencyVehicleRepository = emergencyVehicleRepository;
         _firefightingVehicleRepository = firefightingVehicleRepository;
         _trailerRepository = trailerRepository;
+        _additionalOptionProviderEmergencyVehicle = additionalOptionProviderEmergencyVehicle;
+        _additionalOptionProviderFirefightingVehicle = additionalOptionProviderFirefightingVehicle;
+        _csvReader = csvReader;
+        _fireTrucksDbContext = fireTrucksDbContext;
     }
+
     public void Menu()
     {
         while (true)
@@ -26,7 +40,9 @@ public class UserCommunication : UserCommunicationBase, IUserCommunication
                                                             "Press 2 to show all cars and trailers\n" +
                                                             "Press 3 to find car or trailer by ID\n" +
                                                             "Press 4 to clear car or trailer from file by ID\n" +
-                                                            "Press 5 to use additional option\n" +
+                                                            "Press 5 to use additional option by emergency vehicle \n" +
+                                                            "Press 6 to use additional option firefighting vehicle \n" +
+                                                            "Press 7 to upload data from CSV Files\n" +
                                                             "To exit insert 'x'\n").ToUpper();
 
             switch (userInPut)
@@ -95,9 +111,17 @@ public class UserCommunication : UserCommunicationBase, IUserCommunication
                     break;
 
                 case "5":
-                    //_additionalOption.Menu();
+                    _additionalOptionProviderEmergencyVehicle.MenuEmergencyVehicle();
                     break;
 
+                case "6":
+                    _additionalOptionProviderFirefightingVehicle.MenuFirefighterVehicle();
+                    break;
+
+                case "7":
+                    AddFirefightingVehicleFromCSVFileToDbContext();
+                    AddEmergencyVehiclesFromCSVFileToDbContext();
+                    break;
                 case "X":
                     return;
 
@@ -107,6 +131,7 @@ public class UserCommunication : UserCommunicationBase, IUserCommunication
             }
         }
     }
+
     private void RemoveObjectFromEntitie<T>(IRepository<T> repository) where T : class, IEntity
     {
         var entityFound = FindProductById(repository);
@@ -133,6 +158,7 @@ public class UserCommunication : UserCommunicationBase, IUserCommunication
             }
         }
     }
+
     private T? FindProductById<T>(IRepository<T> entityRepository) where T : class, IEntity
     {
         while (true)
@@ -147,6 +173,7 @@ public class UserCommunication : UserCommunicationBase, IUserCommunication
             return entity;
         }
     }
+
     private void WriteAllToConsole<T>(IRepository<T> repository) where T : class, IEntity
     {
         Console.WriteLine("\nAll products:\n");
@@ -161,34 +188,45 @@ public class UserCommunication : UserCommunicationBase, IUserCommunication
             Console.WriteLine(item);
         }
     }
+
     private void AddNewTrailer(IRepository<Trailer> trailerRepository)
     {
-        var manufacturer = GetInputFromUserAndReturnString("Insert Location.");
+        var manufacturer = GetInputFromUserAndReturnString("Insert Producer.");
 
         var year = GetInputFromUserAndReturnInt("Insert year of production.");
 
         var tonnage = GetInputFromUserAndReturnDouble("Insert tonnage trailer.");
+
+        var equipment = GetValueFromUserAndReturnCorrectIntEquipment("Insert number : TruckPump = 1," +
+                                                     "\r\n MotorPump = 2,\r\n Reservoir = 3," +
+                                                     "\r\n WithCO2Cylinders = 4,\r\n FireExtinguishingPowderTank = 5," +
+                                                     "\r\n FireHoses = 6,\r\n WithLadder = 7," +
+                                                     "\r\n WithHydraulicLift = 8,\r\n Crane  = 9," +
+                                                     "\r\n CommandAndCommunications = 10,\r\n Operating = 11," +
+                                                     "\r\n Pgaz = 12,\r\n Lighting = 13," +
+                                                     "\r\n Quartermaster = 14,\r\n WaterRescue = 15," +
+                                                     "\r\n ChemicalRescue = 16,\r\n TechnicalRescue = 17," +
+                                                     "\r\n HighAltitudeRescue = 18,\r\n Container = 19");
 
         Trailer trailer = new Trailer
         {
             Manufacturer = manufacturer,
             YearOfProduction = year,
             DateTimeChanges = DateTime.Now,
-            Tonnage = tonnage
+            Tonnage = tonnage,
+            Equipment = (Equipment)equipment
         };
-        trailer.Equipment = new List<Equipment>();
-        AddEquipment(trailer.Equipment);
 
         trailer.OtherEquipment = new List<string>();
         AddOtherEquipment(trailer.OtherEquipment);
-        
+
         trailerRepository.Add(trailer);
         Console.WriteLine("New trailer added");
     }
 
     private void AddNewFirefightingVehicle(IRepository<FirefightingVehicle> firefightingVehicleRepository)
     {
-        var manufacturer = GetInputFromUserAndReturnString("Insert Location");
+        var manufacturer = GetInputFromUserAndReturnString("Insert Producer");
 
         var year = GetInputFromUserAndReturnInt("Insert year of production");
 
@@ -196,7 +234,7 @@ public class UserCommunication : UserCommunicationBase, IUserCommunication
 
         var numbersOfSeats = GetInputFromUserAndReturnInt("Insert numbers of seats");
 
-        var weight = GetValueFromUserAndReturnCorrectInt("Insert vehicle category: 1 - Light, 2 - Mediocre, 3 - Heavy");
+        var weight = GetValueFromUserAndReturnCorrectInt("Insert vehicle weight: 1 - Light, 2 - Mediocre, 3 - Heavy");
 
         var sizeOfWaterReservoir = GetInputFromUserAndReturnDouble("Insert size of water reservoir");
 
@@ -205,6 +243,17 @@ public class UserCommunication : UserCommunicationBase, IUserCommunication
         var carPumpEfficiency = GetInputFromUserAndReturnDouble("Insert car pump efficiency");
 
         var numbersOfFireHoses = GetInputFromUserAndReturnInt("Insert numbers of fire hoses");
+
+        var equipment = GetValueFromUserAndReturnCorrectIntEquipment("Insert number : TruckPump = 1," +
+                                                     "\r\n MotorPump = 2,\r\n Reservoir = 3," +
+                                                     "\r\n WithCO2Cylinders = 4,\r\n FireExtinguishingPowderTank = 5," +
+                                                     "\r\n FireHoses = 6,\r\n WithLadder = 7," +
+                                                     "\r\n WithHydraulicLift = 8,\r\n Crane  = 9," +
+                                                     "\r\n CommandAndCommunications = 10,\r\n Operating = 11," +
+                                                     "\r\n Pgaz = 12,\r\n Lighting = 13," +
+                                                     "\r\n Quartermaster = 14,\r\n WaterRescue = 15," +
+                                                     "\r\n ChemicalRescue = 16,\r\n TechnicalRescue = 17," +
+                                                     "\r\n HighAltitudeRescue = 18,\r\n Container = 19");
 
         FirefightingVehicle firefightingVehicle = new FirefightingVehicle
         {
@@ -219,13 +268,12 @@ public class UserCommunication : UserCommunicationBase, IUserCommunication
             CarPumpEfficiency = carPumpEfficiency,
             WaterCannonEfficiency = carPumpEfficiency,
             NumbersOfFireHoses = numbersOfFireHoses,
+            Equipment = (Equipment)equipment
         };
-        firefightingVehicle.Equipment = new List<Equipment>();
-        AddEquipment(firefightingVehicle.Equipment);
 
         firefightingVehicle.OtherEquipment = new List<string>();
         AddOtherEquipment(firefightingVehicle.OtherEquipment);
-       
+
         firefightingVehicleRepository.Add(firefightingVehicle);
 
         Console.WriteLine("New firefighting vehicle added");
@@ -243,34 +291,7 @@ public class UserCommunication : UserCommunicationBase, IUserCommunication
 
         var weight = GetValueFromUserAndReturnCorrectInt("Insert vehicle category: 1 - Light, 2 - Mediocre, 3 - Heavy");
 
-        EmergencyVehicle emergencyVehicle = new EmergencyVehicle
-        {
-            Manufacturer = manufacturer,
-            YearOfProduction = year,
-            VehicleCategory = (VehicleCategory)vehicleCategory,
-            NumbersOfSeats = numbersOfSeats,
-            Weight = (Weight)weight,
-            DateTimeChanges = DateTime.Now
-        };
-        emergencyVehicle.Equipment = new List<Equipment>();
-        AddEquipment(emergencyVehicle.Equipment);
-        emergencyVehicle.OtherEquipment = new List<string>();
-        AddOtherEquipment(emergencyVehicle.OtherEquipment);
-        emergencyVehicleRepository.Add(emergencyVehicle);
-
-        Console.WriteLine("New emergency vehicle added");
-    }
-
-    private void AddEquipment(List<Equipment> equipmentAdded) 
-    {
-        var otherEquipment = GetInputFromUserAndReturnString("Do you want add equipment to car\n Pres Y - yes, N - no")
-                                                             .ToUpper();
-        
-        while (true)
-        {
-            if (otherEquipment == "Y")
-            {
-                var userInPut = GetValueFromUserAndReturnCorrectIntEquipment("Insert number : TruckPump = 1," +
+        var equipment = GetValueFromUserAndReturnCorrectIntEquipment("Insert number : TruckPump = 1," +
                                                      "\r\n MotorPump = 2,\r\n Reservoir = 3," +
                                                      "\r\n WithCO2Cylinders = 4,\r\n FireExtinguishingPowderTank = 5," +
                                                      "\r\n FireHoses = 6,\r\n WithLadder = 7," +
@@ -279,22 +300,23 @@ public class UserCommunication : UserCommunicationBase, IUserCommunication
                                                      "\r\n Pgaz = 12,\r\n Lighting = 13," +
                                                      "\r\n Quartermaster = 14,\r\n WaterRescue = 15," +
                                                      "\r\n ChemicalRescue = 16,\r\n TechnicalRescue = 17," +
-                                                     "\r\n HighAltitudeRescue = 18,\r\n Container = 19,\r\n to exit insert 20");
-                equipmentAdded.Add((Equipment)userInPut);
-                if (userInPut == 20)
-                {
-                    break;
-                }
-            }
-            else if (otherEquipment == "N")
-            {
-                break;
-            }
-            else
-            {
-                Console.WriteLine("Please choose Yes or No.");
-            }
-        }
+                                                     "\r\n HighAltitudeRescue = 18,\r\n Container = 19");
+
+        EmergencyVehicle emergencyVehicle = new EmergencyVehicle
+        {
+            Manufacturer = manufacturer,
+            YearOfProduction = year,
+            VehicleCategory = (VehicleCategory)vehicleCategory,
+            NumbersOfSeats = numbersOfSeats,
+            Weight = (Weight)weight,
+            DateTimeChanges = DateTime.Now,
+            Equipment = (Equipment)equipment
+        };
+        emergencyVehicle.OtherEquipment = new List<string>();
+        AddOtherEquipment(emergencyVehicle.OtherEquipment);
+        emergencyVehicleRepository.Add(emergencyVehicle);
+
+        Console.WriteLine("New emergency vehicle added");
     }
 
     private void AddOtherEquipment(List<string> stringList)
@@ -320,9 +342,9 @@ public class UserCommunication : UserCommunicationBase, IUserCommunication
             {
                 Console.WriteLine("Please choose Yes or No.");
             }
-
         }
     }
+
     protected static int GetValueFromUserAndReturnCorrectIntEquipment(string comment)
     {
         Console.WriteLine(comment);
@@ -330,7 +352,7 @@ public class UserCommunication : UserCommunicationBase, IUserCommunication
         var intValue = AddStringConversionToInt(userInput);
         while (true)
         {
-            if (intValue >= 1 && intValue <= 20)
+            if (intValue >= 1 && intValue <= 19)
             {
                 return intValue;
             }
@@ -358,6 +380,48 @@ public class UserCommunication : UserCommunicationBase, IUserCommunication
             {
                 Console.WriteLine("The uncorrected value.");
             }
+        }
+    }
+    public void AddEmergencyVehiclesFromCSVFileToDbContext()
+    {
+        var emergencyVehicles = _csvReader.ProcessEmergencyVehicles(@"D:\repos4\TheFinalProject\FireTrucks\FireTrucks\4_Resources\Files\EmergencyVehicle.csv");
+        foreach (var emergencyVehicle in emergencyVehicles)
+        {
+            _fireTrucksDbContext.EmergencyCars.Add(new EmergencyVehicle
+            {
+                Manufacturer = emergencyVehicle.Manufacturer,
+                YearOfProduction = emergencyVehicle.YearOfProduction,
+                VehicleCategory = emergencyVehicle.VehicleCategory,
+                Weight = emergencyVehicle.Weight,
+                NumbersOfSeats = emergencyVehicle.NumbersOfSeats,
+                DateTimeChanges = DateTime.Now,
+                OtherEquipment = new List<string> { "Hydraulic Gear" }
+            });
+
+            _fireTrucksDbContext.SaveChanges();
+        }
+    }
+    public void AddFirefightingVehicleFromCSVFileToDbContext()
+    {
+        var firefighterVehicles = _csvReader.ProcessFirefightingVehicles(@"D:\repos4\TheFinalProject\FireTrucks\FireTrucks\4_Resources\Files\FirefightingVehicle.csv");
+        foreach (var firefighterVehicle in firefighterVehicles)
+        {
+            _fireTrucksDbContext.FirefightingVehicles.Add(new FirefightingVehicle
+            {
+                Manufacturer = firefighterVehicle.Manufacturer,
+                YearOfProduction = firefighterVehicle.YearOfProduction,
+                VehicleCategory = firefighterVehicle.VehicleCategory,
+                Weight = firefighterVehicle.Weight,
+                NumbersOfSeats = firefighterVehicle.NumbersOfSeats,
+                SizeOfWaterReservoir = firefighterVehicle.SizeOfWaterReservoir,
+                SizeOfFoamConcentrateTank = firefighterVehicle.SizeOfFoamConcentrateTank,
+                CarPumpEfficiency = firefighterVehicle.CarPumpEfficiency,
+                WaterCannonEfficiency = firefighterVehicle.WaterCannonEfficiency,
+                NumbersOfFireHoses = firefighterVehicle.NumbersOfFireHoses,
+                DateTimeChanges = DateTime.Now,
+                OtherEquipment = new List<string> { }
+            });
+            _fireTrucksDbContext.SaveChanges();
         }
     }
 }

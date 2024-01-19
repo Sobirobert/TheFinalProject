@@ -2,5 +2,5 @@
 
 public interface IDataProvider
 {
-    void GenerateDataFromCsvFile();
+    void AdditionalVehicleInfoProvider();
 }

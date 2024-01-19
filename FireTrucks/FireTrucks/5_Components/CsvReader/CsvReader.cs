@@ -1,5 +1,4 @@
-﻿
-using FireTrucks._1_DataAccess.Entities;
+﻿using FireTrucks._1_DataAccess.Entities;
 using FireTrucks._5_Components.CsvReader.Extensions;
 
 namespace FireTrucks._5_Components.CsvReader;

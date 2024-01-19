@@ -1,6 +1,7 @@
 ﻿using FireTrucks._1_DataAccess.Entities;
 
 namespace FireTrucks._1_DataAccess.Repositories;
+
 public interface IReadRepository<out T> where T : class, IEntity
 {
     IEnumerable<T> GetAll();
@@ -11,4 +12,3 @@ public interface IReadRepository<out T> where T : class, IEntity
 
     int GetListCount();
 }
-
