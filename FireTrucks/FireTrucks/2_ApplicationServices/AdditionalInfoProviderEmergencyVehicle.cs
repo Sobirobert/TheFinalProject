@@ -78,7 +78,7 @@ public class AdditionalInfoProviderEmergencyVehicle : UserCommunicationBase, IAd
 
     private void OrderByNumbersOfSeats()
     {
-        var names = _emergencyVehicleProvider.OrderByNumbersOfSeats();
+        var names = _emergencyVehicleProvider.OrderByNumbersOfSeatsThanByWeight();
         foreach (var name in names)
         {
             Console.WriteLine(name);
@@ -87,7 +87,7 @@ public class AdditionalInfoProviderEmergencyVehicle : UserCommunicationBase, IAd
 
     public void OrderBySizeVehicleCategory()
     {
-        var names = _emergencyVehicleProvider.OrderBySizeVehicleCategory();
+        var names = _emergencyVehicleProvider.OrderByWeightVehicleCategoryThanByCategory();
         foreach (var name in names)
         {
             Console.WriteLine($" Your min count product is: {name}");

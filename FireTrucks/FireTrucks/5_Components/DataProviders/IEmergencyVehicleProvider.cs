@@ -8,9 +8,9 @@ namespace FireTrucks._5_Components.DataProviders
 
         List<EmergencyVehicle> OrderByYearOfProductionDescending();
 
-        List<EmergencyVehicle> OrderByNumbersOfSeats();
+        List<EmergencyVehicle> OrderByNumbersOfSeatsThanByWeight();
 
-        List<EmergencyVehicle> OrderBySizeVehicleCategory();
+        List<EmergencyVehicle> OrderByWeightVehicleCategoryThanByCategory();
 
         List<EmergencyVehicle> FindVehicleWhereWeightIsLikeUserChose();
     }

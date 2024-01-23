@@ -29,7 +29,7 @@ public class FirefightingVehicleProvider : UserCommunicationBase, IFirefightingV
     public List<FirefightingVehicle> OrderByNumbersOfSeats()
     {
         var entitys = _firefightingVehicleRepository.GetAll();
-        return entitys.OrderByDescending(x => x.NumbersOfSeats).ToList();
+        return entitys.OrderByDescending(x => x.NumbersOfSeats).ThenBy(x => x.SizeOfWaterReservoir).ThenBy(x => x.SizeOfFoamConcentrateTank).ToList();
     }
 
     public List<FirefightingVehicle> OrderBySizeOfWaterReservoir()

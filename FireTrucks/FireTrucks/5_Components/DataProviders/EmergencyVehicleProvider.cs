@@ -23,19 +23,19 @@ public class EmergencyVehicleProvider : UserCommunicationBase, IEmergencyVehicle
     public List<EmergencyVehicle> OrderByYearOfProductionDescending()
     {
         var entitys = _emergencyVehicleRepository.GetAll();
-        return entitys.OrderByDescending(x => x.YearOfProduction).ToList();
+        return entitys.OrderByDescending(x => x.YearOfProduction).Where(x => x.YearOfProduction > 2016).ToList();
     }
 
-    public List<EmergencyVehicle> OrderByNumbersOfSeats()
+    public List<EmergencyVehicle> OrderByNumbersOfSeatsThanByWeight()
     {
         var entitys = _emergencyVehicleRepository.GetAll();
-        return entitys.OrderByDescending(x => x.NumbersOfSeats).ToList();
+        return entitys.OrderByDescending(x => x.NumbersOfSeats).ThenBy(x => x.Weight).ToList();
     }
 
-    public List<EmergencyVehicle> OrderBySizeVehicleCategory()
+    public List<EmergencyVehicle> OrderByWeightVehicleCategoryThanByCategory()
     {
         var entitys = _emergencyVehicleRepository.GetAll();
-        return entitys.OrderByDescending(x => x.VehicleCategory).ToList();
+        return entitys.OrderByDescending(x => x.Weight).ThenBy(x => x.VehicleCategory).ToList();
     }
 
     public List<EmergencyVehicle> FindVehicleWhereWeightIsLikeUserChose()
@@ -44,4 +44,5 @@ public class EmergencyVehicleProvider : UserCommunicationBase, IEmergencyVehicle
         var entitys = _emergencyVehicleRepository.GetAll();
         return entitys.Where(x => x.Weight == (Weight)userInPut).ToList();
     }
+
 }
