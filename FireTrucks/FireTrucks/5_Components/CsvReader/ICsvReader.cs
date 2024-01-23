@@ -7,4 +7,7 @@ public interface ICsvReader
     List<EmergencyVehicle> ProcessEmergencyVehicles(string filePath);
 
     List<FirefightingVehicle> ProcessFirefightingVehicles(string filePath);
+
+    public void AddEmergencyVehiclesFromCSVFileToDbContext();
+    public void AddFirefightingVehicleFromCSVFileToDbContext();
 }

@@ -1,4 +1,5 @@
-﻿using FireTrucks._1_DataAccess.Entities;
+﻿using FireTrucks._1_DataAccess;
+using FireTrucks._1_DataAccess.Entities;
 using FireTrucks._5_Components.CsvReader;
 
 namespace FireTrucks._5_Components.DataProviders;
@@ -22,8 +23,6 @@ public class DataProvider : IDataProvider
         GroupManufacturersByName(firefightingVehicles);
 
         JoinManufacturersAndCars(emergencyVehicles, firefightingVehicles);
-
-        //JoinManufacturersAndCarsGroupByManufacturer(emergencyVehicles, firefightingVehicles);
     }
 
     private void GroupManufacturersByDisplacement(List<EmergencyVehicle> emergencyVehicles)
@@ -42,32 +41,6 @@ public class DataProvider : IDataProvider
                 $"\tcombined max: {group.YearOfProduction}\n");
         }
     }
-
-    //private void JoinManufacturersAndCarsGroupByManufacturer(List<EmergencyVehicle> emergencyVehicles, List<FirefightingVehicle> firefightingVehicles)
-    //{
-    //    var groupsJoined = firefightingVehicles.GroupJoin(
-    //        emergencyVehicles,
-    //        f => new { FirefightingVehicle = f.Manufacturer , f.CarPumpEfficiency },
-    //        e => new { EmergencyVehicles = e.YearOfProduction, e.Manufacturer},
-    //        (f, e) =>
-    //            new
-    //            {
-    //                FirefightingVehicle = f,
-    //                EmergencyVehicles = e
-    //            }
-    //        )
-    //        .OrderBy(x => x.FirefightingVehicle.Manufacturer);
-
-    //    foreach (var car in groupsJoined)
-    //    {
-    //        Console.WriteLine($" {car.Manufacturer.Name}");
-    //        Console.WriteLine($"\t Cars: {car.Cars.Count()}");
-    //        Console.WriteLine($"\t Max: {car.Cars.Max(x => x.Combined)}");
-    //        Console.WriteLine($"\t Min: {car.Cars.Min(x => x.Combined)}");
-    //        Console.WriteLine($"\t Avg: {car.Cars.Average(x => x.Combined)}");
-    //        Console.WriteLine();
-    //    }
-    //}
 
     private static void JoinManufacturersAndCars(List<EmergencyVehicle> emergencyVehicles, List<FirefightingVehicle> firefightingVehicles)
     {
